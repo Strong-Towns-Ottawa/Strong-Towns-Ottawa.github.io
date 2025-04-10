@@ -1,9 +1,8 @@
 ---
-layout: home
+layout: page
 title: Strong Towns Ottawa
+subtitle: Making Ottawa a more financially resilient and livable city
 ---
-
-# Welcome to Strong Towns Ottawa
 
 This is the placeholder website for Strong Towns Ottawa, a local chapter of the Strong Towns movement.
 
@@ -11,4 +10,4 @@ This is the placeholder website for Strong Towns Ottawa, a local chapter of the 
 
 We are a group of citizens working to make Ottawa a more financially resilient and livable city. 
 
-Visit www.strongtownsottawa.ca for the production version of this website.
+Visit [www.strongtownsottawa.ca](https://www.strongtownsottawa.ca) for the production version of this website.

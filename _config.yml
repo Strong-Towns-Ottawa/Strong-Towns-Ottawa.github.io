@@ -5,11 +5,21 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: beautiful-jekyll
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+
+# Beautiful Jekyll specific settings
+avatar: assets/img/logo.png
+favicon: assets/img/favicon.ico
+show-avatar: true
+description: A website for Strong Towns Ottawa
+footer-links:
+  twitter: strongtownsott
+  github: Strong-Towns-Ottawa
+  email: info@strongtownsottawa.ca
 
 # Exclude from processing
 exclude:
