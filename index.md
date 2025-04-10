@@ -9,4 +9,6 @@ This is the placeholder website for Strong Towns Ottawa, a local chapter of the 
 
 ## About Us
 
-We are a group of citizens working to make Ottawa a more financially resilient and livable city. Visit www.strongtownsottawa.ca for the production version of this website.
+We are a group of citizens working to make Ottawa a more financially resilient and livable city. 
+
+Visit www.strongtownsottawa.ca for the production version of this website.
