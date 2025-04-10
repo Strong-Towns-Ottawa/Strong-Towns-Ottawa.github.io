@@ -48,7 +48,11 @@ subtitle: Making Ottawa a more financially resilient and livable city
     align-items: center;
     min-height: 80vh;
     position: relative;
-    width: 100%;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
 }
 
 .hero-overlay {
