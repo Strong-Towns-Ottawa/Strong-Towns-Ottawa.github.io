@@ -5,7 +5,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
-theme: beautiful-jekyll
+theme: beautiful-jekyll-theme
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
