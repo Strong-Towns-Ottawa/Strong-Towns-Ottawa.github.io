@@ -5,21 +5,26 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
-theme: beautiful-jekyll-theme
+remote_theme: daattali/beautiful-jekyll
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-remote-theme
 
 # Beautiful Jekyll specific settings
 avatar: assets/img/logo.png
 favicon: assets/img/favicon.ico
 show-avatar: true
 description: A website for Strong Towns Ottawa
+show-header: true
+show-footer: true
+show-social-icons: true
 
 # Additional head content
 head-extra: |
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="/assets/css/custom.css">
 
 # Navigation links
 navbar-links:
