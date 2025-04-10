@@ -36,24 +36,6 @@ subtitle: Making Ottawa a more financially resilient and livable city
     --st-yellow: #FFB549;
 }
 
-body {
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
-/* Override theme's wrapper and container */
-.wrapper {
-    max-width: none !important;
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
-.container {
-    max-width: none !important;
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
 .hero-banner {
     background-image: url('/assets/img/header-bg.jpg');
     background-size: cover;
@@ -66,11 +48,7 @@ body {
     align-items: center;
     min-height: 80vh;
     position: relative;
-    width: 100vw;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
+    width: 100%;
 }
 
 .hero-overlay {
@@ -79,7 +57,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.6); /* Black with 60% opacity */
+    background-color: rgba(0, 0, 0, 0.6);
     z-index: 1;
 }
 
@@ -89,7 +67,7 @@ body {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 15px;
 }
 
 .hero-banner .row {
