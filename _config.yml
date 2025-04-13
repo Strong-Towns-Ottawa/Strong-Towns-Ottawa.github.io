@@ -11,6 +11,23 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-remote-theme
+  - jekyll-paginate-v2
+
+# Pagination settings
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/page:num/'
+  title: ':title - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
+  generate_all_posts: true
+  all_posts_link_text: "View All Posts"
+  all_posts_link_url: "/all-posts/"
 
 # Beautiful Jekyll specific settings
 avatar: assets/img/logo.png
@@ -20,6 +37,7 @@ description: A website for Strong Towns Ottawa
 show-header: true
 show-footer: true
 show-social-icons: true
+show-blog-link: false
 
 # Additional head content
 head-extra: |
@@ -29,21 +47,33 @@ head-extra: |
 # Navigation links
 navbar-links:
   About Us: "about"
-  Blog: "blog"
   Resources: "resources"
-  Contact: "contact"
 
-# Footer links
-footer-links:
-  twitter: strongtownsott
+# Select which social network links to show in the footer
+social-network-links:
+  email: "info@strongtownsottawa.ca"
   github: Strong-Towns-Ottawa
-  email: info@strongtownsottawa.ca
+  twitter: strongtownsott
+  rss: true
+  youtube: "@strongTownsOttawa"
+  discord: "kHaVNgrcsG"
+  facebook: "groups/751202843212260"
 
-# Social media usernames
-social-share:
-  twitter: strongtownsott
-  github: Strong-Towns-Ottawa
-  email: info@strongtownsottawa.ca
+# How to display the link to your website in the footer
+# Remove this if you don't want a link in the footer
+url-pretty: "strongtownsottawa.ca"
+
+# Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
+excerpt_length: 50
+
+# Whether or not to show an excerpt for every blog post in the feed page
+feed_show_excerpt: true
+
+# Whether or not to show a list of tags below each post preview in the feed page
+feed_show_tags: true
+
+# Add a search button to the navbar
+post_search: true
 
 # Exclude from processing
 exclude:
