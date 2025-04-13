@@ -4,76 +4,52 @@ title: Strong Towns Ottawa
 subtitle: Building a Financially Resilient Ottawa
 ---
 
-<div class="hero-banner">
-    <div class="hero-overlay"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="hero-content">
-                    <h1 class="hero-title">Building a <em>Financially Resilient</em> Ottawa</h1>
-                    <p class="hero-text">We are a group of Ottawa residents advocating for a <em>stronger, more resilient</em> city through better land use, transportation, and financial planning.</p>
-                    <div class="hero-buttons">
-                        <a href="/about" class="hero-btn hero-btn-yellow">
-                            <i class="fas fa-info-circle"></i>
-                            <span>Learn More</span>
-                        </a>
-                        <a href="/get-involved" class="hero-btn hero-btn-blue">
-                            <i class="fas fa-hands-helping"></i>
-                            <span>Get Involved</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+<div class="posts-list">
+  {% for post in paginator.posts %}
+  <article class="post-preview">
+    <a href="{{ post.url | relative_url }}">
+      <h2 class="post-title">{{ post.title }}</h2>
+      {% if post.subtitle %}
+      <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+      {% endif %}
+    </a>
+
+    <p class="post-meta">
+      Posted on {{ post.date | date: "%B %-d, %Y" }}
+    </p>
+
+    <div class="post-entry">
+      {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
+      {% assign excerpt_word_count = post.excerpt | number_of_words %}
+      {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
+        <a href="{{ post.url | relative_url }}" class="post-read-more">[Read&nbsp;More]</a>
+      {% endif %}
     </div>
+
+    {% if post.tags.size > 0 %}
+    <div class="blog-tags">
+      Tags:
+      {% for tag in post.tags %}
+      <a href="{{ '/tags#' | append: tag | slugify | relative_url }}">{{ tag }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+   </article>
+  {% endfor %}
 </div>
 
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="post-preview">
-                <h2 class="post-title">Our Mission</h2>
-                <p>We are a group of citizens working to make Ottawa a more financially resilient and livable city. Our goal is to promote sustainable development practices that create strong, vibrant communities.</p>
-            </div>
-            <hr>
-            <div class="post-preview">
-                <h2 class="post-title">Get Involved</h2>
-                <p>Join us in our mission to make Ottawa a better place to live. Whether you're interested in urban planning, community development, or just want to learn more, we welcome your participation.</p>
-                <a href="#" class="btn btn-primary">Join Our Community</a>
-            </div>
-            <hr>
-            <div class="post-preview">
-                <h2 class="post-title">Latest Updates</h2>
-                <p>Stay informed about our latest initiatives and events. We regularly host community discussions, workshops, and advocacy efforts.</p>
-                <a href="#" class="btn btn-default">View All Updates</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="post-preview">
-                <h2 class="post-title">Resources</h2>
-                <ul>
-                    <li><a href="#">Strong Towns Principles</a></li>
-                    <li><a href="#">Local Development Projects</a></li>
-                    <li><a href="#">Community Resources</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="post-preview">
-                <h2 class="post-title">Contact Us</h2>
-                <p>Have questions or want to get involved? Reach out to us through our social media channels or email.</p>
-                <p>Visit <a href="https://www.strongtownsottawa.ca">www.strongtownsottawa.ca</a> for the production version of this website.</p>
-            </div>
-        </div>
-    </div>
-</div>
+{% if paginator.total_pages > 1 %}
+<ul class="pager main-pager">
+  {% if paginator.previous_page %}
+  <li class="previous">
+    <a href="{{ paginator.previous_page_path | relative_url }}">&larr; Newer Posts</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li class="next">
+    <a href="{{ paginator.next_page_path | relative_url }}">Older Posts &rarr;</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
