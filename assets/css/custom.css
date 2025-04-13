@@ -5,3 +5,24 @@
     --st-yellow: #FFB549;
 }
 
+/* Warning Banner */
+.warning-banner {
+    background-color: var(--st-yellow);
+    color: var(--st-blue);
+    text-align: center;
+    padding: 0.5rem;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom Styles */
+.navbar {
+    background-color: var(--st-blue);
+    margin-top: 2rem; /* Add margin to account for fixed warning banner */
+}
+
