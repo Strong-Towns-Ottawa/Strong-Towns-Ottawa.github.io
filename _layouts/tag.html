@@ -1,0 +1,79 @@
+---
+layout: page
+pagination:
+  enabled: true
+  per_page: 5
+  collection: posts
+  sort_field: date
+  sort_reverse: true
+
+---
+
+{%- assign tags_array = "cycling, finances, housing, transit" | split: ", " -%}
+
+<div class="tag-list offset-xl-2 offset-lg-2 offset-md-2 offset-1">
+  
+  <a href="/" class="tag-filter">
+    All posts
+  </a>
+  
+  {% for tag in tags_array %}
+  {% assign slug = "tag/" | append: tag %}
+  {% if page.url contains slug %}
+  <a href="/tag/{{ tag }}" class="tag-filter-selected">{{ tag }}</a>
+  {% else %}
+  <a href="/tag/{{ tag }}" class="tag-filter">{{ tag }}</a>
+  {% endif %}
+  {% endfor %}
+
+
+
+</div>
+
+
+<!-- <h1>Posts with '{{ page.title }}' {{ page.type }}</h1> -->
+<div class="posts-list">
+    <ul class="posts">
+        {% for post in page.posts %}
+        <article class="post-preview">
+            <a href="{{ post.url | relative_url }}">
+              <h2 class="post-title">{{ post.title }}</h2>
+              {% if post.subtitle %}
+              <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+              {% endif %}
+            </a>
+        
+            <p class="post-meta">
+              Posted on {{ post.date | date: "%B %-d, %Y" }}
+            </p>
+        
+            <div class="post-entry">
+              {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
+              {% assign excerpt_word_count = post.excerpt | number_of_words %}
+              {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
+                <a href="{{ post.url | relative_url }}" class="post-read-more">[Read&nbsp;More]</a>
+              {% endif %}
+            </div>
+        
+        
+           </article>
+          
+        {% endfor %}
+      </ul>
+    </div>
+
+    {% if paginator.total_pages > 1 %}
+    <ul class="pager main-pager">
+      {% if paginator.previous_page %}
+      <li class="previous">
+        <a href="{{ paginator.previous_page_path | relative_url }}">&larr; Newer Posts</a>
+      </li>
+      {% endif %}
+      {% if paginator.next_page %}
+      <li class="next">
+        <a href="{{ paginator.next_page_path | relative_url }}">Older Posts &rarr;</a>
+      </li>
+      {% endif %}
+    </ul>
+    {% endif %}
+    
