@@ -101,5 +101,6 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+  - index.md
   - .git
   - .gitignore 
