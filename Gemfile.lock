@@ -42,6 +42,8 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
+    jekyll-archives (2.3.0)
+      jekyll (>= 3.6, < 5.0)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-paginate (1.1.0)
@@ -103,6 +105,7 @@ DEPENDENCIES
   bigdecimal
   csv
   jekyll
+  jekyll-archives
   jekyll-feed
   jekyll-paginate-v2
   jekyll-remote-theme
