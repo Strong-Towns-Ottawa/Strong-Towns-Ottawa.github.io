@@ -12,7 +12,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-remote-theme
   - jekyll-paginate-v2
-  - jekyll-archives
 
 # Pagination settings
 pagination:
@@ -30,19 +29,6 @@ pagination:
   all_posts_link_text: "View All Posts"
   all_posts_link_url: "/all-posts/"
 
-# Jekyll-archives settings
-jekyll-archives:
-  enabled: 
-    - tags
-  layout: tag
-  permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'
-
-
 # Beautiful Jekyll specific settings
 avatar: assets/img/logo.png
 favicon: assets/img/favicon.ico
@@ -52,12 +38,6 @@ show-header: true
 show-footer: true
 show-social-icons: true
 show-blog-link: false
-
-# Additional CSS
-site-css:
-  - /assets/css/custom.css
-
-navbar-text-col: "#FFFFFF"
 
 # Additional head content
 head-extra: |
