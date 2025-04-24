@@ -24,5 +24,51 @@
 /* Custom Styles */
 .navbar {
     background-color: var(--st-blue);
+    color: #FFFFFF;
 }
 
+/* Tag filters */
+.tag-list {
+    margin-top: 2.5rem;
+}
+
+.tag-filter {
+    color: #444444;
+    text-decoration: none !important;
+    margin-right: 0.9375rem;
+    border: 1px solid #777;
+    padding: 0.3125rem 0.625rem;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.tag-filter-selected{
+    color: #444444;
+    background: var(--st-yellow);
+    text-decoration: none !important;
+    margin-right: 0.9375rem;
+    border: 1px solid #777;
+    padding: 0.3125rem 0.625rem;
+    pointer-events: none;
+    display: inline-block;
+}
+
+.tag-filter:hover{
+    color: #444444;
+    background: var(--st-yellow);
+}
+
+@media screen and (max-width: 616px){
+    .tag-filter {
+        display: block;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .tag-filter-selected{
+        background: var(--st-yellow);
+        display: block;
+        text-align: center;
+        margin-top: 1rem;
+    }
+}
