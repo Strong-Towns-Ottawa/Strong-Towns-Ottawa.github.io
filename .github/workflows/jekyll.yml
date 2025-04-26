@@ -41,5 +41,5 @@ jobs:
           cname: ''                  # Default is to not use a cname
           actor: ''                  # Default is the GITHUB_ACTOR
           pre_build_commands: ''     # Installing additional dependencies (Arch Linux)
-      
+      - uses: ruby/setup-ruby@ec02537da5712d66d4d50a0f33b7eb52773b5ed1
       - run: bundle install
