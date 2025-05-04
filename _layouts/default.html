@@ -1,0 +1,62 @@
+---
+layout: base
+---
+
+<header class="header-section has-img">
+    <div class="intro-header big-img hero-img" >
+      
+      <div class="container-md">
+        <div class="row">
+          <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+            <div class="page-heading">
+              <h1>Strong Towns Ottawa</h1>
+              
+                
+                  <hr class="small">
+                  <span class="page-subheading">Strong Towns Ottawa focuses on making fiscally strong places that are self-sustaining, resilient, and nice to live in. Together, we can make a difference in the city we love.</span>
+                
+                    <div class="btn-group row">
+                        <div class="col-lg-4 btn-col">
+                        <a class="st-yellow-btn">
+                            Join us on Discord
+                        </a>
+                    </div>
+                    <div class="col-lg-4 btn-col">
+                        <a class="st-yellow-btn">
+                            Join us on Facebok
+                        </a>
+                    </div>
+                    <div class="col-lg-4 btn-col">
+                        <a class="st-yellow-btn">
+                            Send us an email
+                        </a>
+                    </div>
+                    </div>
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </header>
+
+<main class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
+  {% if page.before-content %}
+    <div class="before-content">
+      {% for file in page.before-content %}
+        {% include {{ file }} %}
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {{ content }}
+
+  {% if page.after-content %}
+    <div class="after-content">
+      {% for file in page.after-content %}
+        {% include {{ file }} %}
+      {% endfor %}
+    </div>
+  {% endif %}
+</main>
