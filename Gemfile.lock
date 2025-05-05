@@ -98,6 +98,7 @@ PLATFORMS
   arm-linux-gnu
   arm-linux-musl
   arm64-darwin
+  ffi-unknown
   ruby
   x86-linux-gnu
   x86-linux-musl
