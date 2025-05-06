@@ -1,0 +1,124 @@
+[ 
+ 
+{ 
+"title"    : "Ottawa&#39;s Transit Challenges", 
+"desc"     : "Ottawa&#39;s Transit Challenges", 
+"category" : "Transit", 
+"url"      : "/2024/03/28/ottawa-transit-challenges.html", 
+"date"     : "March 28, 2024" 
+}, 
+ 
+{ 
+"title"    : "Improving Ottawa&#39;s Cycling Infrastructure", 
+"desc"     : "Improving Ottawa&#39;s Cycling Infrastructure", 
+"category" : "Cycling", 
+"url"      : "/2024/03/25/ottawa-cycling-infrastructure.html", 
+"date"     : "March 25, 2024" 
+}, 
+ 
+{ 
+"title"    : "Addressing Housing Affordability in Ottawa", 
+"desc"     : "Addressing Housing Affordability in Ottawa", 
+"category" : "Housing", 
+"url"      : "/2024/03/22/housing-affordability-ottawa.html", 
+"date"     : "March 22, 2024" 
+}, 
+ 
+{ 
+"title"    : "Welcome to Strong Towns Ottawa", 
+"desc"     : "Welcome to Strong Towns Ottawa", 
+"category" : "Housing", 
+"url"      : "/2024/03/20/welcome-to-strong-towns-ottawa.html", 
+"date"     : "March 20, 2024" 
+}, 
+ 
+{ 
+"title"    : "Ottawa&#39;s Municipal Finances", 
+"desc"     : "Ottawa&#39;s Municipal Finances", 
+"category" : "Finances", 
+"url"      : "/2024/03/18/municipal-finances-ottawa.html", 
+"date"     : "March 18, 2024" 
+}, 
+ 
+{ 
+"title"    : "Ottawa&#39;s Urban Development Challenges", 
+"desc"     : "Ottawa&#39;s Urban Development Challenges", 
+"category" : "Development", 
+"url"      : "/2024/03/15/urban-development-challenges.html", 
+"date"     : "March 15, 2024" 
+}, 
+ 
+{ 
+"title"    : "Ottawa&#39;s Urban Development Challenges", 
+"desc"     : "Ottawa&#39;s Urban Development Challenges", 
+"category" : "Finances", 
+"url"      : "/2024/03/15/ottawa-urban-development-challenges.html", 
+"date"     : "March 15, 2024" 
+}, 
+ 
+{ 
+"title"    : "Building Walkable Neighborhoods in Ottawa", 
+"desc"     : "Building Walkable Neighborhoods in Ottawa", 
+"category" : "Housing", 
+"url"      : "/2024/03/10/walkable-ottawa-neighborhoods.html", 
+"date"     : "March 10, 2024" 
+}, 
+ 
+ 
+{ 
+"title"    : "About Us", 
+"desc"     : "About Us", 
+"category" : "page", 
+"url"      : "/about/", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
+"title"    : "Resources", 
+"desc"     : "Resources", 
+"category" : "page", 
+"url"      : "/resources/", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
+"title"    : "Housing", 
+"desc"     : "Housing", 
+"category" : "page", 
+"url"      : "/tag/housing/", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
+"title"    : "Finances", 
+"desc"     : "Finances", 
+"category" : "page", 
+"url"      : "/tag/finances/", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
+"title"    : "Development", 
+"desc"     : "Development", 
+"category" : "page", 
+"url"      : "/tag/development/", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
+"title"    : "Cycling", 
+"desc"     : "Cycling", 
+"category" : "page", 
+"url"      : "/tag/cycling/", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
+"title"    : "Transit", 
+"desc"     : "Transit", 
+"category" : "page", 
+"url"      : "/tag/transit/", 
+"date"     : "January 1, 1970" 
+} 
+ 
+]
