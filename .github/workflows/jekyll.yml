@@ -43,5 +43,5 @@ jobs:
           ruby_ver: ''               # Default is 3.2.0 version
           bundler_ver: ''            # Default is compatible bundler version (~>2.5.0)
           cname: ''                  # Default is to not use a cname
-          actor: ''                  # Default is the GITHUB_ACTOR
+          actor: 'github-actions[bot]'                  # Default is the GITHUB_ACTOR
           pre_build_commands: ''     # Installing additional dependencies (Arch Linux)
