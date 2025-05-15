@@ -14,7 +14,7 @@ image: /assets/img/blog/urban-development.jpg
 <iframe 
   src="https://mailchi.mp/parkingreform/parking-reforms-perfect-partner-meet-single-stair-design-14187747" 
   width="130%" 
-  height="5000px" 
+  height="6000px" 
   frameborder="0"
   style="border: none; background: transparent;"
 ></iframe>
