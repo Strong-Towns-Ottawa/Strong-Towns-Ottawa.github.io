@@ -40,7 +40,7 @@ image: /assets/img/blog/urban-development.jpg
 <script>
   function adjustIframeHeight(iframe) {
     const isMobile = window.innerWidth <= 768;
-    iframe.style.height = isMobile ? '6000px' : '6400px';
+    iframe.style.height = isMobile ? '10200px' : '6400px';
     
      if (isMobile) {
       iframe.style.pointerEvents = 'none';
@@ -48,7 +48,7 @@ image: /assets/img/blog/urban-development.jpg
     }
     
       setTimeout(() => {
-      iframe.style.height = isMobile ? '6000px' : '6400px';
+      iframe.style.height = isMobile ? '10200px' : '6400px';
     }, 1000);
   }
 
