@@ -27,11 +27,11 @@ pagination:
   {% if page.url contains slug %}
 
 
-  <a href="/tag/{{ tag }}" class="tag-filter-selected">{{ tag }}</a>
+  <a href="{{ '/tag/' | append: tag | relative_url | downcase }}" class="tag-filter-selected">{{ tag }}</a>
 
   {% else %}
 
-  <a href="/tag/{{ tag }}" class="tag-filter">{{ tag }}</a>
+  <a href="{{ '/tag/' | append: tag | relative_url | downcase }}" class="tag-filter">{{ tag }}</a>
 
   {% endif %}
 
