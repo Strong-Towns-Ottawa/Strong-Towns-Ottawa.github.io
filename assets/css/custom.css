@@ -64,6 +64,7 @@
 .st-yellow-btn:hover{
     opacity: 80%;
     cursor: pointer;
+    text-decoration: none;
 }
 
 /* Tag filters */
@@ -76,7 +77,7 @@
     text-decoration: none !important;
     margin-right: 0.9375rem;
     border: 1px solid #777;
-    padding: 0.3125rem 0.625rem;
+    padding: 0.3125rem 1rem;
     cursor: pointer;
     display: inline-block;
 }
