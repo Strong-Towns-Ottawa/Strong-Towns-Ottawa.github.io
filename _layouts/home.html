@@ -9,12 +9,12 @@ pagination:
   sort_reverse: true
 ---
 
+<h2 style="text-align: center;">Our Latest Posts</h2>
+
+{%- assign tags_array = "Cycling, Finances, Housing, Transit" | split: ", " -%}
 
 
-{%- assign tags_array = "cycling, finances, housing, transit" | split: ", " -%}
-
-
-<div class="tag-list offset-xl-3 offset-lg-3 offset-md-2 offset-sm-0 offset-xs-0">
+<div class="tag-list offset-xl-3 offset-lg-3 offset-md-1 offset-sm-0 offset-xs-0">
   <a href="/" class="tag-filter">
     All posts
   </a>
@@ -39,9 +39,57 @@ pagination:
 
 </div>
 
+<div class="row mt-4">
+  {% for post in paginator.posts limit: 3 %}
+  <div class="col-lg-4 col-md-12 mt-3">
 
+    <div class="card h-100">
+      <div class="card-body">
+<article class="post-preview">
+      <a href="{{ post.url | relative_url }}">
+        <h2 class="post-title">{{ post.title }}</h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+        {% endif %}
+      </a>
+  
+      <p class="post-meta">
+        Posted on {{ post.date | date: "%B %-d, %Y" }}
+      </p>
+  
+      <div class="post-entry">
+        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
+        {% assign excerpt_word_count = post.excerpt | number_of_words %}
+        {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
+          <a href="{{ post.url | relative_url }}" class="post-read-more">[Read&nbsp;More]</a>
+        {% endif %}
+      </div>
+    
+  
+      {% if post.tags.size > 0 %}
+      <div class="blog-tags">
+        Tags:
+        {% for tag in post.tags %}
+        <a href="{{ '/tag/' | append: tag | relative_url | downcase }}">{{ tag }}</a>
+
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+  
+     </article>
+    </div>
+    </div>
+
+    {% endfor %}
+  </div>
+  
+</div>
+
+<!-- Current post list loader
 <div class="posts-list">
-    {% for post in paginator.posts %}
+    {% for post in paginator.posts limit: 3 %}
+
     <article class="post-preview">
       <a href="{{ post.url | relative_url }}">
         <h2 class="post-title">{{ post.title }}</h2>
@@ -66,7 +114,7 @@ pagination:
       <div class="blog-tags">
         Tags:
         {% for tag in post.tags %}
-        <a href="{{ '/tags#' | append: tag | slugify | relative_url }}">{{ tag }}</a>
+        <a href="{{ '/tag/' | append: tag | relative_url | downcase }}">{{ tag }}</a>
         {% endfor %}
       </div>
       {% endif %}
@@ -89,3 +137,63 @@ pagination:
     {% endif %}
   </ul>
   {% endif %}
+-->
+  <h1 style="text-align: center;" class="mb-3">Our Values</h1>
+
+<div class="row">
+  <div class="col-lg-4 col-md-12 mt-3">
+    <div class="card h-100">
+  <img src="assets/img/Transit.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h3 class="card-title">Transportation</h3>
+    <h4 class="card-subtitle mt-3 mb-4">Getting around safely and equitably.</h4>
+    <hr>
+    <ul>
+
+    <li>Make OC Transpo reliable and widespread</li>
+    <li>Give people more options by expanding our active transportation network</li>
+    <li>Improve street safety and eliminate road deaths</li>
+
+    </ul>
+    <a href="#" class="st-yellow-btn d-flex justify-content-center">Learn about transportation</a>
+  </div>
+</div>
+  </div>
+  <div class="col-lg-4 col-md-12 mt-2">
+    <div class="card h-100">
+  <img src="assets/img/Housing.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h3 class="card-title">Housing</h3>
+    <h4 class="card-subtitle mt-3 mb-4">Everyone deserves a place to call home.</h4>
+    <hr>
+    <ul>
+
+    <li>Reform outdated zoning codes that prohibit building more housing</li>
+    <li>Build more affordable units for buyers and renters</li>
+    <li>Gently densify across all our neighbourhoods</li>
+
+    </ul>
+    <a href="#" class="st-yellow-btn d-flex justify-content-center">Learn about Housing</a>
+  </div>
+</div>
+  </div>
+  <div class="col-lg-4 col-md-12 mt-2">
+    <div class="card h-100">
+  <img src="assets/img/Community.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h3 class="card-title">Community</h3>
+    <h4 class="card-subtitle mt-3 mb-4">Our city is more than just a place to exist.</h4>
+    <hr>
+    <ul>
+
+    <li>Allow for mixed uses, bringing amenities closer and fostering community</li>
+    <li>Make our street inviting places to be in</li>
+    <li>More places to meet outside of home and work</li>
+
+    </ul>
+    <a href="#" class="st-yellow-btn d-flex justify-content-center">Learn about Community</a>
+  </div>
+</div>
+  </div>
+</div>
+
