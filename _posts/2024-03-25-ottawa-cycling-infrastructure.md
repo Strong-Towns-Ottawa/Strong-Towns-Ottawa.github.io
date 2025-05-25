@@ -1,11 +1,12 @@
 ---
+title: Improving Ottawa's Cycling Infrastructure
+date: 2024-03-25 00:00:00 Z
+tags:
+- Cycling
 layout: post
-title: "Improving Ottawa's Cycling Infrastructure"
-subtitle: "Building a Safe and Connected Bike Network"
-date: 2024-03-25
+subtitle: Building a Safe and Connected Bike Network
 author: Strong Towns Ottawa
-tags: [Cycling]
-image: /assets/img/cycling-infrastructure.jpg
+image: "/assets/img/cycling-infrastructure.jpg"
 ---
 
 Ottawa has made significant progress in building cycling infrastructure, but there's still much work to be done to create a truly connected and safe bike network. In this post, we explore the current state of cycling in Ottawa and what needs to be done to make it better.
