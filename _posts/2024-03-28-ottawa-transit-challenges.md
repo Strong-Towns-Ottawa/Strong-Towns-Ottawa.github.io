@@ -1,10 +1,11 @@
 ---
+title: Ottawa's Transit Challenges
+date: 2024-03-28 00:00:00 Z
+tags:
+- Transit
 layout: post
-title: "Ottawa's Transit Challenges"
-subtitle: "Building a Reliable and Sustainable Transit System"
-date: 2024-03-28
+subtitle: Building a Reliable and Sustainable Transit System
 author: Strong Towns Ottawa
-tags: [Transit]
 ---
 
 Ottawa's transit system faces significant challenges in providing reliable, efficient service to all residents. The recent LRT issues have highlighted the need for a more resilient and sustainable approach to public transportation.

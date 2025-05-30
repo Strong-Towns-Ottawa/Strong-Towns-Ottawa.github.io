@@ -1,12 +1,12 @@
 ---
-layout: post
 title: I'm testing Obsidian!
-subtitle: Markdown editing has never been easier
-date: 2025-05-09
-author: Simon
+date: 2025-05-09 00:00:00 Z
 tags:
-  - Transit
-image: /assets/img/blog/urban-development.jpg
+- Transit
+layout: post
+subtitle: Markdown editing has never been easier
+author: Simon
+image: "/assets/img/blog/urban-development.jpg"
 ---
 
 ## This is a test

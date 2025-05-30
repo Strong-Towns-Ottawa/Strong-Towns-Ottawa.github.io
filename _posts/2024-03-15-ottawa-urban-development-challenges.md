@@ -1,11 +1,12 @@
 ---
+title: Ottawa's Urban Development Challenges
+date: 2024-03-15 00:00:00 Z
+tags:
+- Finances
 layout: post
-title: "Ottawa's Urban Development Challenges"
-subtitle: "Examining the Financial Impact of Sprawl"
-date: 2024-03-15
+subtitle: Examining the Financial Impact of Sprawl
 author: Strong Towns Ottawa
-tags: [Finances]
-image: /assets/img/blog/urban-development.jpg
+image: "/assets/img/blog/urban-development.jpg"
 ---
 
 Ottawa's rapid expansion over the past few decades has created significant financial challenges for our city. As we continue to build outward, the costs of maintaining infrastructure and providing services to low-density areas are becoming increasingly unsustainable.

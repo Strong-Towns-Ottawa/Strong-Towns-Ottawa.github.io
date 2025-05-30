@@ -1,9 +1,8 @@
 ---
-layout: home
 title: Strong Towns Ottawa
+layout: home
 subtitle: Building a Financially Resilient Ottawa
 ---
-
 
 <div class="posts-list">
   {% for post in paginator.posts %}

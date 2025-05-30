@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Resources
+layout: page
 subtitle: Helpful resources for understanding Strong Towns principles
 ---
 
