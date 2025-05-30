@@ -13,6 +13,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-paginate-v2
   - jekyll-archives
+  - jekyll-contentful-data-import
 
 # Pagination settings
 pagination:
