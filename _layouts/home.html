@@ -14,7 +14,7 @@ pagination:
 
 
 <div class="tag-list offset-xl-3 offset-lg-3 offset-md-1 offset-sm-0 offset-xs-0">
-  <a href="/" class="tag-filter">
+  <a href="/posts" class="tag-filter">
     All posts
   </a>
 
@@ -26,11 +26,11 @@ pagination:
   {% if page.url contains slug %}
 
 
-  <a href="{{ '/tag/' | append: tag | relative_url | downcase }}" class="tag-filter-selected">{{ tag }}</a>
+  <a href="{{ '/posts/' | append: tag | relative_url | downcase }}" class="tag-filter-selected">{{ tag }}</a>
 
   {% else %}
 
-  <a href="{{ '/tag/' | append: tag | relative_url | downcase }}" class="tag-filter">{{ tag }}</a>
+  <a href="{{ '/posts/' | append: tag | relative_url | downcase }}" class="tag-filter">{{ tag }}</a>
 
   {% endif %}
 
