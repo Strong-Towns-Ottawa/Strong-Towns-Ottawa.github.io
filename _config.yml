@@ -12,36 +12,34 @@ plugins:
   - jekyll-sitemap
   - jekyll-remote-theme
   - jekyll-paginate-v2
-  - jekyll-archives
-  - jekyll-contentful-data-import
+  #- jekyll-archives
 
 # Pagination settings
 pagination:
   enabled: true
-  per_page: 5
+  per_page: 2
   permalink: '/page:num/'
   title: ':title - page :num'
-  limit: 0
+  limit: 10
   sort_field: 'date'
   sort_reverse: true
   trail:
     before: 2
     after: 2
   generate_all_posts: true
-  all_posts_link_text: "View All Posts"
-  all_posts_link_url: "/all-posts/"
+
 
 # Jekyll-archives settings
-jekyll-archives:
-  enabled: 
-    - tags
-  layout: tag
-  permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'
+#jekyll-archives:
+#  enabled: 
+#    - tags
+#  layout: tag
+#  permalinks:
+#    year: '/:year/'
+#    month: '/:year/:month/'
+#    day: '/:year/:month/:day/'
+#    tag: '/tag/:name/'
+#    category: '/category/:name/'
 
 
 # Beautiful Jekyll specific settings
