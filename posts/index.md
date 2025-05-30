@@ -1,7 +1,7 @@
 ---
 layout: page
 pagination:
-    enabled: true
+  enabled: true
 ---
 
 {%- assign tags_array = "cycling, finances, housing, transit" | split: ", " -%}

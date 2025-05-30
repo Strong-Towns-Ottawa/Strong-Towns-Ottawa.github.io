@@ -1,91 +1,69 @@
+---
 title: Strong Towns Ottawa
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 description: A website for Strong Towns Ottawa
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
-# Build settings
+baseurl: ''
+url: ''
 markdown: kramdown
 remote_theme: daattali/beautiful-jekyll
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-remote-theme
-  - jekyll-paginate-v2
-
-# Pagination settings
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-remote-theme
+- jekyll-paginate-v2
 pagination:
   enabled: true
   per_page: 2
-  permalink: '/page:num/'
-  title: ':title - page :num'
+  permalink: "/page:num/"
+  title: ":title - page :num"
   limit: 10
-  sort_field: 'date'
+  sort_field: date
   sort_reverse: true
   trail:
     before: 2
     after: 2
   generate_all_posts: true
-
-
-
-# Beautiful Jekyll specific settings
 avatar: assets/img/logo.png
 favicon: assets/img/favicon.ico
 show-avatar: true
-description: A website for Strong Towns Ottawa
 show-header: true
 show-footer: true
 show-social-icons: true
 show-blog-link: false
-
-# Additional CSS
 site-css:
-  - /assets/css/custom.css
-
+- "/assets/css/custom.css"
 navbar-text-col: "#FFFFFF"
-
-# Additional head content
 head-extra: |
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/custom.css">
-
-# Navigation links
 navbar-links:
-  About Us: "about"
-  Resources: "resources"
-
-# Select which social network links to show in the footer
+  About Us: about
+  Resources: resources
 social-network-links:
-  email: "info@strongtownsottawa.ca"
+  email: info@strongtownsottawa.ca
   github: Strong-Towns-Ottawa
   twitter: strongtownsott
   rss: true
   youtube: "@strongTownsOttawa"
-  discord: "kHaVNgrcsG"
-  facebook: "groups/751202843212260"
-
-# How to display the link to your website in the footer
-# Remove this if you don't want a link in the footer
-url-pretty: "strongtownsottawa.ca"
-
-# Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
+  discord: kHaVNgrcsG
+  facebook: groups/751202843212260
+url-pretty: strongtownsottawa.ca
 excerpt_length: 50
-
-# Whether or not to show an excerpt for every blog post in the feed page
 feed_show_excerpt: true
-
-# Whether or not to show a list of tags below each post preview in the feed page
 feed_show_tags: true
-
-# Add a search button to the navbar
 post_search: true
-
-# Exclude from processing
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-  - .git
-  - .gitignore 
+- Gemfile
+- Gemfile.lock
+- node_modules
+- vendor
+- ".git"
+- ".gitignore"
