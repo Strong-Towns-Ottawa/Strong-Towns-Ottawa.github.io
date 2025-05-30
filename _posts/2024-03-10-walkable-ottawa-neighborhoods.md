@@ -1,10 +1,11 @@
 ---
+title: Building Walkable Neighborhoods in Ottawa
+date: 2024-03-10 00:00:00 Z
+tags:
+- Housing
 layout: post
-title: "Building Walkable Neighborhoods in Ottawa"
-subtitle: "Lessons from Our Most Successful Communities"
-date: 2024-03-10
+subtitle: Lessons from Our Most Successful Communities
 author: Strong Towns Ottawa
-tags: [Housing]
 ---
 
 Walkable neighborhoods are not just pleasant places to live—they're also more financially sustainable and create stronger communities. In this post, we explore some of Ottawa's most successful walkable neighborhoods and what we can learn from them.

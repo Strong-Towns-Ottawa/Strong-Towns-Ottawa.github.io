@@ -1,10 +1,11 @@
 ---
+title: Ottawa's Municipal Finances
+date: 2024-03-18 00:00:00 Z
+tags:
+- Finances
 layout: post
-title: "Ottawa's Municipal Finances"
-subtitle: "Building a More Sustainable Financial Future"
-date: 2024-03-18
+subtitle: Building a More Sustainable Financial Future
 author: Strong Towns Ottawa
-tags: [Finances]
 ---
 
 Ottawa's financial sustainability is at risk due to our current development patterns and infrastructure maintenance challenges. This post examines the financial implications of our city's growth and development decisions.

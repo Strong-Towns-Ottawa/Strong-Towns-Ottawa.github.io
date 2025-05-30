@@ -1,10 +1,11 @@
 ---
+title: Addressing Housing Affordability in Ottawa
+date: 2024-03-22 00:00:00 Z
+tags:
+- Housing
 layout: post
-title: "Addressing Housing Affordability in Ottawa"
-subtitle: "Creating More Housing Options for All Residents"
-date: 2024-03-22
+subtitle: Creating More Housing Options for All Residents
 author: Strong Towns Ottawa
-tags: [Housing]
 ---
 
 Ottawa's housing market has become increasingly unaffordable for many residents. The lack of diverse housing options and restrictive zoning regulations are contributing to this crisis.
