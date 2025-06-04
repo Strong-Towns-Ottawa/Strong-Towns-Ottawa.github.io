@@ -5,6 +5,7 @@ tags:
 - Transit
 author: Strong Towns Ottawa
 subtitle: Bus Lanes Improve The City
+layout: post
 ---
 
 Going to test making this post with an image attached, of our sign at the Mayfair theatre on Bank Street, pushing for 24/7 bus lanes on Bank! ## Bus Lanes on Bank at the Mayfair Theatre 
