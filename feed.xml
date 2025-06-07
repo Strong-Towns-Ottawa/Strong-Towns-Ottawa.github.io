@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-06-07T18:38:58+00:00</updated><id>/feed.xml</id><title type="html">Strong Towns Ottawa</title><subtitle>A website for Strong Towns Ottawa</subtitle><entry><title type="html">Strong Towns Ottawa Pushes For 24/7 Bus Lanes On Bank</title><link href="/2025/06/03/strong-towns-ottawa-pushes-for-24-slash-7-bus-lanes-on-bank.html" rel="alternate" type="text/html" title="Strong Towns Ottawa Pushes For 24/7 Bus Lanes On Bank" /><published>2025-06-03T21:07:00+00:00</published><updated>2025-06-03T21:07:00+00:00</updated><id>/2025/06/03/strong-towns-ottawa-pushes-for-24-slash-7-bus-lanes-on-bank</id><content type="html" xml:base="/2025/06/03/strong-towns-ottawa-pushes-for-24-slash-7-bus-lanes-on-bank.html"><![CDATA[<p>Going to test making this post with an image attached, of our sign at the Mayfair theatre on Bank Street, pushing for 24/7 bus lanes on Bank! ## Bus Lanes on Bank at the Mayfair Theatre</p>
+
+<p><img src="/uploads/mayfairBusLanesOnBankStreetSignWithBusInFront.jpg" alt="mayfairBusLanesOnBankStreetSignWithBusInFront.jpg" /></p>
+
+<ul>
+  <li>
+    <p>Bus lanes make the city better for everyone, not just those taking transit</p>
+
+    <ul>
+      <li>
+        <p>They reduce traffic for drivers</p>
+      </li>
+      <li>
+        <p>They increase reliability and speed for transit users</p>
+      </li>
+      <li>
+        <p>They provide safe lanes for cyclists and cut down on dooring</p>
+      </li>
+      <li>
+        <p>They increase visibility for pedestrians trying to cross the street</p>
+      </li>
+      <li>
+        <p>They have much higher capacity than regular car lanes, and can bring large amounts of people to sporting events</p>
+      </li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>Strong Towns Ottawa</name></author><category term="Transit" /><summary type="html"><![CDATA[Going to test making this post with an image attached, of our sign at the Mayfair theatre on Bank Street, pushing for 24/7 bus lanes on Bank! ## Bus Lanes on Bank at the Mayfair Theatre]]></summary></entry><entry><title type="html">Can a post not have a date in its url</title><link href="/2025/05/30/post-without-date-in-url.html" rel="alternate" type="text/html" title="Can a post not have a date in its url" /><published>2025-05-30T00:00:00+00:00</published><updated>2025-05-30T00:00:00+00:00</updated><id>/2025/05/30/post-without-date-in-url</id><content type="html" xml:base="/2025/05/30/post-without-date-in-url.html"><![CDATA[<p>HI</p>]]></content><author><name>Ryan</name></author><category term="Transit" /><summary type="html"><![CDATA[HI]]></summary></entry><entry><title type="html">This is a post made with Siteleaf</title><link href="/2025/05/25/this-is-a-post-made-with-siteleaf.html" rel="alternate" type="text/html" title="This is a post made with Siteleaf" /><published>2025-05-25T18:40:00+00:00</published><updated>2025-05-25T18:40:00+00:00</updated><id>/2025/05/25/this-is-a-post-made-with-siteleaf</id><content type="html" xml:base="/2025/05/25/this-is-a-post-made-with-siteleaf.html"><![CDATA[<p>Siteleaf is a CMS that you can connect a Github repo to. It will then load your files in which you can then create content through its editor.</p>]]></content><author><name></name></author><category term="Transit" /><summary type="html"><![CDATA[Siteleaf is a CMS that you can connect a Github repo to. It will then load your files in which you can then create content through its editor.]]></summary></entry><entry><title type="html">Newsletter May 14th</title><link href="/2025/05/14/newsletter-embed-test.html" rel="alternate" type="text/html" title="Newsletter May 14th" /><published>2025-05-14T00:00:00+00:00</published><updated>2025-05-14T00:00:00+00:00</updated><id>/2025/05/14/newsletter-embed-test</id><content type="html" xml:base="/2025/05/14/newsletter-embed-test.html"><![CDATA[<iframe id="newsletter-iframe" src="https://eocampaign1.com/web-version?p=d996fa3e-34bc-11f0-974a-0d74e976bca3&amp;pt=campaign&amp;t=1747674778&amp;s=5ca69219f1d50a10e9f0d874650b9ed36079a4e9acfc7945a7c1e9435f06ad37" width="100%" frameborder="0" style="border: none; background: transparent; display: block;" scrolling="no" onload="resizeIframe(this)"></iframe>
+
+<script>
+function resizeIframe(iframe) {
+  iframe.style.height = '2200px'; // Desktop-specific adjustment (Always adjust desktop first, once you find the correct height adjust for mobile below)
+    setTimeout(function() {
+    try {
+      // Attempt to get dynamic height (may fail due to cross-origin-resource-sharing limitations)
+      const height = iframe.contentWindow.document.body.scrollHeight;
+      if (height > 100) { 
+        iframe.style.height = height + 'px';
+      }
+    } catch (e) {
+    
+      console.log('Could not auto-detect height, using fallback');
+    }
+  }, 500);
+
+  
+  if (window.innerWidth <= 768) {
+    iframe.style.height = '2500px'; // Mobile-specific adjustment (Usually 300-400px higher than Desktop)
+  }
+}
+
+
+function handleResize() {
+  const iframe = document.getElementById('newsletter-iframe');
+  if (iframe) {
+    iframe.style.height = '100px';
+    resizeIframe(iframe);
+  }
+}
+
+window.addEventListener('resize', handleResize);
+window.addEventListener('orientationchange', handleResize);
+</script>]]></content><author><name>Etienne</name></author><category term="Finances" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/blog/urban-development.jpg" /><media:content medium="image" url="/assets/img/blog/urban-development.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">I’m testing Obsidian!</title><link href="/2025/05/09/obsidian-test.html" rel="alternate" type="text/html" title="I’m testing Obsidian!" /><published>2025-05-09T00:00:00+00:00</published><updated>2025-05-09T00:00:00+00:00</updated><id>/2025/05/09/obsidian-test</id><content type="html" xml:base="/2025/05/09/obsidian-test.html"><![CDATA[<h2 id="this-is-a-test">This is a test</h2>
+
+<p>Checking if this works</p>]]></content><author><name>Simon</name></author><category term="Transit" /><summary type="html"><![CDATA[This is a test]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/blog/urban-development.jpg" /><media:content medium="image" url="/assets/img/blog/urban-development.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ottawa’s Transit Challenges</title><link href="/2024/03/28/ottawa-transit-challenges.html" rel="alternate" type="text/html" title="Ottawa’s Transit Challenges" /><published>2024-03-28T00:00:00+00:00</published><updated>2024-03-28T00:00:00+00:00</updated><id>/2024/03/28/ottawa-transit-challenges</id><content type="html" xml:base="/2024/03/28/ottawa-transit-challenges.html"><![CDATA[<p>Ottawa’s transit system faces significant challenges in providing reliable, efficient service to all residents. The recent LRT issues have highlighted the need for a more resilient and sustainable approach to public transportation.</p>
+
+<h2 id="current-challenges">Current Challenges</h2>
+
+<p>Our transit system struggles with:</p>
+<ul>
+  <li>Reliability issues on the LRT system</li>
+  <li>Insufficient bus service in suburban areas</li>
+  <li>Long wait times during off-peak hours</li>
+  <li>Limited coverage in new developments</li>
+  <li>High operating costs per rider</li>
+</ul>
+
+<h2 id="a-better-approach">A Better Approach</h2>
+
+<p>We believe Ottawa can build a better transit system by:</p>
+<ol>
+  <li>Focusing on high-frequency service on core routes</li>
+  <li>Implementing bus-priority measures on major roads</li>
+  <li>Better integrating land use with transit planning</li>
+  <li>Prioritizing maintenance and reliability</li>
+  <li>Creating more walkable transit-oriented communities</li>
+</ol>
+
+<h2 id="financial-considerations">Financial Considerations</h2>
+
+<p>The current approach of building expensive infrastructure without sufficient ridership is unsustainable. We need to:</p>
+<ul>
+  <li>Focus on cost-effective solutions</li>
+  <li>Build ridership before infrastructure</li>
+  <li>Ensure new developments support transit use</li>
+  <li>Maintain existing infrastructure properly</li>
+</ul>
+
+<h2 id="taking-action">Taking Action</h2>
+
+<p>Join us in advocating for:</p>
+<ul>
+  <li>More reliable transit service</li>
+  <li>Better integration of land use and transit</li>
+  <li>Cost-effective transit solutions</li>
+  <li>Improved maintenance practices</li>
+</ul>
+
+<p>Together, we can build a transit system that serves all Ottawans effectively.</p>]]></content><author><name>Strong Towns Ottawa</name></author><category term="Transit" /><summary type="html"><![CDATA[Ottawa’s transit system faces significant challenges in providing reliable, efficient service to all residents. The recent LRT issues have highlighted the need for a more resilient and sustainable approach to public transportation.]]></summary></entry><entry><title type="html">Improving Ottawa’s Cycling Infrastructure</title><link href="/2024/03/25/ottawa-cycling-infrastructure.html" rel="alternate" type="text/html" title="Improving Ottawa’s Cycling Infrastructure" /><published>2024-03-25T00:00:00+00:00</published><updated>2024-03-25T00:00:00+00:00</updated><id>/2024/03/25/ottawa-cycling-infrastructure</id><content type="html" xml:base="/2024/03/25/ottawa-cycling-infrastructure.html"><![CDATA[<p>Ottawa has made significant progress in building cycling infrastructure, but there’s still much work to be done to create a truly connected and safe bike network. In this post, we explore the current state of cycling in Ottawa and what needs to be done to make it better.</p>
+
+<h2 id="current-state-of-cycling-in-ottawa">Current State of Cycling in Ottawa</h2>
+
+<p>While Ottawa has some excellent cycling paths, there are still significant gaps in the network:</p>
+<ul>
+  <li>Disconnected bike lanes that end abruptly</li>
+  <li>Lack of protected bike lanes on major roads</li>
+  <li>Insufficient winter maintenance</li>
+  <li>Missing connections between neighborhoods</li>
+</ul>
+
+<h2 id="key-areas-for-improvement">Key Areas for Improvement</h2>
+
+<p>To make cycling a viable transportation option for more Ottawans, we need to:</p>
+<ol>
+  <li>Build a connected network of protected bike lanes</li>
+  <li>Improve winter maintenance of cycling infrastructure</li>
+  <li>Create safe connections between neighborhoods</li>
+  <li>Implement traffic calming measures on bike routes</li>
+  <li>Increase secure bike parking options</li>
+</ol>
+
+<h2 id="the-benefits-of-better-cycling-infrastructure">The Benefits of Better Cycling Infrastructure</h2>
+
+<p>Investing in cycling infrastructure provides numerous benefits:</p>
+<ul>
+  <li>Reduced traffic congestion</li>
+  <li>Improved public health</li>
+  <li>Lower transportation costs for residents</li>
+  <li>Reduced greenhouse gas emissions</li>
+  <li>More vibrant streets and neighborhoods</li>
+</ul>
+
+<h2 id="taking-action">Taking Action</h2>
+
+<p>We’re working with local cycling advocacy groups to:</p>
+<ul>
+  <li>Advocate for better cycling infrastructure</li>
+  <li>Push for complete streets policies</li>
+  <li>Support safe cycling education programs</li>
+  <li>Promote bike-friendly business districts</li>
+</ul>
+
+<p>Join us in making Ottawa a more bike-friendly city for everyone.</p>]]></content><author><name>Strong Towns Ottawa</name></author><category term="Cycling" /><summary type="html"><![CDATA[Ottawa has made significant progress in building cycling infrastructure, but there’s still much work to be done to create a truly connected and safe bike network. In this post, we explore the current state of cycling in Ottawa and what needs to be done to make it better.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/cycling-infrastructure.jpg" /><media:content medium="image" url="/assets/img/cycling-infrastructure.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Addressing Housing Affordability in Ottawa</title><link href="/2024/03/22/housing-affordability-ottawa.html" rel="alternate" type="text/html" title="Addressing Housing Affordability in Ottawa" /><published>2024-03-22T00:00:00+00:00</published><updated>2024-03-22T00:00:00+00:00</updated><id>/2024/03/22/housing-affordability-ottawa</id><content type="html" xml:base="/2024/03/22/housing-affordability-ottawa.html"><![CDATA[<p>Ottawa’s housing market has become increasingly unaffordable for many residents. The lack of diverse housing options and restrictive zoning regulations are contributing to this crisis.</p>
+
+<h2 id="the-current-situation">The Current Situation</h2>
+
+<p>Key challenges in Ottawa’s housing market:</p>
+<ul>
+  <li>Rising home prices outpacing income growth</li>
+  <li>Limited supply of affordable housing options</li>
+  <li>Restrictive zoning preventing diverse housing types</li>
+  <li>High development charges increasing costs</li>
+  <li>Lack of “missing middle” housing options</li>
+</ul>
+
+<h2 id="solutions-for-ottawa">Solutions for Ottawa</h2>
+
+<p>We can address these challenges by:</p>
+<ol>
+  <li>Allowing more diverse housing types in all neighborhoods</li>
+  <li>Reducing development charges for affordable housing</li>
+  <li>Streamlining the approval process for new housing</li>
+  <li>Supporting gentle density increases in established areas</li>
+  <li>Encouraging mixed-use developments</li>
+</ol>
+
+<h2 id="missing-middle-housing">Missing Middle Housing</h2>
+
+<p>Ottawa needs more “missing middle” housing options:</p>
+<ul>
+  <li>Duplexes and triplexes</li>
+  <li>Townhouses and row houses</li>
+  <li>Low-rise apartments</li>
+  <li>Accessory dwelling units</li>
+  <li>Live-work units</li>
+</ul>
+
+<h2 id="taking-action">Taking Action</h2>
+
+<p>We’re advocating for:</p>
+<ul>
+  <li>Zoning reform to allow more housing types</li>
+  <li>Reduced barriers to building affordable housing</li>
+  <li>Better integration of housing and transportation</li>
+  <li>Support for innovative housing solutions</li>
+</ul>
+
+<p>Join us in making Ottawa a more affordable place to live for everyone.</p>]]></content><author><name>Strong Towns Ottawa</name></author><category term="Housing" /><summary type="html"><![CDATA[Ottawa’s housing market has become increasingly unaffordable for many residents. The lack of diverse housing options and restrictive zoning regulations are contributing to this crisis.]]></summary></entry><entry><title type="html">Welcome to Strong Towns Ottawa</title><link href="/2024/03/20/welcome-to-strong-towns-ottawa.html" rel="alternate" type="text/html" title="Welcome to Strong Towns Ottawa" /><published>2024-03-20T00:00:00+00:00</published><updated>2024-03-20T00:00:00+00:00</updated><id>/2024/03/20/welcome-to-strong-towns-ottawa</id><content type="html" xml:base="/2024/03/20/welcome-to-strong-towns-ottawa.html"><![CDATA[<p>Welcome to Strong Towns Ottawa! We are a group of Ottawa residents who are passionate about building a stronger, more resilient city through better land use, transportation, and financial planning.</p>
+
+<h2 id="our-mission">Our Mission</h2>
+
+<p>Our mission is to advocate for sustainable development practices that create strong, vibrant communities. We believe that by focusing on people-first urban design and financially responsible growth, we can make Ottawa a better place to live for everyone.</p>
+
+<h2 id="why-strong-towns">Why Strong Towns?</h2>
+
+<p>The Strong Towns movement is based on four core principles:</p>
+
+<ol>
+  <li><strong>Financial Resilience</strong>: Cities should be financially self-sufficient and not rely on continuous growth to pay their bills.</li>
+  <li><strong>People-First Design</strong>: Streets and neighborhoods should be designed for people, not just cars.</li>
+  <li><strong>Incremental Development</strong>: Small, incremental improvements are more sustainable than large-scale projects.</li>
+  <li><strong>Community Engagement</strong>: Local residents should have a meaningful say in how their neighborhoods develop.</li>
+</ol>
+
+<h2 id="get-involved">Get Involved</h2>
+
+<p>We welcome everyone who shares our vision for a better Ottawa. Whether you’re interested in urban planning, community development, or just want to learn more, there are many ways to get involved:</p>
+
+<ul>
+  <li>Join our community discussions</li>
+  <li>Attend our workshops and events</li>
+  <li>Share your ideas and experiences</li>
+  <li>Help us advocate for better policies</li>
+</ul>
+
+<p>Stay tuned for more updates and opportunities to get involved. Together, we can build a stronger Ottawa!</p>]]></content><author><name>Strong Towns Ottawa</name></author><category term="Housing" /><summary type="html"><![CDATA[Welcome to Strong Towns Ottawa! We are a group of Ottawa residents who are passionate about building a stronger, more resilient city through better land use, transportation, and financial planning.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/blog/welcome.jpg" /><media:content medium="image" url="/assets/img/blog/welcome.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ottawa’s Municipal Finances</title><link href="/2024/03/18/municipal-finances-ottawa.html" rel="alternate" type="text/html" title="Ottawa’s Municipal Finances" /><published>2024-03-18T00:00:00+00:00</published><updated>2024-03-18T00:00:00+00:00</updated><id>/2024/03/18/municipal-finances-ottawa</id><content type="html" xml:base="/2024/03/18/municipal-finances-ottawa.html"><![CDATA[<p>Ottawa’s financial sustainability is at risk due to our current development patterns and infrastructure maintenance challenges. This post examines the financial implications of our city’s growth and development decisions.</p>
+
+<h2 id="the-financial-reality">The Financial Reality</h2>
+
+<p>Key financial challenges facing Ottawa:</p>
+<ul>
+  <li>Growing infrastructure maintenance backlog</li>
+  <li>Declining tax revenue per acre in new developments</li>
+  <li>Rising costs of servicing low-density areas</li>
+  <li>Unsustainable development patterns</li>
+  <li>Increasing debt burden</li>
+</ul>
+
+<h2 id="the-cost-of-sprawl">The Cost of Sprawl</h2>
+
+<p>Low-density development patterns are financially unsustainable:</p>
+<ul>
+  <li>Higher per-capita infrastructure costs</li>
+  <li>Lower tax revenue generation</li>
+  <li>Increased transportation costs</li>
+  <li>Higher service delivery costs</li>
+  <li>Reduced efficiency of public services</li>
+</ul>
+
+<h2 id="a-better-financial-model">A Better Financial Model</h2>
+
+<p>We can build a more financially resilient city by:</p>
+<ol>
+  <li>Focusing on infill development</li>
+  <li>Supporting mixed-use neighborhoods</li>
+  <li>Prioritizing maintenance over expansion</li>
+  <li>Encouraging higher-density development</li>
+  <li>Implementing better financial planning</li>
+</ol>
+
+<h2 id="taking-action">Taking Action</h2>
+
+<p>We’re advocating for:</p>
+<ul>
+  <li>More transparent financial reporting</li>
+  <li>Better long-term financial planning</li>
+  <li>Sustainable development practices</li>
+  <li>Maintenance-first infrastructure policies</li>
+</ul>
+
+<p>Join us in building a more financially resilient Ottawa.</p>]]></content><author><name>Strong Towns Ottawa</name></author><category term="Finances" /><summary type="html"><![CDATA[Ottawa’s financial sustainability is at risk due to our current development patterns and infrastructure maintenance challenges. This post examines the financial implications of our city’s growth and development decisions.]]></summary></entry></feed>
