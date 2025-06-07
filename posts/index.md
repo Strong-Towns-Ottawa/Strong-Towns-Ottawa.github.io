@@ -1,8 +1,8 @@
 ---
+title: All Posts
 layout: page
 pagination:
   enabled: true
-title: All Posts
 ---
 
 <h1 class="page-title">{{ page.title % }}</h1>
