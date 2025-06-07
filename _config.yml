@@ -21,7 +21,7 @@ plugins:
 - jekyll-paginate-v2
 pagination:
   enabled: true
-  per_page: 2
+  per_page: 5
   permalink: "/page:num/"
   title: ":title - page :num"
   limit: 10

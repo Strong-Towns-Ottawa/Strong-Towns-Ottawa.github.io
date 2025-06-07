@@ -2,34 +2,12 @@
 layout: page
 pagination:
   enabled: true
+title: All Posts
 ---
 
-{%- assign tags_array = "cycling, finances, housing, transit" | split: ", " -%}
+<h1 class="page-title">{{ page.title % }}</h1>
 
-<div class="tag-list offset-xl-2 offset-lg-2 offset-md-2 offset-1">
-  <a href="/posts" class="tag-filter">
-    All posts
-  </a>
-
-
-  {% for tag in tags_array %}
-
-  {% assign slug = "tag/" | append: tag %}
-
-  {% if page.url contains slug %}
-
-
-  <a href="/posts/{{ tag }}" class="tag-filter-selected">{{ tag }}</a>
-
-  {% else %}
-
-  <a href="/posts/{{ tag }}" class="tag-filter">{{ tag }}</a>
-
-  {% endif %}
-
-  {% endfor %}
-
-</div>
+{% include tag-filters.html %}
 
 
 
