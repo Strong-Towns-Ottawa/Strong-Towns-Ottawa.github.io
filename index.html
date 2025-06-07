@@ -10,26 +10,6 @@ pagination:
   sort_reverse: true
 ---
 
-{%- assign tags_array = "cycling, finances, housing, transit" | split: ", " -%}
-
-<div class="tag-list offset-xl-2 offset-lg-2 offset-md-2 offset-1">
-  
-
-  <a href="/" class="tag-filter">
-    All posts
-  </a>
-  
-  {% for tag in tags_array %}
-  {% assign slug = "tag/" | append: tag %}
-  {% if page.url contains slug %}
-  <a href="/tag/{{ tag }}" class="tag-filter-selected">{{ tag }}</a>
-  {% else %}
-  <a href="/tag/{{ tag }}" class="tag-filter">{{ tag }}</a>
-  {% endif %}
-  {% endfor %}
-
-</div>
-
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">

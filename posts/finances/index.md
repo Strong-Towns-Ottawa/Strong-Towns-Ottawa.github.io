@@ -4,5 +4,6 @@ pagination:
   enabled: true
   sort_reverse: true
   tag: finances
+title: Finances
 ---
 

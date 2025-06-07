@@ -27,6 +27,10 @@
     color: #FFFFFF;
 }
 
+.hero-container {
+    width: 100%;
+}
+
 .hero-img{
 
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/assets/img/hero_banner.png') !important;  
@@ -98,8 +102,11 @@
     background: var(--st-yellow);
 }
 
+.page-title{
+    text-align: center;
+}
 
-@media screen and (max-width: 616px){
+@media screen and (max-width: 768px){
     .tag-filter {
         display: block;
         text-align: center;

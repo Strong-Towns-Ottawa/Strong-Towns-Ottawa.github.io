@@ -1,0 +1,20 @@
+<div class="tag-list offset-xl-3 offset-lg-3 offset-md-1 offset-sm-0 offset-xs-0">
+{%- assign tags_array = "cycling, finances, housing, transit" | split: ", " -%}
+
+<div class="tag-list">
+  
+  <a href="/posts" class="tag-filter">
+    All posts
+  </a>
+  
+  {% for tag in tags_array %}
+  {% assign slug = "tag/" | append: tag %}
+  {% if page.url contains slug %}
+  <a href="/posts/{{ tag }}" class="tag-filter-selected">{{ tag }}</a>
+  {% else %}
+  <a href="/posts/{{ tag }}" class="tag-filter">{{ tag }}</a>
+  {% endif %}
+  {% endfor %}
+
+</div>
+</div>
