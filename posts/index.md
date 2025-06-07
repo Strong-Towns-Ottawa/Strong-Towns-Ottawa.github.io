@@ -5,8 +5,6 @@ pagination:
   enabled: true
 ---
 
-<h1 class="page-title">{{ page.title % }}</h1>
-
 {% include tag-filters.html %}
 
 

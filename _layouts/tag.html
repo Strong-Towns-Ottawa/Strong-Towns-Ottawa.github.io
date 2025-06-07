@@ -8,8 +8,6 @@ pagination:
   sort_reverse: true
 ---
 
-<h1 class="page-title">{{ page.title }}</h1>
-
 {% include tag-filters.html %}
 
 {% assign posts = paginator.posts | default: site.posts %}
