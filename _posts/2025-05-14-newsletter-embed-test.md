@@ -1,12 +1,12 @@
 ---
-layout: post
 title: Newsletter May 14th
-subtitle: Welcome to the Strong Towns Ottawa inaugural newsletter!
-date: 2025-05-14
-author: Etienne
+date: 2025-05-14 00:00:00 Z
 tags:
-  - Finances
-image: /assets/img/blog/urban-development.jpg
+- Finances
+layout: post
+subtitle: Welcome to the Strong Towns Ottawa inaugural newsletter!
+author: Etienne
+image: "/assets/img/blog/urban-development.jpg"
 ---
 
 <iframe 

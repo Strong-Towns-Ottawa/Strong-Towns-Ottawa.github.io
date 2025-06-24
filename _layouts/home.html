@@ -1,6 +1,5 @@
 ---
 layout: default
-
 pagination:
   enabled: true
   per_page: 5
@@ -9,35 +8,49 @@ pagination:
   sort_reverse: true
 ---
 
-<h2 style="text-align: center;">Our Latest Posts</h2>
+<header class="hero-container header-section has-img w-100">
+    <div class="intro-header big-img hero-img" >
+      
+        <div class="row">
+          <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+            <div class="page-heading">
+              <h2>Strong Towns Ottawa</h2>
+              
+                  <hr class="small">
+                  <span class="page-subheading">Strong Towns Ottawa focuses on making fiscally strong places that are self-sustaining, resilient, and nice to live in. Together, we can make a difference in the city we love.</span>
+                
+                    <div class="btn-group row">
+                        <div class="col-lg-4 btn-col">
+                        <a class="st-yellow-btn" href="https://discord.com/invite/{{ site.social-network-links.discord }}" target="_blank">
+                            Join us on Discord
+                        </a>
+                    </div>
+                    <div class="col-lg-4 btn-col">
+                        <a class="st-yellow-btn" href="https://facebook.com/{{ site.social-network-links.facebook }}" target="_blank">
+                            Join us on Facebok
+                        </a>
+                    </div>
+                    <div class="col-lg-4 btn-col">
+                        <a class="st-yellow-btn" href="mailto:{{ site.social-network-links.email }}" target="_blank">
+                            Send us an email
+                        </a>
+                    </div>
+                    </div>
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </header>
+
+    <div class="container">
+      <h2 style="text-align: center;">Our Latest Posts</h2>
 
 {%- assign tags_array = "Cycling, Finances, Housing, Transit" | split: ", " -%}
 
-
-<div class="tag-list offset-xl-3 offset-lg-3 offset-md-1 offset-sm-0 offset-xs-0">
-  <a href="/" class="tag-filter">
-    All posts
-  </a>
-
-
-  {% for tag in tags_array %}
-
-  {% assign slug = "tag/" | append: tag %}
-
-  {% if page.url contains slug %}
-
-
-  <a href="{{ '/tag/' | append: tag | relative_url | downcase }}" class="tag-filter-selected">{{ tag }}</a>
-
-  {% else %}
-
-  <a href="{{ '/tag/' | append: tag | relative_url | downcase }}" class="tag-filter">{{ tag }}</a>
-
-  {% endif %}
-
-  {% endfor %}
-
-</div>
+{% include tag-filters.html %}
 
 <div class="row mt-4">
   {% for post in paginator.posts limit: 3 %}
@@ -85,60 +98,20 @@ pagination:
   </div>
   
 </div>
+</div>
 
-<!-- Current post list loader
-<div class="posts-list">
-    {% for post in paginator.posts limit: 3 %}
+<div class="container">
 
-    <article class="post-preview">
-      <a href="{{ post.url | relative_url }}">
-        <h2 class="post-title">{{ post.title }}</h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">{{ post.subtitle }}</h3>
-        {% endif %}
-      </a>
-  
-      <p class="post-meta">
-        Posted on {{ post.date | date: "%B %-d, %Y" }}
-      </p>
-  
-      <div class="post-entry">
-        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
-        {% assign excerpt_word_count = post.excerpt | number_of_words %}
-        {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
-          <a href="{{ post.url | relative_url }}" class="post-read-more">[Read&nbsp;More]</a>
-        {% endif %}
-      </div>
-  
-      {% if post.tags.size > 0 %}
-      <div class="blog-tags">
-        Tags:
-        {% for tag in post.tags %}
-        <a href="{{ '/tag/' | append: tag | relative_url | downcase }}">{{ tag }}</a>
-        {% endfor %}
-      </div>
-      {% endif %}
-  
-     </article>
-    {% endfor %}
+<h2 style="text-align: center; margin-top: 3rem;">Events</h2>
+<div class="row justify-content-center mb-4">
+  <div class="col-lg-10 col-md-12">
+    <div style="position:relative; width:100%; padding-bottom:75%; height:0; overflow:hidden;">
+      <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FToronto&showPrint=0&title=Strong%20Towns%20Ottawa&mode=MONTH&src=NmQ2MWEyOTNiNGQxNjNiZGMzZWQ2YjEwNmYyYTk5Njc3YzU2MTM3NTBjOWNkODFhOTM0MzRlNzBkYzk5MDc1YUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23F4511E" style="border:solid 1px #777; position:absolute; top:0; left:0; width:100%; height:100%;" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    </div>
   </div>
-  
-  {% if paginator.total_pages > 1 %}
-  <ul class="pager main-pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-      <a href="{{ paginator.previous_page_path | relative_url }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-      <a href="{{ paginator.next_page_path | relative_url }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-  </ul>
-  {% endif %}
--->
-  <h1 style="text-align: center;" class="mb-3">Our Values</h1>
+</div>
+
+<h2 style="text-align: center;" class="mb-3">Our Values</h2>
 
 <div class="row">
   <div class="col-lg-4 col-md-12 mt-3">
@@ -195,5 +168,6 @@ pagination:
   </div>
 </div>
   </div>
+</div>
 </div>
 

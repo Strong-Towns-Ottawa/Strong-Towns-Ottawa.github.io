@@ -1,14 +1,14 @@
 ---
+title: All Posts
 layout: page
 pagination:
   enabled: true
-  per_page: 5
-  collection: posts
-  sort_field: date
-  sort_reverse: true
 ---
 
 {% include tag-filters.html %}
+
+
+
 
 {% assign posts = paginator.posts | default: site.posts %}
 
@@ -18,7 +18,6 @@ pagination:
   <li class="post-preview">
     <article>
 
-      <!--
       {%- capture thumbnail -%}
         {% if post.thumbnail-img %}
           {{ post.thumbnail-img }}
@@ -33,8 +32,6 @@ pagination:
       {% endcapture %}
       {% assign thumbnail=thumbnail | strip %}
 
-     
-
       {% if site.feed_show_excerpt == false %}
       {% if thumbnail != "" %}
       <div class="post-image post-image-normal">
@@ -44,8 +41,6 @@ pagination:
       </div>
       {% endif %}
       {% endif %}
-
-       -->
 
       <a href="{{ post.url | absolute_url }}">
         <h2 class="post-title">{{ post.title | strip_html }}</h2>
@@ -131,75 +126,3 @@ pagination:
   {% endif %}
 </ul>
 {% endif %}
-
-<!---->
-
-
-
-
-
-
-
-
-
-
-
-<!-- <h1>Posts with '{{ page.title }}' {{ page.type }}</h1> -->
-
-
-<div class="posts-list">
-
-    <ul class="posts">
-
-        {% for post in page.posts %}
-
-        <article class="post-preview">
-
-            <a href="{{ post.url | relative_url }}">
-
-              <h2 class="post-title">{{ post.title }}</h2>
-
-              {% if post.subtitle %}
-
-              <h3 class="post-subtitle">{{ post.subtitle }}</h3>
-
-              {% endif %}
-
-            </a>
-
-            <p class="post-meta">
-
-              Posted on {{ post.date | date: "%B %-d, %Y" }}
-
-            </p>
-
-            <div class="post-entry">
-
-              {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
-
-
-              {% assign excerpt_word_count = post.excerpt | number_of_words %}
-
-
-              {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
-
-
-                <a href="{{ post.url | relative_url }}" class="post-read-more">[Read&nbsp;More]</a>
-
-
-              {% endif %}
-
-
-            </div>
-
-           </article>
-
-        {% endfor %}
-
-      </ul>
-    </div>
-
-    
-
-
-    

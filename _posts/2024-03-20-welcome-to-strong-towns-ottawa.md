@@ -1,11 +1,12 @@
 ---
+title: Welcome to Strong Towns Ottawa
+date: 2024-03-20 00:00:00 Z
+tags:
+- Housing
 layout: post
-title: "Welcome to Strong Towns Ottawa"
-subtitle: "Building a Financially Resilient City Together"
-date: 2024-03-20
+subtitle: Building a Financially Resilient City Together
 author: Strong Towns Ottawa
-tags: [Housing]
-image: /assets/img/blog/welcome.jpg
+image: "/assets/img/blog/welcome.jpg"
 ---
 
 Welcome to Strong Towns Ottawa! We are a group of Ottawa residents who are passionate about building a stronger, more resilient city through better land use, transportation, and financial planning.

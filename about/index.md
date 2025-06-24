@@ -1,6 +1,6 @@
 ---
-layout: page
 title: About Us
+layout: page
 subtitle: Learn more about Strong Towns Ottawa
 ---
 
