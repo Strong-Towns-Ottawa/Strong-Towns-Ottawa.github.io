@@ -1,9 +1,10 @@
 ---
-layout: page
 title: Housing
-permalink: /housing/
-show_title: false  
+permalink: "/housing/"
+layout: page
+show_title: false
 ---
+
 <style>
   h1:first-child {
     display: none;
