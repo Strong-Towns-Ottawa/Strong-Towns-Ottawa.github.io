@@ -34,6 +34,15 @@ show_title: false
   @media (max-width: 768px) {
     .side-by-side {
       flex-direction: column;
+      gap: 0.5rem;
+      margin: 0.5rem 0;
+    }
+    .text-content p {
+      margin-bottom: 0;
+    }
+    /* Specific fix for your two text columns */
+    .side-by-side > .text-content + .text-content {
+      margin-top: -0.75rem;
     }
   }
 </style>
