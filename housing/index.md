@@ -74,9 +74,9 @@ show_title: false
   </div>
   <div class="text-content">
     <p>Many of the cities listed above don't really "feel" all that dense, yet still achieve a great amount of density by allowing for the missing middle density that Ottawa doesn't. Having only the 2 extremes of densities leads to many feeling like they'd never be able to live in a "denser" area as the only form of density they know is skyscrapers, but this isn't the only option. Just like most things, the answer is found in a compromise of the extremes.</p>
-    <div class="text-center mt-1 mb-1"> 
-      <a href="https://www.youtube.com/watch?v=cjWs7dqaWfY" class="st-yellow-btn">Learn about the Missing Middle</a>
-    </div>
+   <div class="text-center mt-1 mb-1"> 
+     <a href="https://www.youtube.com/watch?v=cjWs7dqaWfY" class="st-yellow-btn" target="_blank" rel="noopener noreferrer">Learn about the Missing Middle</a>
+   </div>
   </div>
 </div>
 <br>
