@@ -1,8 +1,9 @@
 ---
-layout: page
 title: Housing
-permalink: /housing/
-show_title: false  
+date: 2025-06-25 01:22:09.989000000 Z
+permalink: "/housing/"
+layout: page
+show_title: false
 ---
 
 <style>
