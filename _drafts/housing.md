@@ -1,8 +1,8 @@
 ---
-title: Housing
-permalink: "/housing/"
 layout: page
-show_title: false
+title: Housing
+permalink: /housing/
+show_title: false  
 ---
 
 <style>
@@ -80,6 +80,7 @@ show_title: false
   </div>
 </div>
 <br>
+
 ## A city needs density to be able to provide amenities. 
 
 <div class="side-by-side">

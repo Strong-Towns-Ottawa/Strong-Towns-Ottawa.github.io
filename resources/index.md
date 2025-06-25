@@ -1,12 +1,8 @@
 ---
 title: Resources
 layout: page
-subtitle: Helpful resources for understanding Strong Towns principles
+subtitle: Here you'll find helpful information about the Strong Towns movement and how it applies to Ottawa.
 ---
-
-# Resources
-
-Welcome to our resources page! Here you'll find helpful information about the Strong Towns movement and how it applies to Ottawa.
 
 ## Strong Towns Core Concepts
 

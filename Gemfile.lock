@@ -89,6 +89,10 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    tzinfo (2.0.6)
+      concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2025.2)
+      tzinfo (>= 1.0.0)
     webrick (1.9.1)
 
 PLATFORMS
@@ -119,6 +123,8 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   logger
+  tzinfo (~> 2.0)
+  tzinfo-data (~> 1.2025)
   webrick
 
 BUNDLED WITH

@@ -1,12 +1,17 @@
 ---
 title: About Us
 layout: page
-subtitle: Learn more about Strong Towns Ottawa
+subtitle: Welcome to Strong Towns Ottawa! We are a local chapter of the Strong Towns movement, dedicated to making Ottawa a more financially resilient and livable city.
+title_size: 2rem  # Custom size
 ---
 
-# About Strong Towns Ottawa
-
-Welcome to Strong Towns Ottawa! We are a local chapter of the Strong Towns movement, dedicated to making Ottawa a more financially resilient and livable city.
+<style>
+.smaller-title {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+</style>
 
 ## Our Mission
 
