@@ -1,6 +1,6 @@
 ---
 title: Housing
-date: 2025-06-25 01:22:09.989000000 Z
+date: 2025-06-25 01:22:09 Z
 permalink: "/housing/"
 layout: page
 show_title: false
