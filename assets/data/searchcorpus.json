@@ -1,0 +1,132 @@
+[ 
+ 
+{ 
+"title"    : "Strong Towns Ottawa Pushes For 24/7 Bus Lanes On Bank", 
+"desc"     : "Strong Towns Ottawa Pushes For 24/7 Bus Lanes On Bank", 
+"category" : "Transit", 
+"url"      : "/2025/06/03/strong-towns-ottawa-pushes-for-24-slash-7-bus-lanes-on-bank.html", 
+"date"     : "June  3, 2025" 
+}, 
+ 
+{ 
+"title"    : "Can a post not have a date in its url", 
+"desc"     : "Can a post not have a date in its url", 
+"category" : "Transit", 
+"url"      : "/2025/05/30/post-without-date-in-url.html", 
+"date"     : "May 30, 2025" 
+}, 
+ 
+{ 
+"title"    : "This is a post made with Siteleaf", 
+"desc"     : "This is a post made with Siteleaf", 
+"category" : "Transit", 
+"url"      : "/2025/05/25/this-is-a-post-made-with-siteleaf.html", 
+"date"     : "May 25, 2025" 
+}, 
+ 
+{ 
+"title"    : "Newsletter May 14th", 
+"desc"     : "Newsletter May 14th", 
+"category" : "Finances", 
+"url"      : "/2025/05/14/newsletter-embed-test.html", 
+"date"     : "May 14, 2025" 
+}, 
+ 
+{ 
+"title"    : "I&#39;m testing Obsidian!", 
+"desc"     : "I&#39;m testing Obsidian!", 
+"category" : "Transit", 
+"url"      : "/2025/05/09/obsidian-test.html", 
+"date"     : "May  9, 2025" 
+}, 
+ 
+{ 
+"title"    : "Ottawa&#39;s Transit Challenges", 
+"desc"     : "Ottawa&#39;s Transit Challenges", 
+"category" : "Transit", 
+"url"      : "/2024/03/28/ottawa-transit-challenges.html", 
+"date"     : "March 28, 2024" 
+}, 
+ 
+{ 
+"title"    : "Improving Ottawa&#39;s Cycling Infrastructure", 
+"desc"     : "Improving Ottawa&#39;s Cycling Infrastructure", 
+"category" : "Cycling", 
+"url"      : "/2024/03/25/ottawa-cycling-infrastructure.html", 
+"date"     : "March 25, 2024" 
+}, 
+ 
+{ 
+"title"    : "Addressing Housing Affordability in Ottawa", 
+"desc"     : "Addressing Housing Affordability in Ottawa", 
+"category" : "Housing", 
+"url"      : "/2024/03/22/housing-affordability-ottawa.html", 
+"date"     : "March 22, 2024" 
+}, 
+ 
+{ 
+"title"    : "Welcome to Strong Towns Ottawa", 
+"desc"     : "Welcome to Strong Towns Ottawa", 
+"category" : "Housing", 
+"url"      : "/2024/03/20/welcome-to-strong-towns-ottawa.html", 
+"date"     : "March 20, 2024" 
+}, 
+ 
+{ 
+"title"    : "Ottawa&#39;s Municipal Finances", 
+"desc"     : "Ottawa&#39;s Municipal Finances", 
+"category" : "Finances", 
+"url"      : "/2024/03/18/municipal-finances-ottawa.html", 
+"date"     : "March 18, 2024" 
+}, 
+ 
+{ 
+"title"    : "Ottawa&#39;s Urban Development Challenges", 
+"desc"     : "Ottawa&#39;s Urban Development Challenges", 
+"category" : "Development", 
+"url"      : "/2024/03/15/urban-development-challenges.html", 
+"date"     : "March 15, 2024" 
+}, 
+ 
+{ 
+"title"    : "Ottawa&#39;s Urban Development Challenges", 
+"desc"     : "Ottawa&#39;s Urban Development Challenges", 
+"category" : "Finances", 
+"url"      : "/2024/03/15/ottawa-urban-development-challenges.html", 
+"date"     : "March 15, 2024" 
+}, 
+ 
+{ 
+"title"    : "Building Walkable Neighborhoods in Ottawa", 
+"desc"     : "Building Walkable Neighborhoods in Ottawa", 
+"category" : "Housing", 
+"url"      : "/2024/03/10/walkable-ottawa-neighborhoods.html", 
+"date"     : "March 10, 2024" 
+}, 
+ 
+ 
+{ 
+"title"    : "Housing", 
+"desc"     : "Housing", 
+"category" : "page", 
+"url"      : "/housing/", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
+"title"    : "About Us", 
+"desc"     : "About Us", 
+"category" : "page", 
+"url"      : "/about/", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
+"title"    : "Resources", 
+"desc"     : "Resources", 
+"category" : "page", 
+"url"      : "/resources/", 
+"date"     : "January 1, 1970" 
+} 
+ 
+]
