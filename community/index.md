@@ -1,7 +1,13 @@
 ---
 title: Community
 layout: page
-subtitle: The way we build our cities allows for communities to thrive, or to flounder. Communities shape our everyday lives, it is vital to make sure we're building cities that foster these connections. Our streets are historically the main ways to connect the people within our cities. Making sure these places are inviting, safe, and attractive makes it as easy as possible for communities to form for all different types of people. A thriving city allows you to explore your hobbies, interests, human connections, and more without having to travel too far away from home.
+subtitle: The way we build our cities allows for communities to thrive, or to flounder.
+  Communities shape our everyday lives, it is vital to make sure we're building cities
+  that foster these connections. Our streets are historically the main ways to connect
+  the people within our cities. Making sure these places are inviting, safe, and attractive
+  makes it as easy as possible for communities to form for all different types of
+  people. A thriving city allows you to explore your hobbies, interests, human connections,
+  and more without having to travel too far away from home.
 show_title: false
 ---
 
