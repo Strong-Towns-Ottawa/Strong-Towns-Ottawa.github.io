@@ -21,6 +21,16 @@
     margin-right: 0.5rem;
 }
 
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-size: 0.8rem;
+    color: #222222; 
+    text-align: center;
+}
+
 /* Custom Styles */
 .navbar {
     background-color: var(--st-blue);
@@ -44,6 +54,11 @@
 .btn-col{
     margin: 0;
     display: inline-block;
+}
+
+p {
+    line-height: 1.5;
+    margin: 1rem 0;
 }
 
 .st-yellow-btn{
