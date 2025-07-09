@@ -8,6 +8,12 @@ subtitle: Good transportation is the backbone of our cities. Every interaction w
 show_title: false
 ---
 
+<style>
+  h1:first-child{
+    display: none;
+  }
+</style>
+
 <figure>
 <img src="/assets/img/transportationOptions.jpg" alt="Different transportation options being displayed: Transit, cycling, and walking">
 </figure>
