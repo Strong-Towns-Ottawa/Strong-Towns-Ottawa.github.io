@@ -8,7 +8,7 @@ show_title: false
 <figure>
 <img src="/assets/img/transportationOptions.jpg" alt="Different transportation options being displayed: Transit, cycling, and walking">
 </figure>
-<figcaption >Image from : <a href="https://transformative-mobility.org/" data-type="link" data-id="https://transformative-mobility.org/">Transformative Urban Mobility Initiative</a></figcaption>
+<figcaption >Image from : <a href="https://transformative-mobility.org/" target="_blank" data-type="link" data-id="https://transformative-mobility.org/">Transformative Urban Mobility Initiative</a></figcaption>
 
 ## Making sure that every part of our transportation system is working efficiently means we all get to where we need to go on time
 
@@ -19,7 +19,7 @@ At some point in every trip you make you step out of whatever form of transporta
 <figure>
 <img src="/assets/img/pedestrians.jpg" alt="Pedestrians crossing the street">
 </figure>
-<figcaption>Image from: <a href="https://en.wikipedia.org/wiki/Pedestrian#/media/File:CrossWalk_(5465840138).jpg" data-type="link" data-id="https://en.wikipedia.org/wiki/Pedestrian#/media/File:CrossWalk_(5465840138).jpg">Alex Proimos (Wikipedia)</a></figcaption>
+<figcaption>Image from: <a href="https://en.wikipedia.org/wiki/Pedestrian#/media/File:CrossWalk_(5465840138).jpg" target="_blank" data-type="link" data-id="https://en.wikipedia.org/wiki/Pedestrian#/media/File:CrossWalk_(5465840138).jpg">Alex Proimos (Wikipedia)</a></figcaption>
 
 <div class="row">
 
@@ -37,7 +37,7 @@ At some point in every trip you make you step out of whatever form of transporta
 <figure>
 <img src="/assets/img/passengerCapacityTransportModes-1.png" alt="Graph of passenger capacity of different transport modes. From least passengers per hour to most passengers per hour: Mixed traffic, regular bus, single lane BRT, cyclists, pedestrians, light rail, double lane BRT, heavy rail, suburban rail">
 </figure>
-<figcaption class="figcaption">Image from : <a href="https://transformative-mobility.org/" data-type="link" data-id="https://transformative-mobility.org/">Transformative Urban Mobility Initiative</a></figcaption>
+<figcaption class="figcaption">Image from : <a href="https://transformative-mobility.org/" target="_blank" data-type="link" data-id="https://transformative-mobility.org/">Transformative Urban Mobility Initiative</a></figcaption>
 </div>
 <div class="col-md-6">
 <p>With more and more people moving to this great city we need to choose efficient ways to move them around. As you can see, cars just don’t cut it when we have to move large amounts of people. Not only do they not do the job well, they also cost the city the most to plan around with the high cost of roads, parking, sprawl, etc… By planning for cars we’re planning for an inefficient and crumbling city with not enough money generated to cover our costs. This isn’t sustainable now, nor will it ever be in the future. We will never be able to build enough lanes to get us out of the congestion that cars brought to us. And even if we could, we would destroy all the places worth going to to make the highway wide enough.</p>
