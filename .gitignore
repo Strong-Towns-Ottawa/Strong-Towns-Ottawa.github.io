@@ -11,3 +11,4 @@ vendor/
 /_yardoc/
 /doc/
 /rdoc/ 
+.ruby-version
