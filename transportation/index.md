@@ -1,10 +1,7 @@
 ---
 title: Transportation
 layout: page
-subtitle: Housing is one of the most important aspects of our cities. Everyone needs
-  a place to live and call home, and the way we currently tackle housing is making
-  this less attainable for your average Ottawan. It has become unaffordable, bland,
-  and forces you to live further from necessities and amenities.
+subtitle: Good transportation is the backbone of our cities. Every interaction with your city involves you moving from place to place. Transportation involves many different modes including walking, biking, driving, public transit, and more. Getting this step right can make or break our city.
 show_title: false
 ---
 

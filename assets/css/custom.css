@@ -21,11 +21,11 @@
     margin-right: 0.5rem;
 }
 
-figure {
+.figure {
     margin: 0;
 }
 
-figcaption {
+.figcaption {
     font-size: 0.8rem;
     color: #222222; 
     text-align: center;
