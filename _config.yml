@@ -31,7 +31,7 @@ pagination:
     before: 2
     after: 2
   generate_all_posts: true
-avatar: assets/img/logo.png
+avatar: 
 favicon: assets/img/favicon.ico
 show-avatar: true
 show-header: true
