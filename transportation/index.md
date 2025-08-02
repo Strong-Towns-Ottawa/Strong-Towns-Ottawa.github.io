@@ -9,9 +9,10 @@ layout: page
 ---
 
 <style>
-h1:first-child{
-display: none;
-}
+  h1:first-child{
+    display: none;
+  }
+
 </style>
 
 <figure>
