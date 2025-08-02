@@ -1,20 +1,13 @@
-<div class="tag-list offset-xl-3 offset-lg-3 offset-md-1 offset-sm-0 offset-xs-0">
+<div class="tag-list">
 {%- assign tags_array = "cycling, finances, housing, transit" | split: ", " -%}
 
-<div class="tag-list">
-  
-  <a href="/posts" class="tag-filter">
-    All posts
-  </a>
-  
-  {% for tag in tags_array %}
-  {% assign slug = "tag/" | append: tag %}
-  {% if page.url contains slug %}
-  <a href="/posts/{{ tag }}" class="tag-filter-selected">{{ tag }}</a>
-  {% else %}
-  <a href="/posts/{{ tag }}" class="tag-filter">{{ tag }}</a>
-  {% endif %}
-  {% endfor %}
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+  <option value = "Select a category">Select a category</option>
+  <option value = "/posts/">All posts</option>
+  <option value = "/posts/cycling">Cycling</option>
+  <option value = "/posts/finances">Finances</option>
+  <option value = "/posts/housing">Housing</option>
+  <option value = "/posts/transit">Transit</option>
+</select>
 
-</div>
 </div>

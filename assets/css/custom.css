@@ -56,9 +56,19 @@ figcaption {
     display: inline-block;
 }
 
-p {
+option {
+    background-color: #FFFFFF;
+}
+
+select option {
     line-height: 1.5;
     margin: 1rem 0;
+}
+
+select {
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    padding: 4px 8px;
 }
 
 .st-yellow-btn{
