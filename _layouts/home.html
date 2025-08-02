@@ -48,10 +48,6 @@ pagination:
     <div class="container">
       <h2 style="text-align: center;">Our Latest Posts</h2>
 
-{%- assign tags_array = "Cycling, Finances, Housing, Transit" | split: ", " -%}
-
-{% include tag-filters.html %}
-
 <div class="row mt-4">
   {% for post in paginator.posts limit: 3 %}
   <div class="col-lg-4 col-md-12 mt-3">
@@ -97,6 +93,10 @@ pagination:
     {% endfor %}
   </div>
   
+  <div class="col-md-12 text-center mt-4">
+<a href="/posts" class="st-yellow-btn text-center" style="margin: auto;">See more posts</a>
+</div>
+
 </div>
 </div>
 
