@@ -131,6 +131,23 @@ select {
     text-align: center;
 }
 
+
+/* Base styles (for mobile/small screens) */
+.intro-header .page-heading h1 {
+    display: block;
+    margin-top: 0;
+    font-size: 2.75rem; 
+    text-align: center;
+    line-height: 1.2;
+}
+
+/* Desktop/large screens */
+@media (min-width: 1200px) {
+    .intro-header .page-heading h1 {
+        font-size: 3.125rem; 
+    }
+}
+
 @media screen and (max-width: 768px){
     .tag-filter {
         display: block;
@@ -145,6 +162,3 @@ select {
         margin-top: 1rem;
     }
 }
-
-
-
