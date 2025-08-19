@@ -472,7 +472,7 @@ subtitle: Transforming Bank Street into an efficient, people-first corridor thro
 </div>
 
 
-<div style="background-color: #cfcabe; padding: 20px; border-radius: 8px; font-family: Arial, sans-serif; color: #333;">
+<div style="background-color: #cfcabe; padding: 20px 4%; border-radius: 8px; font-family: Arial, sans-serif; color: #333;margin: 0 auto;max-width: 100%;box-sizing: border-box;">
   <h2 style="margin-top: 0; color: #222;">Data From The City</h2>
 
   <p>As of Nov 12, 2024, the city released a report with the data collected from the survey they did. It can be viewed <a href="#" style="color: #0066cc; text-decoration: underline;">here</a>. They received about 2800 results from people.</p>
