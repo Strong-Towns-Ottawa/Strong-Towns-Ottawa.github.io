@@ -4,7 +4,9 @@ date: 2025-05-14 00:00:00 Z
 layout: post
 subtitle: Welcome to the Strong Towns Ottawa inaugural newsletter!
 author: Etienne Lefebvre
-image: "/assets/img/blog/urban-development.jpg"
+featured-image: '/assets/img/newsletter_logo.png'
+tags:
+- Newsletter
 ---
 
 <iframe 

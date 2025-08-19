@@ -1,10 +1,11 @@
 ---
-title: Strong Towns Ottawa Pushes For 24/7 Bus Lanes On Bank
+title: Our Mayfair Ads, Featured in the Media!
 date: 2025-06-03 21:07:00 Z
 tags:
 - Transit
 author: Strong Towns Ottawa
 subtitle: Bus Lanes Improve The City
+featured-image: '/assets/img/mayfair.jpg'
 layout: post
 ---
 
