@@ -148,7 +148,7 @@ subtitle: Transforming Bank Street into an efficient, people-first corridor thro
   </ul>
 
   <div class="text-center mt-4 mb-4">
-    <a href="#petition" class="btn btn-primary st-yellow-btn">Sign The Petition</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdmP_jogr7Us53LxbrZtcIP5SOANRQ3te-9Y24k1XfTj5pY2Q/viewform" class="btn btn-primary st-yellow-btn">Sign The Petition</a>
   </div>
 </div>
 
@@ -386,7 +386,7 @@ subtitle: Transforming Bank Street into an efficient, people-first corridor thro
 </p>
 </div>
 <div class="col-md-6">
-<p>Widening sidewalks to provide a pleasant pedestrian experience would be at the top of the list given how narrow it is and how important this area is for shopping. Acknowledging how important of a N-S road Bank is, 24/7 transit lanes allow for more throughput while prioritizing pedestrian safety by encouraging safer modes of transportation.</p>
+<p>Widening sidewalks to provide a pleasant pedestrian experience would be at the top of the list given how narrow it is and how important this area is for shopping. Acknowledging how important of a N-S road Bank is, 24/7 transit lanes allow for more throughput while prioritizing pedestrian safety by encouraging <a href="https://injuryfacts.nsc.org/home-and-community/safety-topics/deaths-by-transportation-mode/" target="_blank" rel="noopener noreferrer">safer</a> modes of transportation.</p>
 </div>
 
 <h2>Our Short Term Proposal</h2>
