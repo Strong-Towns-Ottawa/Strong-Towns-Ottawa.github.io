@@ -5,7 +5,7 @@ tags:
 - Transit
 author: Strong Towns Ottawa
 subtitle: Bus Lanes Improve The City
-featured-image: '/assets/img/mayfair.jpg'
+featured-image: "/assets/img/mayfair.jpg"
 layout: post
 ---
 

@@ -1,12 +1,12 @@
 ---
 title: August Newsletter
 date: 2025-05-14 00:00:00 Z
+tags:
+- Newsletter
 layout: post
 subtitle: Welcome to the Strong Towns Ottawa inaugural newsletter!
 author: Etienne Lefebvre
-featured-image: '/assets/img/newsletter_logo.png'
-tags:
-- Newsletter
+featured-image: "/assets/img/newsletter_logo.png"
 ---
 
 <iframe 
