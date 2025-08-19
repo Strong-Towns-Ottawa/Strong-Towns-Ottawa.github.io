@@ -166,7 +166,7 @@ subtitle: Transforming Bank Street into an efficient, people-first corridor thro
 
 <div class="col-md-6">
   <figure class="survey-image">
-    <img src="/assets/img/people_have_spoken.png" alt="Survey results" class="img-fluid">
+    <img src="/assets/img/People_have_spoken.png" alt="Survey results" class="img-fluid">
   </figure>
 </div>
 
