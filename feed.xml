@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-08-19T21:18:48+00:00</updated><id>/feed.xml</id><title type="html">Strong Towns Ottawa</title><subtitle>A website for Strong Towns Ottawa</subtitle><entry><title type="html">Our Mayfair Ads, Featured in the Media!</title><link href="/2025/06/03/strong-towns-ottawa-pushes-for-24-slash-7-bus-lanes-on-bank.html" rel="alternate" type="text/html" title="Our Mayfair Ads, Featured in the Media!" /><published>2025-06-03T21:07:00+00:00</published><updated>2025-06-03T21:07:00+00:00</updated><id>/2025/06/03/strong-towns-ottawa-pushes-for-24-slash-7-bus-lanes-on-bank</id><content type="html" xml:base="/2025/06/03/strong-towns-ottawa-pushes-for-24-slash-7-bus-lanes-on-bank.html"><![CDATA[<p>Going to test making this post with an image attached, of our sign at the Mayfair theatre on Bank Street, pushing for 24/7 bus lanes on Bank! ## Bus Lanes on Bank at the Mayfair Theatre</p>
+
+<p><img src="/uploads/mayfairBusLanesOnBankStreetSignWithBusInFront.jpg" alt="mayfairBusLanesOnBankStreetSignWithBusInFront.jpg" /></p>
+
+<ul>
+  <li>
+    <p>Bus lanes make the city better for everyone, not just those taking transit</p>
+
+    <ul>
+      <li>
+        <p>They reduce traffic for drivers</p>
+      </li>
+      <li>
+        <p>They increase reliability and speed for transit users</p>
+      </li>
+      <li>
+        <p>They provide safe lanes for cyclists and cut down on dooring</p>
+      </li>
+      <li>
+        <p>They increase visibility for pedestrians trying to cross the street</p>
+      </li>
+      <li>
+        <p>They have much higher capacity than regular car lanes, and can bring large amounts of people to sporting events</p>
+      </li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>Strong Towns Ottawa</name></author><category term="Transit" /><summary type="html"><![CDATA[Going to test making this post with an image attached, of our sign at the Mayfair theatre on Bank Street, pushing for 24/7 bus lanes on Bank! ## Bus Lanes on Bank at the Mayfair Theatre]]></summary></entry><entry><title type="html">August Newsletter</title><link href="/2025/05/14/August-Newsletter.html" rel="alternate" type="text/html" title="August Newsletter" /><published>2025-05-14T00:00:00+00:00</published><updated>2025-05-14T00:00:00+00:00</updated><id>/2025/05/14/August-Newsletter</id><content type="html" xml:base="/2025/05/14/August-Newsletter.html"><![CDATA[<iframe id="newsletter-iframe" src="https://eocampaign1.com/web-version?p=28f5b398-6d68-11f0-865d-05ecf714d2a3&amp;pt=campaign&amp;t=1754060700&amp;s=51c4c01aa7980a838f9ff0982dd4fac65a30c810abc44a9df4b367e1a724588a" width="100%" frameborder="0" style="border: none; background: transparent; display: block;" scrolling="no" onload="resizeIframe(this)"></iframe>
+
+<script>
+function resizeIframe(iframe) {
+  iframe.style.height = '4250px'; // Desktop-specific adjustment (Always adjust desktop first, once you find the correct height adjust for mobile below)
+    setTimeout(function() {
+    try {
+      // Attempt to get dynamic height (may fail due to cross-origin-resource-sharing limitations)
+      const height = iframe.contentWindow.document.body.scrollHeight;
+      if (height > 100) { 
+        iframe.style.height = height + 'px';
+      }
+    } catch (e) {
+    
+      console.log('Could not auto-detect height, using fallback');
+    }
+  }, 500);
+
+  
+  if (window.innerWidth <= 768) {
+    iframe.style.height = '6250px'; // Mobile-specific adjustment (Usually 300-400px higher than Desktop)
+  }
+}
+
+
+function handleResize() {
+  const iframe = document.getElementById('newsletter-iframe');
+  if (iframe) {
+    iframe.style.height = '100px';
+    resizeIframe(iframe);
+  }
+}
+
+window.addEventListener('resize', handleResize);
+window.addEventListener('orientationchange', handleResize);
+</script>]]></content><author><name>Etienne Lefebvre</name></author><category term="Newsletter" /><summary type="html"><![CDATA[]]></summary></entry></feed>
