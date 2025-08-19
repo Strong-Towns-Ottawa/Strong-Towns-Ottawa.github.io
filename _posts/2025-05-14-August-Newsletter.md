@@ -1,10 +1,10 @@
 ---
-layout: post
 title: August Newsletter
+date: 2025-05-14 00:00:00 Z
+layout: post
 subtitle: Welcome to the Strong Towns Ottawa inaugural newsletter!
-date: 2025-05-14
 author: Etienne Lefebvre
-image: /assets/img/blog/urban-development.jpg
+image: "/assets/img/blog/urban-development.jpg"
 ---
 
 <iframe 

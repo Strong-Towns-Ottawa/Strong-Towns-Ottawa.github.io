@@ -1,8 +1,10 @@
 ---
 title: Dedicated Bus Lanes For Bank Street
 layout: page
-subtitle: Transforming Bank Street into an efficient, people-first corridor through dedicated bus lanes
+subtitle: Transforming Bank Street into an efficient, people-first corridor through
+  dedicated bus lanes
 ---
+
 <style>
   .campaign-header-img {
     border-radius: 8px;
