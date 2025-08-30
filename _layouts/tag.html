@@ -10,7 +10,7 @@ pagination:
 
 {% include tag-filters.html %}
 
-{% assign posts = paginator.posts | default: site.posts %}
+{% assign posts = paginator.posts | default: none %}
 
 <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
 <ul class="posts-list list-unstyled" role="list">
