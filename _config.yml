@@ -9,8 +9,8 @@ collections:
     title: Uploads
     output: true
 description: A website for Strong Towns Ottawa
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 markdown: kramdown
 remote_theme: daattali/beautiful-jekyll
 plugins:
@@ -46,7 +46,6 @@ head-extra: |
   <link rel="stylesheet" href="/assets/css/custom.css">
 navbar-links:
   About Us: about
-  Resources: resources
 social-network-links:
   email: info@strongtownsottawa.ca
   github: Strong-Towns-Ottawa
