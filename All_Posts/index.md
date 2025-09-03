@@ -112,7 +112,7 @@ pagination:
           <ul class="d-inline list-inline" role="list">
             {% for tag in post.tags %}
             <li class="list-inline-item">
-              <a href="{{ '/topics' | absolute_url }}/{{- tag -}}">{{- tag -}}</a>
+              <a href="{{ '/All_Posts' | absolute_url }}/{{- tag -}}">{{- tag -}}</a>
             </li>
             {% endfor %}
           </ul>
