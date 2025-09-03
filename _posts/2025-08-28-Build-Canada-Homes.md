@@ -2,9 +2,9 @@
 title: Our Blueprint for Building Better in Canada
 layout: post
 date: 2025-08-28 00:00:00 Z
-featured-image: "/assets/img/uncommon.jpg"
 tags:
 - Letters
+featured-image: "/assets/img/uncommon.jpg"
 subtitle: We urge the federal government to abandon the sprawl-based model that has left our cities with a plethora of infrastructure time bombs.
 ---
 

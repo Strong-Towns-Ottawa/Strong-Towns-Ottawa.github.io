@@ -1,9 +1,9 @@
 ---
-title: Transit
+title: Letters
 layout: tag
 pagination:
   enabled: true
   sort_reverse: true
-  tag: newsletter
+  tag: letters
 ---
 

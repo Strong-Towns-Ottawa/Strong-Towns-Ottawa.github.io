@@ -1,6 +1,7 @@
 ---
 title: The High Cost of Sprawl; Ottawa’s Infrastructure Time Bomb
 layout: post
+date: 2025-07-07 00:00:00 Z
 tags:
 - Letters
 subtitle: To ensure its long-term viability, it is essential that the City align its

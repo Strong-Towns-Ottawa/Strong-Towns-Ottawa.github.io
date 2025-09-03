@@ -76,7 +76,7 @@ pagination:
             <div class="blog-tags">
               Tags:
               {% for tag in post.tags %}
-              <a href="{{ '/tag/' | append: tag | relative_url | downcase }}">{{ tag }}</a>
+              <a href="{{ '/posts/' | append: tag | relative_url }}">{{ tag }}</a>
               {% endfor %}
             </div>
             {% endif %}
