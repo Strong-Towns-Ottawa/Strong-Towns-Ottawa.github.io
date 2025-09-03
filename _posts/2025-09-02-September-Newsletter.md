@@ -1,17 +1,17 @@
 ---
-title: August Newsletter
-date: 2025-05-14 00:00:00 Z
+title: September Newsletter
+date: 2025-09-02 00:00:00 Z
 tags:
 - Newsletter
 layout: post
-subtitle: Welcome to the Strong Towns Ottawa inaugural newsletter!
+subtitle: The Budget Is Brewing, Let's Stir The Pot
 author: Etienne Lefebvre
 featured-image: "/assets/img/newsletter_logo.png"
 ---
 
 <iframe 
   id="newsletter-iframe"
-  src="https://eocampaign1.com/web-version?p=28f5b398-6d68-11f0-865d-05ecf714d2a3&pt=campaign&t=1754060700&s=51c4c01aa7980a838f9ff0982dd4fac65a30c810abc44a9df4b367e1a724588a" 
+  src="https://eocampaign1.com/web-version?p=05807a58-72ca-11f0-97df-237306d6f0b6&pt=campaign&t=1756818061&s=e973e6a463371fb14780ac2d833bbfa401b8e532707ab11cd412a6f5fb626015" 
   width="100%" 
   frameborder="0"
   style="border: none; background: transparent; display: block;"
@@ -21,7 +21,7 @@ featured-image: "/assets/img/newsletter_logo.png"
 
 <script>
 function resizeIframe(iframe) {
-  iframe.style.height = '4250px'; // Desktop-specific adjustment (Always adjust desktop first, once you find the correct height adjust for mobile below)
+  iframe.style.height = '8200px'; // Desktop-specific adjustment (Always adjust desktop first, once you find the correct height adjust for mobile below)
     setTimeout(function() {
     try {
       // Attempt to get dynamic height (may fail due to cross-origin-resource-sharing limitations)
@@ -37,7 +37,7 @@ function resizeIframe(iframe) {
 
   
   if (window.innerWidth <= 768) {
-    iframe.style.height = '6250px'; // Mobile-specific adjustment (Usually 300-400px higher than Desktop)
+    iframe.style.height = '13400px'; // Mobile-specific adjustment (Usually 33% bigger than Desktop)
   }
 }
 
