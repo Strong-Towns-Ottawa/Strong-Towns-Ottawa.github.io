@@ -3,7 +3,7 @@ layout: default
 pagination:
   enabled: true
   per_page: 5
-  collection: posts
+  collection: All_Posts
   sort_field: date
   sort_reverse: true
 ---
@@ -76,7 +76,7 @@ pagination:
             <div class="blog-tags">
               Tags:
               {% for tag in post.tags %}
-              <a href="{{ '/posts/' | append: tag | relative_url }}">{{ tag }}</a>
+              <a href="{{ '/All_Posts/' | append: tag | relative_url }}">{{ tag }}</a>
               {% endfor %}
             </div>
             {% endif %}
@@ -87,7 +87,7 @@ pagination:
     {% endfor %}
   </div>
   <div class="col-md-12 text-center mt-4">
-    <a href="/posts" class="st-yellow-btn text-center">See more posts</a>
+    <a href="/All_Posts" class="st-yellow-btn text-center">See more posts</a>
   </div>
 
   <style>
