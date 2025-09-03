@@ -4,7 +4,7 @@ date: 2025-07-07 00:00:00 Z
 tags:
 - Letters
 layout: post
-subtitle: To ensure its long-term viability, it is essential that the City align its
+subtitle: To ensure its long-term viability, it is essential that Ottawa align its
   lands-use and infrastructure strategies with financial realities. The City’s financial
   stability depends on whether it is willing to confront the cost of its past choices
   and build smarter from here forward.
