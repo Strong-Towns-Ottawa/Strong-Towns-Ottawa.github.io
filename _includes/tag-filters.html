@@ -1,5 +1,5 @@
 <div class="tag-list">
-{%- assign tags_array = "cycling, finances, housing, transit, newsletter, letters" | split: ", " -%}
+{%- assign tags_array = "cycling, finances, housing, transit, newsletter, letters, event" | split: ", " -%}
 
 <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
   <option value = "Select a category">Select a category</option>
@@ -10,6 +10,8 @@
   <option value = "/All_Posts/Transit">Transit</option>
   <option value = "/All_Posts/Newsletter">Newsletter</option>
   <option value = "/All_Posts/Letters">Letters</option>
+  <option value = "/All_Posts/Event">Event</option>
+
 </select>
 
 </div>
