@@ -2,7 +2,8 @@
 title: Parking Day 2025
 date: 2025-07-01 00:00:00 Z
 layout: post
-subtitle: This year, Strong Towns Ottawa is organizing the first ever–to our knowledge–Parking Day event in our city’s history!
+subtitle: This year, Strong Towns Ottawa is organizing the first ever–to our knowledge–Parking
+  Day event in our city’s history!
 author: Etienne Lefebvre
 featured-image: "/assets/img/Parking_day3.png"
 ---
