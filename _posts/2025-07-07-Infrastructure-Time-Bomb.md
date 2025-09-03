@@ -1,9 +1,13 @@
 ---
 title: The High Cost of Sprawl; Ottawa’s Infrastructure Time Bomb
+<<<<<<< HEAD
 layout: post
+=======
+>>>>>>> d2714e7d0df0a2bb01d76ceb0cbe363acd5aa3cd
 date: 2025-07-07 00:00:00 Z
 tags:
 - Letters
+layout: post
 subtitle: To ensure its long-term viability, it is essential that the City align its
   lands-use and infrastructure strategies with financial realities. The City’s financial
   stability depends on whether it is willing to confront the cost of its past choices
