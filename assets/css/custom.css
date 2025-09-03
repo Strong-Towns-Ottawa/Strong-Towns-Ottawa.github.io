@@ -31,10 +31,10 @@ figcaption {
     text-align: center;
 }
 
-/* Custom Styles */
 .navbar {
     background-color: var(--st-blue);
     color: #FFFFFF;
+    border-color: #0C2340 !important;
 }
 
 .hero-container {
