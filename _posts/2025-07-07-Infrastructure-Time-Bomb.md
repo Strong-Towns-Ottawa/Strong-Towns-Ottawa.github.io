@@ -1,9 +1,6 @@
 ---
 title: The High Cost of Sprawl; Ottawa’s Infrastructure Time Bomb
-<<<<<<< HEAD
 layout: post
-=======
->>>>>>> d2714e7d0df0a2bb01d76ceb0cbe363acd5aa3cd
 date: 2025-07-07 00:00:00 Z
 tags:
 - Letters
