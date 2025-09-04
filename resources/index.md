@@ -35,6 +35,9 @@ subtitle: Here you'll find helpful information about the Strong Towns movement a
 - [Not Just Bikes](https://www.youtube.com/c/NotJustBikes)
 - [City Beautiful](https://www.youtube.com/c/CityBeautiful)
 
+## Data
+- [City of Ottawa Property Tax Dataset](https://drive.google.com/drive/folders/1juP1DgqI6rP3W2ozbHzlvsJFLUFxuZXF?usp=sharing)
+
 ## Get Involved
 
 Want to learn more? Check out our [About Us](/about) page for information on how to get involved with Strong Towns Ottawa. 
