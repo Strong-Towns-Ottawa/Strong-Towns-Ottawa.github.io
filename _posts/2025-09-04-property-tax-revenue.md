@@ -3,10 +3,10 @@ title: Property Tax Revenue Analysis and Dataset
 date: 2025-09-04 00:00:00 Z
 tags:
 - Finances
-layout: post
 subtitle: Where does the money come from?
 author: Strong Towns Ottawa
 featured-image: "/assets/img/urban_revenue.png"
+layout: post
 ---
 
 Tax revenue maps typically eport the overall tax levy on a property in dollars. This approach favours large format developments but hides how efficiently it’s generating municipal revenues. Efficiency matters!
@@ -23,9 +23,9 @@ Efficient land use has been a cornerstone principle of StrongTowns and firms lik
 
 ## Ottawa's Revenue Density
 
-The City of Ottawa recently launched an online [property tax lookup tool](https://propertytaxes-taxesfoncieres.ottawa.ca/en){:target="_blank"}. Paired with the list of all city addresses, available through [Open Ottawa](https://open.ottawa.ca/){:target="_blank"}, we were able to scrape most of the 400,000 city addresses and collect tax information for years 2023 and 2024.
+The City of Ottawa recently launched an online [property tax lookup tool](https://propertytaxes-taxesfoncieres.ottawa.ca/en){:target="_blank"}. Paired with the list of all city addresses, available through [Open Ottawa](https://open.ottawa.ca/){:target="_blank"}, we were able to put together most of the 400,000 city addresses and collect tax information for years 2023 and 2024.
 
-The scraped data is surprisingly comprehensive. When all the scraped property taxes are compared to the city’s official [Taxes by Ward 2022-2024](https://open.ottawa.ca/datasets/26c90c66fb8042778cd7e3685365a918_0/explore), the scraped data is 94% accurate. Coverage by [zoning groups](https://ottawa.ca/en/living-ottawa/laws-licences-and-permits/laws/laws-z/zoning-law-no-2008-250/zoning-law-2008-250-consolidation) is also very good with over 97% of Part 6 - Residential, and 84% of Part 10 - Mixed-Use / Commercial properties successfully scrapped.
+The data is surprisingly comprehensive. When all the property taxes are compared to the city’s official [Taxes by Ward 2022-2024](https://open.ottawa.ca/datasets/26c90c66fb8042778cd7e3685365a918_0/explore), the data is 94% accurate. Coverage by [zoning groups](https://ottawa.ca/en/living-ottawa/laws-licences-and-permits/laws/laws-z/zoning-law-no-2008-250/zoning-law-2008-250-consolidation) is also very good with over 97% of Part 6 - Residential, and 84% of Part 10 - Mixed-Use / Commercial properties successfully found.
 
 When we look at the city-wide average revenue density by zoning group we see how wildly efficient Mixed-Use Downtown properties are. At the bottom, we find R1, R2, Arterial Mainstreet and oddly Transit Oriented Development (maybe it just needs more time? We'll look at this in a future post).
 
