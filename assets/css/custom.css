@@ -141,6 +141,9 @@ select {
     line-height: 1.2;
 }
 
+.pagination {
+  margin-bottom: 25px !important;
+}
 /* Desktop/large screens */
 @media (min-width: 1200px) {
     .intro-header .page-heading h1 {
