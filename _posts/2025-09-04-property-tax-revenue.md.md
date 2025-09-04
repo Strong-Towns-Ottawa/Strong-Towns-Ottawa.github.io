@@ -2,12 +2,11 @@
 title: Property Tax Revenue Analysis and Dataset
 date: 2025-09-04 00:00:00 Z
 tags:
-- Property Tax
+- Finances
 layout: post
 subtitle: Where does the money come from?
 author: Strong Towns Ottawa
 featured-image: "/assets/img/urban_revenue.png"
-
 ---
 
 Tax revenue maps typically eport the overall tax levy on a property in dollars. This approach favours large format developments but hides how efficiently it’s generating municipal revenues. Efficiency matters!
