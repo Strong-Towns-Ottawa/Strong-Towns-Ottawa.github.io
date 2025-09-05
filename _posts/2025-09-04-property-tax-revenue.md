@@ -4,7 +4,7 @@ date: 2025-09-04 00:00:00 Z
 tags:
 - Finances
 subtitle: Where does the money come from?
-author: Strong Towns Ottawa
+author: Patrick Bickerton
 featured-image: "/assets/img/urban_revenue.png"
 layout: post
 ---
