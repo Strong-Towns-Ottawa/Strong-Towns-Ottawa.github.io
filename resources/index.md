@@ -1,8 +1,8 @@
 ---
 title: Resources
-layout: page
 subtitle: Here you'll find helpful information about the Strong Towns movement and
   how it applies to Ottawa.
+layout: page
 ---
 
 ## Strong Towns Core Concepts
@@ -14,14 +14,10 @@ subtitle: Here you'll find helpful information about the Strong Towns movement a
 ## Local Resources
 
 ### Ottawa-Specific Information
-- [City of Ottawa Official Plan](https://ottawa.ca/en/city-hall/planning-development/official-plan)
-- [Ottawa Transportation Master Plan](https://ottawa.ca/en/city-hall/planning-development/transportation-master-plan)
-- [Ottawa Cycling Plan](https://ottawa.ca/en/city-hall/planning-development/cycling-plan)
-
-### Community Groups
-- [Ottawa Bicycle Lanes Project](https://www.ottawabikelanes.ca)
-- [Ottawa Transit Riders](https://www.octranspo.com)
-- [Ottawa Community Associations](https://www.ottawa.ca/en/city-hall/your-city-government/community-associations)
+- [City of Ottawa Official Plan]https://ottawa.ca/en/planning-development-and-construction/official-plan-and-master-plans/official-plan)
+- [Financial Health Indicators for Ottawa](https://docs.google.com/spreadsheets/d/1J6CH5JYFZsl4Zngk-pRwILsuG9hy4xF4afLwMWlhL4M/edit?gid=690082529#gid=690082529)
+- [2025 Asset Management Plans Report](https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=241889)
+- [Long Range Financial Plan VI - Water, Wastewater and Stormwater Report](https://pub-ottawa.escribemeetings.com/filestream.ashx?DocumentId=243503)
 
 ## Educational Resources
 
