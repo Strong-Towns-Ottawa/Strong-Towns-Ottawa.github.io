@@ -45,11 +45,10 @@ head-extra: |
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/custom.css">
 navbar-links:
-  Highlights: /#Highlights
+  Highlights: "/#Highlights"
   Articles: All_Posts
-  Events: /#Events
-  #Resources: resources  
-  About Us: about  
+  Events: "/#Events"
+  About Us: about
 social-network-links:
   email: info@strongtownsottawa.ca
   github: Strong-Towns-Ottawa
