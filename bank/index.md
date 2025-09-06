@@ -47,6 +47,66 @@ subtitle: Transforming Bank Street into an efficient, people-first corridor thro
       min-width: 100%;
     }
   }
+  .container, .problem-section, .solution-card, .bank-street-options,
+  .option-card, .parking-stat, .row > div {
+    padding-left: 15px;
+    padding-right: 10px;
+  }
+
+  .row > div, .problem-section, .solution-card, .option-card {
+    box-sizing: border-box;
+  }
+
+  .row > div[class*="col-"] {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      padding-left: 15px;
+      padding-right: 15px;
+      width: 100%;
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+    .problem-section, .solution-card, .bank-street-options,
+    .option-card, .parking-stat {
+      margin-left: 0;
+      margin-right: 0;
+      padding: 1.5rem 15px;
+    }
+    .row > div[class*="col-"] {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    body {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .row > div p, .row > div ul, .row > div ol {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  .campaign-header-img {
+    border-radius: 8px;
+    margin: 2rem 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+  
+  .problem-section {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+  }
 </style>
 <figure class="text-center">
   <img src="/assets/img/bank_street_traffic.jpg"
@@ -81,7 +141,7 @@ subtitle: Transforming Bank Street into an efficient, people-first corridor thro
    
   <h3>Why Dedicated 24/7 Bus Lanes?</h3>
   
-  <ul>
+  <ul style="padding-left: 20px; line-height: 1.5;">
     <li>Improved travel time for buses that are often stuck behind single occupancy vehicles, leading to better trust in the transportation system and lower operating costs as a result of less time wasted sitting in traffic</li>
     <li><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Passenger_Capacity_of_different_Transport_Modes.png/1280px-Passenger_Capacity_of_different_Transport_Modes.png" target="_blank" rel="noopener noreferrer">Improved throughput</a> as bus lanes can carry many more people per hour than car lanes</li>
     <li>Bus lanes can also be used as a bike lane, and reduces <a href="https://www2.gov.bc.ca/gov/content/transportation/driving-and-cycling/road-safety-rules-and-consequences/dooring" target="_blank" rel="noopener noreferrer">"dooring"</a> instances for bikers</li>
@@ -122,6 +182,7 @@ subtitle: Transforming Bank Street into an efficient, people-first corridor thro
   .parking-videos {
     margin: 2rem 0;
   }
+
   .flickr-embed-sm {
     border-radius: 8px;
     overflow: hidden;
@@ -217,10 +278,9 @@ subtitle: Transforming Bank Street into an efficient, people-first corridor thro
   </div>
 </div>
 
-<h3 style="font-size: 1.8rem; font-weight: normal">Given that there are plenty of underused parking spots available in the surrounding area, it makes sense to move the parking to those other locations to free up such vital space in an extremely important corridor for our city.</h3>
-
 <div class="row">
 <div class="col-md-6">
+<h3 style="font-size: 1.8rem; font-weight: normal;">Given that there are plenty of underused parking spots available in the surrounding area, it makes sense to move the parking to those other locations to free up such vital space in an extremely important corridor for our city.</h3>
 <p>Businesses also are not typically benefiting from having a parking spot right in front of their store, as they can typically only fit one car per business. Many businesses will have many more people than that at a time, many studies show businesses over-estimate how many of their customers arrived by car. Given how little on-street parking is available per business it’s also safe to assume that you already are not able to park right in front of the business that you’re visiting with the current on-street parking situation anyways, so not much will change for your average shopper.</p>
 </div>
 <div class="col-md-6">
@@ -228,7 +288,7 @@ subtitle: Transforming Bank Street into an efficient, people-first corridor thro
 <p>At a time when our ridership numbers are falling due to service cuts we need to take the easy wins that help instill confidence in our system, bus lanes are a simple step in this direction that have been shown time and time again to help improve travel times. This would give people a choice in how they get around their city. They could choose to leave their car at home and take public transit as an option, alleviating congestion from the rest of the people who might still prefer to drive.</p>
 </div>
 
-<h2>What the City Is Proposing?</h2>
+<h2 class="text-center mb-4">What the City Is Proposing?</h2>
 <div class="bank-street-options">
   <!-- Row 1: Option Images -->
   <div class="row option-images">
@@ -377,10 +437,10 @@ subtitle: Transforming Bank Street into an efficient, people-first corridor thro
   }
 </style>
 
-<h3 style="font-size: 1.8rem; font-weight: normal">In our opinion, the city has presented the public with options that have no ambition.</h3>
-
 <div class="row">
 <div class="col-md-6">
+<h3 style="font-size: 1.8rem; font-weight: normal">In our opinion, the city has presented the public with options that have no ambition.</h3>
+
 <p>None of the options are willing to move all of the parking off-street to the alternative options permanently. Trying to fit everything into a narrow road like Bank is what got us into this mess in the first place. Given that there are plenty of alternative parking options, and that we cannot destroy all of the businesses to widen the road, we have to prioritize the most important aspects of the street.
 
 </p>
@@ -389,7 +449,7 @@ subtitle: Transforming Bank Street into an efficient, people-first corridor thro
 <p>Widening sidewalks to provide a pleasant pedestrian experience would be at the top of the list given how narrow it is and how important this area is for shopping. Acknowledging how important of a N-S road Bank is, 24/7 transit lanes allow for more throughput while prioritizing pedestrian safety by encouraging <a href="https://injuryfacts.nsc.org/home-and-community/safety-topics/deaths-by-transportation-mode/" target="_blank" rel="noopener noreferrer">safer</a> modes of transportation.</p>
 </div>
 
-<h2>Our Short Term Proposal</h2>
+<h2 class="text-center mb-4">Our Short Term Proposal</h2>
 
 <figure class="text-center">
   <img src="/assets/img/247BusBikeLanes-1536x722.png"
@@ -407,8 +467,7 @@ subtitle: Transforming Bank Street into an efficient, people-first corridor thro
 <p>We believe that perfect is the enemy of good here, and this solution is a quick and effective one. Investment is minimal, and gives us the benefits today while setting us up for the future.</p>
 </div>
 
-
-<h2>Long Term Vision</h2>
+<h2 class="text-center mb-4">Long Term Vision</h2>
 
 <figure class="text-center">
   <img src="/assets/img/grassyTramAmsterdam.jpg"
@@ -424,9 +483,9 @@ subtitle: Transforming Bank Street into an efficient, people-first corridor thro
 <p>Wider sidewalks would also allow for more greenspace in an area that is severely lacking it. Greenspace is important for many reasons, road safety, reduced heat, shading, beauty, and so much more. Looking for inspiration from other beautiful pedestrian promenades and shopping districts a grassy-tram would help add greenspace and increase road capacity and safety!</p>
 </div>
 
-<div style="background-color: #0C2340; color: white; padding: 15px; border-radius: 5px;">
+<div style="background-color: #0C2340; color: white; padding: 20px; border-radius: 8px;">
   <h2 id="petition">Here's How You Can Help!</h2>
-  <ul>
+  <ul style="padding-left: 20px; padding-right: 20px; line-height: 1.5;">
     <li><a href="https://forms.gle/yG5VakuBtyTTq7dM8" target="_blank" rel="noopener noreferrer" style="color: #7FB2F0;">Sign this petition</a> which we are using to advocate to the city</li>
     <li>E-mail your thoughts to the project manager, Lise Guevremont, at lise.guevremont@ottawa.ca</li>
     <li>Stay updated on the project <a href="https://engage.ottawa.ca/bank-street-active-transportation-and-transit-priority-feasibility-study" target="_blank" rel="noopener noreferrer" style="color: #7FB2F0;">here</a></li>
@@ -439,7 +498,7 @@ subtitle: Transforming Bank Street into an efficient, people-first corridor thro
 <div style="background-color: #FFE6C1; padding: 20px; border-radius: 8px; font-family: Arial, sans-serif; color: #333;">
   <h2 style="margin-top: 0; color: #222;">Resources</h2>
 
-  <ul style="padding-left: 20px; line-height: 1.5;">
+  <ul style="padding-left: 20px; padding-right: 20px; line-height: 1.5;">
     <li>Our <a href="https://docs.google.com/document/d/1VtKebtCb-w--_AZ86-HzjxewOwhuYZswEOgeTe0prMc/edit" target="_blank" rel="noopener noreferrer" style="color: #0066cc; text-decoration: underline;">fact sheet</a> regarding the study and area</li>
     <li><a href="https://ottawacitizen.com/news/local-news/parking-ban-bank-street-glebe" target="_blank" rel="noopener noreferrer" style="color: #0066cc; text-decoration: underline;">Ottawa Citizen Article</a> covering the protest</li>
     <li>If you're interested in planning your own parking day event refer to <a href="https://www.myparkingday.org/" target="_blank" rel="noopener noreferrer" style="color: #0066cc; text-decoration: underline;">My Parking Day</a> which has information on how to do so</li>
@@ -475,6 +534,7 @@ subtitle: Transforming Bank Street into an efficient, people-first corridor thro
 <div style="background-color: #cfcabe; padding: 20px 4%; border-radius: 8px; font-family: Arial, sans-serif; color: #333;margin: 0 auto;max-width: 100%;box-sizing: border-box;">
   <h2 style="margin-top: 0; color: #222;">Data From The City</h2>
 
+  <ul style="padding-left: 20px; padding-right: 20px; line-height: 1.5;">
   <p>As of Nov 12, 2024, the city released a report with the data collected from the survey they did. It can be viewed <a href="/assets/pdf/Bank_Street_As_We_Heard_it_Report_Survey.pdf" style="color: #0066cc; text-decoration: underline;" target="_blank">here</a>. They received about 2800 results from people.</p>
 
   <p>We received the full data set from the city and have broken it down into an easy to digest infographic for you. You can view that <a href="/assets/img/People_have_spoken.png" style="color: #0066cc; text-decoration: underline;" target="_blank">here</a>. It is clear based on the nearly 3000 responses that people are eager for better public transportation in the area.</p>
@@ -494,4 +554,3 @@ subtitle: Transforming Bank Street into an efficient, people-first corridor thro
       </ul>
     </li>
   </ul>
-</div>
