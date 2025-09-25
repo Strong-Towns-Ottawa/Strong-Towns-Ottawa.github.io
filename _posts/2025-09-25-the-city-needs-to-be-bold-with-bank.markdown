@@ -6,6 +6,7 @@ tags:
 author: Marko Miljusevic
 subtitle: What is "balance"?
 featured-image: "/uploads/250528%20Mayfair%20Bus%20Photo%20Smaller.jpg"
+layout: post
 ---
 
 ## Last Night's Open House
