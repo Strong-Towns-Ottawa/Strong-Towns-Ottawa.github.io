@@ -97,4 +97,4 @@ Our city should have done studies to see how much transit would have been improv
 
 The best part of all of this, is it would only require us to move a tiny amount of the overall parking in the area off of the street, and as we've already seen, the rest of the parking capacity is easily able to soak all of that up, and more.
 
-We strongly urge the City of Ottawa to be BOLD, and if it somehow turns out that we're completely wrong on this (we're almost surely not) then we should absolutely revisit this and make adjustments accordingly! That's the Strong Towns way. Small, incremental bets that build up over time to create the beautiful city that we all want to live in.
+We strongly urge the City of Ottawa to be **BOLD**, and if it somehow turns out that we're completely wrong on this (we're almost surely not) then we should absolutely revisit this and make adjustments accordingly! That's the Strong Towns way. Small, incremental bets that build up over time to create the beautiful city that we all want to live in.
