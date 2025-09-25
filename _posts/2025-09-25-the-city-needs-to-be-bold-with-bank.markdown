@@ -9,6 +9,8 @@ featured-image: "/uploads/250528%20Mayfair%20Bus%20Photo%20Smaller.jpg"
 layout: post
 ---
 
+![250528 Mayfair Bus Photo Smaller.jpg](/uploads/250528%20Mayfair%20Bus%20Photo%20Smaller.jpg)
+
 ## Last Night's Open House
 
 Last night the City of Ottawa held an open house for the [Bank Street Study](https://engage.ottawa.ca/bank-street-active-transportation-and-transit-priority-feasibility-study) that looked at improving transit, active transportation, and accessibility to Bank Street, in the section between Lansdowne and the 417. To anyone who's familiar with [our work](https://strongtownsottawa.ca/bank/) on this, you'll know we want this area to be made into a wonderful area for shoppers, residents, commuters, and businesses.
@@ -61,7 +63,7 @@ A quick note about the above 90%, you'll find that this almost only ever occurs 
 
 One thing to keep in mind is the 2nd Avenue garage. It is a garage that fits as many parking spots as the the whole section of Bank Street from Lansdowne to the 417. Yet according to city data, and our own experience every time we are out there at some of the busiest times, it sits almost completely un-used. If parking was so in demand, surely this parking garage would be much more full than the data tells us it is, right?
 
-Well... the data seems to tell us a different story. As you can see below, using the same colouring scheme as the on-street parking, we can quite shockingly see that there's a LOT of red here. There is almost literally never a time where the parking is being used over 50% in the 2nd avenue garage, yet it's less than a 10 minute walk to almost the whole section of Bank Street, almost perfectly situated right in the middle.  
+Well... the data seems to tell us a different story. As you can see below, using the same colouring scheme as the on-street parking, we can quite shockingly see that there's a LOT of red here. There is almost literally never a time where the parking is being used over 50% in the 2nd avenue garage, yet it's less than a 10 minute walk to almost the whole section of Bank Street, almost perfectly situated right in the middle.
 
 Also important to keep in mind is the below is only publicly available parking, but there are also plenty of businesses that have parking of their own. Kettleman's, Popeye's, McDonald's, etc... all have their own parking lots, which means there's even more available parking on the street that gets missed here.
 
@@ -81,9 +83,9 @@ According to city data of close to 3000 responses the vast majority of people co
 
 ## So where does this leave us?
 
-Currently the project is clearly not ambitious enough. It seeks to find "balance", but the "balance" is mostly just keeping the status quo. The bus lanes will only be swapping out what were previously regular travel lanes in each direction during peak hours. 
+Currently the project is clearly not ambitious enough. It seeks to find "balance", but the "balance" is mostly just keeping the status quo. The bus lanes will only be swapping out what were previously regular travel lanes in each direction during peak hours.
 
-The numbers that the city quotes as "improvements" to transit might not jump out at you initially (they quote about 1 minute improvements), but the reason for this is because they only compare the improvements to how the transit currently runs when there are 2 travel lanes in the peak direction. What this completely misses is that much of the delays that the buses see in these areas is not during the times when the lane they are loading and unloading passengers on is a travel lane, but instead during the rest of the time when the outer lanes are parking. 
+The numbers that the city quotes as "improvements" to transit might not jump out at you initially (they quote about 1 minute improvements), but the reason for this is because they only compare the improvements to how the transit currently runs when there are 2 travel lanes in the peak direction. What this completely misses is that much of the delays that the buses see in these areas is not during the times when the lane they are loading and unloading passengers on is a travel lane, but instead during the rest of the time when the outer lanes are parking.
 
 Each time a bus has to pull in and out of a stop is adding significant delays as it tries to merge back into heavy traffic. With a corridor as busy as this, with so many cars, pedestrians, cyclists, etc... that leads to much more stress and confusion for bus operators, who already have a stressful enough job. This also leads to an extremely complicated, delayed, and potentially dangerous, experience for everyone else on the road, including drivers.
 
@@ -91,8 +93,8 @@ What this means is that during the times when we would hope to see the most sign
 
 Our city should have done studies to see how much transit would have been improved in cases where parking was removed. The answer would have almost surely been substantially. We need to be bolder than this, the busiest bus corridor in our city, with 2 of the busiest buses in our whole network, deserve better than this. If we cannot take even the busiest bus corridor in the city and make improvements to it, what hope does our broader transit network have? Bus lanes are a quick, easy, and proven solution to making transit better.
 
-24/7 bus lanes would make this street more straightforward by reducing signage, it would make it more efficient for drivers and transit users, it would help cyclists have a lane where they don't have to worry about dooring, it would help transit users get to where they need to go quickly and efficiently, businesses would benefit by being more accessible to people, pedestrians would have better visibility on the street with no parked cars blocking their sight lines, it would cut down on parallel parking causing congestion, and SO MUCH MORE. 
+24/7 bus lanes would make this street more straightforward by reducing signage, it would make it more efficient for drivers and transit users, it would help cyclists have a lane where they don't have to worry about dooring, it would help transit users get to where they need to go quickly and efficiently, businesses would benefit by being more accessible to people, pedestrians would have better visibility on the street with no parked cars blocking their sight lines, it would cut down on parallel parking causing congestion, and SO MUCH MORE.
 
-The best part of all of this, is it would only require us to move a tiny amount of the overall parking in the area off of the street, and as we've already seen, the rest of the parking capacity is easily able to soak all of that up, and more. 
+The best part of all of this, is it would only require us to move a tiny amount of the overall parking in the area off of the street, and as we've already seen, the rest of the parking capacity is easily able to soak all of that up, and more.
 
 We strongly urge the City of Ottawa to be BOLD, and if it somehow turns out that we're completely wrong on this (we're almost surely not) then we should absolutely revisit this and make adjustments accordingly! That's the Strong Towns way. Small, incremental bets that build up over time to create the beautiful city that we all want to live in.
