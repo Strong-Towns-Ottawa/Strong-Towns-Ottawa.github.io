@@ -35,7 +35,7 @@ All that we unfortunately heard back was about finding a "balance". But who are 
 
 ## How "vital" is this on-street parking?
 
-As we can see from the city's data below, the on-street parking is extremely under-utilized on Bank. Generally best practices for parking usage is that you want it to not be sitting mostly empty, otherwise that space could be much better used for other needs (such as improving transit). ideally you want your parking to be used with \~70-85% so that on each block you'll typically have 1 or 2 spaces available for anyone to use that needs it. You also don't want to have your parking used so much that it is impossible to find a spot, as that incentivizes people to  circle the block over and over to find parking. As you can see, the on-street parking on Bank rarely if ever gets close to that sweet spot, and is very often sitting closer to below 50%, or above 90%, a.k.a. being severely misused.
+As we can see from the city's data below, the on-street parking is extremely under-utilized on Bank. Generally best practices for parking usage is that you want it to not be sitting mostly empty, otherwise that space could be much better used for other needs (such as improving transit). Ideally you want your parking to be used with \~70-85% so that on each block you'll typically have 1 or 2 spaces available for anyone to use that needs it. You also don't want to have your parking used so much that it is impossible to find a spot, as that incentivizes people to  circle the block over and over to find parking. As you can see, the on-street parking on Bank rarely if ever gets close to that sweet spot, and is very often sitting closer to below 50%, or above 90%, a.k.a. being severely misused.
 
 ### Bank On-Street Parking North
 
