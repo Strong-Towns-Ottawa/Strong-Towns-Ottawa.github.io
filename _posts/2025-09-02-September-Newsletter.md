@@ -7,6 +7,7 @@ layout: post
 subtitle: The Budget Is Brewing, Let's Stir The Pot
 author: Etienne Lefebvre
 featured-image: "/assets/img/newsletter_logo.png"
+featured: true
 ---
 
 <iframe 

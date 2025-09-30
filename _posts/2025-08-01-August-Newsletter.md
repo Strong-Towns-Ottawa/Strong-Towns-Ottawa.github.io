@@ -7,6 +7,7 @@ layout: post
 subtitle: Welcome to the Strong Towns Ottawa inaugural newsletter!
 author: Etienne Lefebvre
 featured-image: "/assets/img/newsletter_logo.png"
+featured: true
 ---
 
 <iframe 

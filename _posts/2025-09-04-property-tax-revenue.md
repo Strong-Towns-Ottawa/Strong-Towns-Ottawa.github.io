@@ -7,6 +7,7 @@ subtitle: Where does the money come from?
 author: Patrick Bickerton
 featured-image: "/assets/img/urban_revenue.png"
 layout: post
+featured: true
 ---
 
 Tax revenue maps typically report the overall tax levy on a property in dollars. This approach favours large format developments but hides how efficiently it’s generating municipal revenues. Efficiency matters!

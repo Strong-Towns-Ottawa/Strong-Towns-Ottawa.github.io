@@ -6,6 +6,7 @@ tags:
 layout: post
 subtitle: Join us on Friday, September 19 from 11:00 AM – 7:00 PM
 featured-image: "/assets/img/Parking_day3.png"
+featured: true
 ---
 
 -------------

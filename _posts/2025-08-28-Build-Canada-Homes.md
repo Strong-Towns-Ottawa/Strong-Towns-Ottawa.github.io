@@ -7,6 +7,7 @@ layout: post
 featured-image: "/assets/img/uncommon.jpg"
 subtitle: We urge the federal government to abandon the sprawl-based model that has
   left our cities with a plethora of infrastructure time bombs.
+featured: true
 ---
 
 <div style="text-align: center; margin: 20px 0;">
