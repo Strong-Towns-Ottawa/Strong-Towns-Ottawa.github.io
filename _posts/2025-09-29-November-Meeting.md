@@ -3,7 +3,7 @@ title: November Monthly Meeting
 date: 2025-09-29 00:00:00 Z
 author: Etienne Lefebvre
 featured-image: "/assets/img/november_meeting.png"
-featured: false  # Won't appear on homepage
+featured: false
 layout: post
 ---
 
