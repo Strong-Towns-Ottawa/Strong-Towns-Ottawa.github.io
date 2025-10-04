@@ -44,8 +44,6 @@ navbar-text-col: "#FFFFFF"
 head-extra: |
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/custom.css">
-  <script data-goatcounter="https://strongtownsottawa.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
 navbar-links:
   Highlights: "/#Highlights"
   Articles: All_Posts
