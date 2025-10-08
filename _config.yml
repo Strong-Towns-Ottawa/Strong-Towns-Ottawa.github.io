@@ -69,9 +69,3 @@ exclude:
 - vendor
 - ".git"
 - ".gitignore"
-- name: Update CA certificates
-  run: |
-    sudo apt-get update
-    sudo apt-get install -y ca-certificates
-- name: Set CA Cert Path
-  run: echo "SSL_CERT_FILE=$(openssl version -d | awk -F '\"' '{print $2}')/cert.pem" >> $GITHUB_ENV
