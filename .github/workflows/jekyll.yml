@@ -23,12 +23,7 @@ jobs:
         with:
           ruby-version: '3.3' #instead of 3.1
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-      - name: Update RubyGems and Bundler
-        run: |
-          gem update --system
-          gem install bundler
-          bundle update
-
+  
       # Use GitHub Actions' cache to cache dependencies on servers
       - uses: actions/cache@v4
         with:
