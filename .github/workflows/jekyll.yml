@@ -14,9 +14,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
           # Ruby setup
+      - name: Install CA certificates and update system
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ca-certificates libssl-dev
+          sudo update-ca-certificates --fresh    
       - uses: ruby/setup-ruby@v1
         with:
+          ruby-version: '3.1'
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+      - name: Update RubyGems and Bundler
+        run: |
+          gem update --system
+          gem install bundler
+          bundle update
 
       # Use GitHub Actions' cache to cache dependencies on servers
       - uses: actions/cache@v4
@@ -31,6 +42,9 @@ jobs:
       # Use GitHub Deploy Action to build and deploy to Github
       # For latest version: `jeffreytse/jekyll-deploy-action@master`
       - uses: jeffreytse/jekyll-deploy-action@v0.6.0
+        env:
+          SSL_CERT_FILE: /etc/ssl/certs/ca-certificates.crt
+          JEKYLL_SSL_NO_VERIFY: 'true'
         with:
           provider: 'github'         # Default is github
           token: ${{ secrets.GITHUB_TOKEN }} # It's your Personal Access Token(PAT)
