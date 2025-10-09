@@ -13,14 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Install CA certificates
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y ca-certificates
-      - name: Set SSL_CERT_FILE
-        run: echo "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt" >> $GITHUB_ENV    
-
-      # Ruby setup
+          # Ruby setup
       - uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
