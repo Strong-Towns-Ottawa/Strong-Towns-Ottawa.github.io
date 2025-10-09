@@ -21,49 +21,20 @@ jobs:
         ruby-version: '3.3'
         bundler-cache: true
         
-    - name: Debug - Check current directory and files
+    - name: Build site
       run: |
-        echo "Current directory:"
-        pwd
-        echo "Files in current directory:"
-        ls -la
-        echo "Gemfile contents:"
-        cat Gemfile || echo "No Gemfile"
-        echo "_config.yml exists:"
-        ls -la _config.yml || echo "No _config.yml"
-        
-    - name: Build site with SSL workaround
-      run: |
-        # Multiple SSL workarounds
         export JEKYLL_SSL_NO_VERIFY=true
         export SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
-        export SSL_CERT_DIR=/etc/ssl/certs
-        # Try to build with verbose output
-        bundle exec jekyll build --verbose --trace
-      env:
-        JEKYLL_SSL_NO_VERIFY: true
+        bundle exec jekyll build
         
-    - name: Check if build succeeded
-      id: build-check
+    - name: Verify _site contents
       run: |
-        if [ -d "_site" ]; then
-          echo "Build successful - _site directory exists"
-          echo "::set-output name=build_success::true"
-        else
-          echo "Build failed - no _site directory"
-          echo "::set-output name=build_success::false"
-        fi
-        
-    - name: Debug - Show build failure details
-      if: steps.build-check.outputs.build_success == 'false'
-      run: |
-        echo "Trying to diagnose build failure..."
-        # Try to run Jekyll with different options
-        bundle exec jekyll doctor || echo "Jekyll doctor failed"
-        bundle exec jekyll --version || echo "Cannot get Jekyll version"
+        echo "_site directory contents:"
+        ls -la _site/
+        echo "First few files in _site:"
+        find _site -type f | head -20
         
     - name: Deploy to GitHub Pages
-      if: steps.build-check.outputs.build_success == 'true'
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
