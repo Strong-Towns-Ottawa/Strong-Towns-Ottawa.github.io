@@ -12,13 +12,7 @@ jobs:
       pages: write
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-          # Ruby setup
-      - name: Install CA certificates and update system
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y ca-certificates libssl-dev
-          sudo update-ca-certificates --fresh    
+      - uses: actions/checkout@v4  # Ruby setup 
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3' #instead of 3.1
@@ -37,9 +31,6 @@ jobs:
       # Use GitHub Deploy Action to build and deploy to Github
       # For latest version: `jeffreytse/jekyll-deploy-action@master`
       - uses: jeffreytse/jekyll-deploy-action@v0.6.0
-        env:
-          SSL_CERT_FILE: /etc/ssl/certs/ca-certificates.crt
-          JEKYLL_SSL_NO_VERIFY: 'true'
         with:
           provider: 'github'         # Default is github
           token: ${{ secrets.GITHUB_TOKEN }} # It's your Personal Access Token(PAT)
@@ -53,4 +44,8 @@ jobs:
           bundler_ver: ''            # Default is compatible bundler version (~>2.5.0)
           cname: ''                  # Default is to not use a cname
           actor: 'github-actions[bot]'                  # Default is the GITHUB_ACTOR
-          pre_build_commands: ''     # Installing additional dependencies (Arch Linux)
+          pre_build_commands: |
+            pacman -Sy --noconfirm ca-certificates ca-certificates-utils openssl
+            update-ca-trust
+            export SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
+            export JEKYLL_SSL_NO_VERIFY=true
