@@ -1,14 +1,15 @@
 ---
 title: Our Open Letter on Landsdowne 2.0
 date: 2025-10-28 00:00:00 Z
+published: false
 tags:
 - Newsletter
 layout: post
-subtitle: Our concerns about the project's lack of transit accessibility, clarity, and affordability.
+subtitle: Our concerns about the project's lack of transit accessibility, clarity,
+  and affordability.
 author: Strong Towns Ottawa
 featured-image: "/assets/img/newsletter_logo.png"
 featured: true
-published: false
 ---
 
 Strong Towns Ottawa has sent an open letter to all Councillors with our concerns regarding Lansdowne.
