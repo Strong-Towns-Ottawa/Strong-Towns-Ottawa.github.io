@@ -2,7 +2,7 @@
 title: Our Open Letter on Lansdowne 2.0
 date: 2025-10-28 20:00:00 Z
 tags:
-- Finances
+- Letters
 subtitle: Our concerns about the project's lack of transit accessibility, clarity,
   and affordability.
 author: Strong Towns Ottawa
