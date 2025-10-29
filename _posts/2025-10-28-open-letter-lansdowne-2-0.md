@@ -13,8 +13,6 @@ layout: post
 
 Strong Towns Ottawa has sent an open letter to all Councillors with our concerns regarding Lansdowne.
 
-We are not against improvements, but we do have concerns about transit accessibility, clarity surrounding the project, and affordability.
-
 Read our letter below.
 
 ***
