@@ -5,7 +5,9 @@ tags:
 - Letters
 layout: post
 featured-image: "/assets/img/uncommon.jpg"
-subtitle: We urge the city to reconsider this project. The current proposal at Tewin goes against all financial, housing, and environmental evidence showing that low density housing is the worst for future city developments.
+subtitle: We urge the city to reconsider this project. The current proposal at Tewin
+  goes against all financial, housing, and environmental evidence showing that low
+  density housing is the worst for future city developments.
 featured: true
 ---
 
