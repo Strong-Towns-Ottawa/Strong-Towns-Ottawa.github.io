@@ -6,7 +6,6 @@ tags:
 layout: post
 featured-image: "/assets/img/speed_camera.png"
 subtitle: We urge the province to reconsider an end to speed enforcement with cameras and allow technology to do its work to protect the lives of Ontarians. 
-
 featured: true
 ---
 
