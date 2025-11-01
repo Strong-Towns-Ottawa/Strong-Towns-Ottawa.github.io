@@ -5,9 +5,8 @@ tags:
 - Letters
 layout: post
 featured-image: "/assets/img/uncommon.jpg"
-subtitle: We urge the city to reconsider this project. The current proposal at Tewin
-  goes against all financial, housing, and environmental evidence showing that low
-  density housing is the worst for future city developments.
+subtitle: We urge the province to reconsider an end to speed enforcement with cameras and allow technology to do its work to protect the lives of Ontarians. This is about safety for every Ontario resident, not a cash grab.
+
 featured: true
 ---
 
@@ -31,3 +30,16 @@ Therefore we ask you to reconsider an end to speed enforcement with cameras and 
 Respectfully,
 
 Strong Towns Ottawa
+
+
+<figure class="text-center">
+<img src="/assets/img/speed_camera.png">
+</figure>
+
+<figure class="text-center">
+<img src="/assets/img/speed_camera_2.png">
+</figure>
+
+<figure class="text-center">
+<img src="/assets/img/speed_camera_3.png">
+</figure>
