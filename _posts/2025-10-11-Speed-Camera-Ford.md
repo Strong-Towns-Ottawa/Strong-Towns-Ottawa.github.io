@@ -4,8 +4,8 @@ date: 2025-10-22 00:00:00 Z
 tags:
 - Letters
 layout: post
-featured-image: "/assets/img/uncommon.jpg"
-subtitle: We urge the province to reconsider an end to speed enforcement with cameras and allow technology to do its work to protect the lives of Ontarians. This is about safety for every Ontario resident, not a cash grab.
+featured-image: "/assets/img/speed_camera.png"
+subtitle: We urge the province to reconsider an end to speed enforcement with cameras and allow technology to do its work to protect the lives of Ontarians. 
 
 featured: true
 ---
