@@ -146,6 +146,14 @@
 }, 
  
 { 
+"title"    : "Visualizations", 
+"desc"     : "Visualizations", 
+"category" : "page", 
+"url"      : "/Visualizations/", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
 "title"    : "The High Cost of Sprawl; Ottawa’s Infrastructure Time Bomb", 
 "desc"     : "The High Cost of Sprawl; Ottawa’s Infrastructure Time Bomb", 
 "category" : "page", 
