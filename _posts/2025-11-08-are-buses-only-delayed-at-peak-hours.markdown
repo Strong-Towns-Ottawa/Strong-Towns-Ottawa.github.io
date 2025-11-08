@@ -56,7 +56,7 @@ This is the beauty behind the 24/7 bus lanes, and why trying to find some "balan
 
 ### How do we get 24/7 bus lanes done?
 
-If you have a chance, please contact your [local Councillor](https://ottawa.ca/en/city-hall/mayor-and-city-councillors), [the project team](https://engage.ottawa.ca/bank-street-active-transportation-and-transit-priority-feasibility-study), link them this, or any of the other resources we have on this topic such as our [Bank page](https://strongtownsottawa.ca/bank/) or the [summary I wrote of the open house](https://strongtownsottawa.ca/2025/09/25/the-city-needs-to-be-bold-with-bank.html) and let them know you want more from the city!
+If you have a chance, please contact your [local Councillor](https://ottawa.ca/en/city-hall/mayor-and-city-councillors), [the project team](https://engage.ottawa.ca/bank-street-active-transportation-and-transit-priority-feasibility-study), let them know you want more from the city, and feel free to link them this, or any of the other resources we have on this topic such as our [Bank page](https://strongtownsottawa.ca/bank/) or the [summary I wrote of the open house](https://strongtownsottawa.ca/2025/09/25/the-city-needs-to-be-bold-with-bank.html), or just use any of the data/or graphs from here!
 
 We strongly urge all Councillors and the city to push for fully dedicated bus lanes instead of parking lanes. 
 
