@@ -50,6 +50,12 @@ The very simple answer is that during the weekdays, those "peak-hours" are actua
 
 The thing that really delays our extremely important buses, and the **thousands of people they move every day**, are the couple of parked cars in the outer lanes. As soon as just a single car is occupying that outer lane, the bus now has to pull in, and out, of that lane every single time it has to drop-off and pick up passengers. Add up the multiple stops in just this section of Bank alone, and that leads to a LOT of delays.
 
+### What does Lansdowne 2.0 mean for Bank?
+
+Over and over during the discussions about Lansdowne 2.0, there was a very clear issue that kept getting raised. Access to Lansdowne is extremely lackluster and needs to be improved for any chance of success for the project. Polling was done around the project, and responders identified improving transportation to and from Lansdowne as you can see below. 24/7 bus lanes are one of the only ways we could improve transportation access to Lansdowne.
+
+![nanosPollPrioritiesForLansdowne2RedCircle.png](/uploads/nanosPollPrioritiesForLansdowne2RedCircle.png)
+
 ### So what's the solution?
 
 This is the beauty behind the 24/7 bus lanes, and why trying to find some "balance" between parking, of often single-occupancy, vehicles and **2 of the 3 busiest buses in our city**, buses which move thousands of people every single day, is going to lead to an extremely underwhelming change based on current proposals. It's often best to just keep it as simple as possible, paint the lanes red, and let those beautiful buses ride!
