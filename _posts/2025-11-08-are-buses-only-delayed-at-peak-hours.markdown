@@ -42,7 +42,7 @@ Just to be clear, this is still terrible and absolutely needs to be addressed, w
 
 ![busesOnBankDelaysDuringTheWeekend.png](/uploads/busesOnBankDelaysDuringTheWeekend.png)
 
-### Why is the delay so much worse in the middle of the day?
+### Why are the delays so much worse in the middle of the day?
 
 One might think that the delay shouldn't be too bad during weekdays outside of working hours, right? Everyone is already at work, so why are the buses being delayed? There are fewer cars on the street, shouldn't that be great for buses?
 
