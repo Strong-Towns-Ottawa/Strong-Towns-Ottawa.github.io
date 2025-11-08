@@ -52,7 +52,7 @@ The thing that really delays our extremely important buses, and the **thousands 
 
 ### So what's the solution?
 
-This is the beauty behind the 24/7 bus lanes, and why trying to find some "balance" between parking, of often single-occupancy, vehicles and **2 of the 3 busiest buses in our city**, buses which move thousands of people every single day, is going to lead to an extremely underwhelming change based on current proposals.
+This is the beauty behind the 24/7 bus lanes, and why trying to find some "balance" between parking, of often single-occupancy, vehicles and **2 of the 3 busiest buses in our city**, buses which move thousands of people every single day, is going to lead to an extremely underwhelming change based on current proposals. It's often best to just keep it as simple as possible, paint the lanes red, and let those beautiful buses ride!
 
 ### How do we get 24/7 bus lanes done?
 
