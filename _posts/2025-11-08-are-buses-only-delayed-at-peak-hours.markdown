@@ -38,7 +38,7 @@ I also wanted to touch on weekend delays, as it had been brought up recently wit
 
 As you can see below, North-bound actually looks almost exactly the same as during the week, and the only big difference is going South-bound, which adds about a minute of extra delays compared to during the week. 
 
-Just to be clear, this is still terrible and absolutely needs to be addressed, which is why we're pushing for 24/7 bus lanes, which would solve both the extreme weekday AND weekend delays all at once! But we should be clear, the delay isn't just bad "only during peak hours" or "only on weekends", the delays are awful almost all of the time! 
+Just to be clear, this is still terrible and absolutely needs to be addressed, which is why we're pushing for 24/7 bus lanes, which would solve both the extreme weekday AND weekend delays all at once! But we should be clear, the delay aren't just bad "only during peak hours" or "only on weekends", the delays are awful almost all of the time! 
 
 ![busesOnBankDelaysDuringTheWeekend.png](/uploads/busesOnBankDelaysDuringTheWeekend.png)
 
