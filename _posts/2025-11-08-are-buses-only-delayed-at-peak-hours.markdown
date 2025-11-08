@@ -48,7 +48,7 @@ One might think that the delay shouldn't be too bad during weekdays outside of w
 
 The very simple answer is that during the weekdays, those "peak-hours" are actually already turned from parking lanes into travel lanes, which is why we wouldn't actually see a large improvement from making them into bus lanes.
 
-The thing that really delays our extremely important buses, and the **thousands of people they move every day**, are the couple of parked cars in the outer lanes. As soon as just a single car is occupying that outer lane, the bus now has to pull in, and out, of that lane every single time it has to drop-off and pick up passengers. Add that up to the multiple stops in just this section of Bank alone, and that adds a LOT of delays.
+The thing that really delays our extremely important buses, and the **thousands of people they move every day**, are the couple of parked cars in the outer lanes. As soon as just a single car is occupying that outer lane, the bus now has to pull in, and out, of that lane every single time it has to drop-off and pick up passengers. Add up the multiple stops in just this section of Bank alone, and that leads to a LOT of delays.
 
 ### So what's the solution?
 
