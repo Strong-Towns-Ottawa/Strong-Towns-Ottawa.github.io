@@ -36,7 +36,9 @@ I had spoken to Noah Vineberg from ATU279 and anecdotally they had already told 
 
 I also wanted to touch on weekend delays, as it had been brought up recently with the Lansdowne 2.0 discussions, that 9-5 delays during the week weren't too bad, and that weekends were the real issue. You will not hear me push back against bus lanes on weekends at all, but the delays on the weekend really aren't that different from during the week.
 
-As you can see below, North-bound actually looks almost exactly the same as during the week, and the only big difference is going South-bound, which adds about a minute extra of delays during each hour segment of the day. Just to be clear, this is still terrible and absolutely needs to be addressed, which is why we're pushing for 24/7 bus lanes, which would solve both the extreme weekday AND weekend delays all at once! But we should be clear, the delay isn't just bad "only during peak hours" or "only on weekends", the delays are awful almost all of the time! 
+As you can see below, North-bound actually looks almost exactly the same as during the week, and the only big difference is going South-bound, which adds about a minute of extra delays compared to during the week. 
+
+Just to be clear, this is still terrible and absolutely needs to be addressed, which is why we're pushing for 24/7 bus lanes, which would solve both the extreme weekday AND weekend delays all at once! But we should be clear, the delay isn't just bad "only during peak hours" or "only on weekends", the delays are awful almost all of the time! 
 
 ![busesOnBankDelaysDuringTheWeekend.png](/uploads/busesOnBankDelaysDuringTheWeekend.png)
 
