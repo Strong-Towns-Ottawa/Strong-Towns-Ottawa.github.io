@@ -54,6 +54,8 @@ The thing that really delays our extremely important buses, and the **thousands 
 
 Over and over during the discussions about Lansdowne 2.0, there was a very clear issue that kept getting raised. Access to Lansdowne is extremely lackluster and needs to be improved for any chance of success for the project. Polling was done around the project, and responders identified improving transportation to and from Lansdowne as you can see below. 24/7 bus lanes are one of the only ways we could improve transportation access to Lansdowne.
 
+If we're going to be investing close to half a billion dollars in this area, the very least we can do is make it easier for people from across the city to actually access. Otherwise why are we putting all of this money here?
+
 ![nanosPollPrioritiesForLansdowne2RedCircle.png](/uploads/nanosPollPrioritiesForLansdowne2RedCircle.png)
 
 ### So what's the solution?
