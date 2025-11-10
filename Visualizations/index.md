@@ -1,8 +1,9 @@
 ---
 title: Visualizations
 layout: page
-subtitle: Browse our images, graphs, and our visualizations! 
+subtitle: Browse our images, graphs, and our visualizations!
 ---
+
 <details>
 <summary style="font-size: 1.3em;">Interactive Map of Ottawa Municipal Taxes by Zoning Area</summary>
 <ul style="list-style-type: none;">
