@@ -10,8 +10,6 @@ featured-image: "/assets/img/newsletter_logo.png"
 featured: true
 ---
 
-test
-
 <iframe 
   id="newsletter-iframe"
   src="https://eocampaign1.com/web-version?p=28f5b398-6d68-11f0-865d-05ecf714d2a3&pt=campaign&t=1754060700&s=51c4c01aa7980a838f9ff0982dd4fac65a30c810abc44a9df4b367e1a724588a" 
