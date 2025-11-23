@@ -5,8 +5,7 @@ tags:
 - Letters
 layout: post
 featured-image: "/assets/img/uncommon.jpg"
-subtitle: We encourage the Ontario government to reduce or remove minimum lot sizes
-  to enable much desired gentle density and affordability.
+subtitle: We encourage the Ontario government to reduce or remove minimum lot sizes to enable much desired gentle density and affordability.
 featured: false
 ---
 
