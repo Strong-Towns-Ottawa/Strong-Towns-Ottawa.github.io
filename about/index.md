@@ -16,9 +16,11 @@ margin-bottom: 1rem;
 
 ## Who We Are
 
-Strong Towns Ottawa is a local chapter of Strong Towns. We advocate for a more financially resilient and livable Ottawa. We aim to build a safer city that enables all of us to choose the way we want to live. This includes investing in various transportation options, housing types, safer streets, mixed-use neighbourhoods, local businesses, and more! 
+Strong Towns Ottawa is a local chapter of [Strong Towns](https://www.strongtowns.org/about). We advocate for a more financially resilient and livable Ottawa. We aim to build a safer city that enables all of us to choose the way we want to live. This includes investing in various transportation options, housing types, safer streets, mixed-use neighbourhoods, local businesses, and more! 
 
 Our members are found throughout the city, from the urban core to the suburbs, rural areas, and even some from Gatineau! We believe that no matter what part of the city you’re from, you stand to benefit from building a city that allows for more freedom and options to live your life as you please.
+
+In November 2025, we officially incorporated as a non-profit organization under the name Ottawa-Gatineau Urbanism Association Inc. This name reflects our commitment to building an advocacy movement throughout the entire Ottawa-Gatineau region. To preserve our connection with the community we've built, we will publicly carry on our efforts under the well-known banner of Strong Towns Ottawa.
 
 ## What We Do
 
