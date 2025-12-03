@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-11-28T17:16:45+00:00</updated><id>/feed.xml</id><title type="html">Strong Towns Ottawa</title><subtitle>A website for Strong Towns Ottawa</subtitle><entry><title type="html">Our Recommendation On Minimum Lot Sizes</title><link href="/2025/11/21/minimum-lot-sizes.html" rel="alternate" type="text/html" title="Our Recommendation On Minimum Lot Sizes" /><published>2025-11-21T00:00:00+00:00</published><updated>2025-11-21T00:00:00+00:00</updated><id>/2025/11/21/minimum-lot-sizes</id><content type="html" xml:base="/2025/11/21/minimum-lot-sizes.html"><![CDATA[<div style="text-align: center; margin: 20px 0;">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-12-03T15:00:00+00:00</updated><id>/feed.xml</id><title type="html">Strong Towns Ottawa</title><subtitle>A website for Strong Towns Ottawa</subtitle><entry><title type="html">December Newsletter</title><link href="/2025/12/02/December-Newsletter.html" rel="alternate" type="text/html" title="December Newsletter" /><published>2025-12-02T00:00:00+00:00</published><updated>2025-12-02T00:00:00+00:00</updated><id>/2025/12/02/December-Newsletter</id><content type="html" xml:base="/2025/12/02/December-Newsletter.html"><![CDATA[<iframe id="newsletter-iframe" src="https://eomail5.com/web-version?p=387e4044-cd7d-11f0-966b-7da0ce78ee0b&amp;pt=campaign&amp;t=1764640436&amp;s=13727c3908ae6289684d61b11b0a60ba02bfc5be7349c85a4f7374e669e92276" width="100%" frameborder="0" style="border: none; background: transparent; display: block;" scrolling="no" onload="resizeIframe(this)"></iframe>
+
+<script>
+function resizeIframe(iframe) {
+  iframe.style.height = '6800px'; // Desktop-specific adjustment (Always adjust desktop first, once you find the correct height adjust for mobile below)
+    setTimeout(function() {
+    try {
+      // Attempt to get dynamic height (may fail due to cross-origin-resource-sharing limitations)
+      const height = iframe.contentWindow.document.body.scrollHeight;
+      if (height > 100) { 
+        iframe.style.height = height + 'px';
+      }
+    } catch (e) {
+    
+      console.log('Could not auto-detect height, using fallback');
+    }
+  }, 500);
+
+  
+  if (window.innerWidth <= 768) {
+    iframe.style.height = '11600px'; // Mobile-specific adjustment (Usually 33% bigger than Desktop)
+  }
+}
+
+
+function handleResize() {
+  const iframe = document.getElementById('newsletter-iframe');
+  if (iframe) {
+    iframe.style.height = '100px';
+    resizeIframe(iframe);
+  }
+}
+
+window.addEventListener('resize', handleResize);
+window.addEventListener('orientationchange', handleResize);
+</script>]]></content><author><name>Etienne Lefebvre</name></author><category term="Newsletter" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Our Recommendation On Minimum Lot Sizes</title><link href="/2025/11/21/minimum-lot-sizes.html" rel="alternate" type="text/html" title="Our Recommendation On Minimum Lot Sizes" /><published>2025-11-21T00:00:00+00:00</published><updated>2025-11-21T00:00:00+00:00</updated><id>/2025/11/21/minimum-lot-sizes</id><content type="html" xml:base="/2025/11/21/minimum-lot-sizes.html"><![CDATA[<div style="text-align: center; margin: 20px 0;">
   <img src="/assets/img/logo3.png" style="width: 200px; height: auto; object-fit: contain;" />
 </div>
 
@@ -420,39 +455,4 @@ window.addEventListener('orientationchange', handleResize);
 
 <h2 id="sharing-these-data">Sharing these data</h2>
 
-<p>We hope that these types of analyses can encourage pragmatic discussions between residents, community associations, city councillors and staff. To that end, Strong Towns Ottawa has a number of resources that we encourage you to use including the city wide property tax dataset. <a href="/resources/">See the resources page</a></p>]]></content><author><name>Patrick Bickerton</name></author><category term="Finances" /><summary type="html"><![CDATA[Tax revenue maps typically report the overall tax levy on a property in dollars. This approach favours large format developments but hides how efficiently it’s generating municipal revenues. Efficiency matters!]]></summary></entry><entry><title type="html">September Newsletter</title><link href="/2025/09/02/September-Newsletter.html" rel="alternate" type="text/html" title="September Newsletter" /><published>2025-09-02T00:00:00+00:00</published><updated>2025-09-02T00:00:00+00:00</updated><id>/2025/09/02/September-Newsletter</id><content type="html" xml:base="/2025/09/02/September-Newsletter.html"><![CDATA[<iframe id="newsletter-iframe" src="https://eocampaign1.com/web-version?p=05807a58-72ca-11f0-97df-237306d6f0b6&amp;pt=campaign&amp;t=1756818061&amp;s=e973e6a463371fb14780ac2d833bbfa401b8e532707ab11cd412a6f5fb626015" width="100%" frameborder="0" style="border: none; background: transparent; display: block;" scrolling="no" onload="resizeIframe(this)"></iframe>
-
-<script>
-function resizeIframe(iframe) {
-  iframe.style.height = '8200px'; // Desktop-specific adjustment (Always adjust desktop first, once you find the correct height adjust for mobile below)
-    setTimeout(function() {
-    try {
-      // Attempt to get dynamic height (may fail due to cross-origin-resource-sharing limitations)
-      const height = iframe.contentWindow.document.body.scrollHeight;
-      if (height > 100) { 
-        iframe.style.height = height + 'px';
-      }
-    } catch (e) {
-    
-      console.log('Could not auto-detect height, using fallback');
-    }
-  }, 500);
-
-  
-  if (window.innerWidth <= 768) {
-    iframe.style.height = '13400px'; // Mobile-specific adjustment (Usually 33% bigger than Desktop)
-  }
-}
-
-
-function handleResize() {
-  const iframe = document.getElementById('newsletter-iframe');
-  if (iframe) {
-    iframe.style.height = '100px';
-    resizeIframe(iframe);
-  }
-}
-
-window.addEventListener('resize', handleResize);
-window.addEventListener('orientationchange', handleResize);
-</script>]]></content><author><name>Etienne Lefebvre</name></author><category term="Newsletter" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+<p>We hope that these types of analyses can encourage pragmatic discussions between residents, community associations, city councillors and staff. To that end, Strong Towns Ottawa has a number of resources that we encourage you to use including the city wide property tax dataset. <a href="/resources/">See the resources page</a></p>]]></content><author><name>Patrick Bickerton</name></author><category term="Finances" /><summary type="html"><![CDATA[Tax revenue maps typically report the overall tax levy on a property in dollars. This approach favours large format developments but hides how efficiently it’s generating municipal revenues. Efficiency matters!]]></summary></entry></feed>

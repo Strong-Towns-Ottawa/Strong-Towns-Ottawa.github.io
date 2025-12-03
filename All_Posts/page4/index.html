@@ -11,12 +11,12 @@
 
   
 
-  <title>Our Recommendation On Minimum Lot Sizes</title>
+  <title>All Posts - page 4</title>
 
   
   
 
-  <meta name="description" content="We encourage the Ontario government to reduce or remove minimum lot sizes to enable much desired gentle density and affordability.">
+  <meta name="description" content="{% include tag-filters.html %} {% assign posts = paginator.posts | default: site.posts %} {% for post in posts %} {{ post.title | strip_html }} {% if post.subtitle %} {{ post.subtitle | strip_html }} {% endif %} {% if post.author %} By {{ post.author | strip_html }} {% endif %} {%...">
 
   
 
@@ -81,17 +81,15 @@
 
   
   <meta property="og:site_name" content="Strong Towns Ottawa">
-  <meta property="og:title" content="Our Recommendation On Minimum Lot Sizes">
-  <meta property="og:description" content="We encourage the Ontario government to reduce or remove minimum lot sizes to enable much desired gentle density and affordability.">
+  <meta property="og:title" content="All Posts - page 4">
+  <meta property="og:description" content="{% include tag-filters.html %} {% assign posts = paginator.posts | default: site.posts %} {% for post in posts %} {{ post.title | strip_html }} {% if post.subtitle %} {{ post.subtitle | strip_html }} {% endif %} {% if post.author %} By {{ post.author | strip_html }} {% endif %} {%...">
 
   
 
   
-  <meta property="og:type" content="article">
-  
-  <meta property="og:article:published_time" content="2025-11-21T00:00:00+00:00">
-  <meta property="og:url" content="/2025/11/21/minimum-lot-sizes.html">
-  <link rel="canonical" href="/2025/11/21/minimum-lot-sizes.html">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="/All_Posts/page4/">
+  <link rel="canonical" href="/All_Posts/page4/">
   
 
   
@@ -100,8 +98,8 @@
   <meta name="twitter:site" content="@strongtownsott">
   <meta name="twitter:creator" content="@strongtownsott">
 
-  <meta property="twitter:title" content="Our Recommendation On Minimum Lot Sizes">
-  <meta property="twitter:description" content="We encourage the Ontario government to reduce or remove minimum lot sizes to enable much desired gentle density and affordability.">
+  <meta property="twitter:title" content="All Posts - page 4">
+  <meta property="twitter:description" content="{% include tag-filters.html %} {% assign posts = paginator.posts | default: site.posts %} {% for post in posts %} {{ post.title | strip_html }} {% if post.subtitle %} {{ post.subtitle | strip_html }} {% endif %} {% if post.author %} By {{ post.author | strip_html }} {% endif %} {%...">
 
   
 
@@ -187,19 +185,10 @@
   <div class="container-md">
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-        <div class="post-heading">
-          <h1>Our Recommendation On Minimum Lot Sizes</h1>
-          
-            
-              <h2 class="post-subheading">We encourage the Ontario government to reduce or remove minimum lot sizes to enable much desired gentle density and affordability.</h2>
-            
+        <div class="page-heading">
+          <h1>All Posts - page 4</h1>
           
           
-           
-            
-            <span class="post-meta">Posted on November 21, 2025</span>
-            
-            
           
         </div>
       </div>
@@ -217,79 +206,172 @@
 <main class=" container-md ">
   <div class="row">
     <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
-
       
 
-      
+      <style>
+/* Custom CSS to override post title size */
+.post-preview .post-title {
+  font-size: 1.5rem !important;
+  line-height: 1.3 !important;
+}
 
-      <div class="blog-post">
-        <div style="text-align: center; margin: 20px 0;">
-  <img src="/assets/img/logo3.png" style="width: 200px; height: auto; object-fit: contain;" />
+@media (min-width: 768px) {
+  .post-preview .post-title {
+    font-size: 1.75rem !important;
+  }
+}
+
+/* New column layout for post previews */
+.post-preview article {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .post-preview article {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.post-preview .post-content {
+  flex: 1;
+}
+
+.post-preview .post-image-column {
+  flex-shrink: 0;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .post-preview .post-image-column {
+    width: 250px; /* Increased from 200px to 250px (25% larger) */
+    margin-left: 1.5rem;
+    margin-bottom: 0;
+  }
+}
+
+.post-preview .post-featured-image {
+  width: 100%;
+  height: 188px; /* Increased from 150px to 188px (25% larger) */
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.post-preview .post-featured-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.post-preview .post-featured-image:hover img {
+  transform: scale(1.05);
+}
+</style>
+
+<div class="tag-list"><select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+  <option value = "Select a category">Select a category</option>
+  <option value = "/All_Posts/">All posts</option>
+  <option value = "/All_Posts/Cycling">Cycling</option>
+  <option value = "/All_Posts/Finances">Finances</option>
+  <option value = "/All_Posts/Housing">Housing</option>
+  <option value = "/All_Posts/Transit">Transit</option>
+  <option value = "/All_Posts/Newsletter">Newsletter</option>
+  <option value = "/All_Posts/Letters">Letters</option>
+  <option value = "/All_Posts/Event">Event</option>
+
+</select>
+
 </div>
 
-<p><strong>Below is the official feedback</strong> we submitted to the Ontario Ministry of Municipal Affairs and Housing as part of their <a href="https://ero.ontario.ca/notice/025-1100">public consultation</a> on minimum lot sizes and its impact on the housing crisis.</p>
 
-<hr />
-<p>To whom it may concern,</p>
 
-<p>We appreciate the opportunity to comment on the proposed Provincial Planning Statement. We write from the perspective of a group committed to building a resilient, people-focused Ottawa. The PPS is an important opportunity to shift provincial planning away from financially complex, speculative growth patterns that result in a burden to municipalities, and toward a more incremental, fiscally responsible approach that strengthens existing places.</p>
+<!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
+<ul class="posts-list list-unstyled" role="list">
+  
+  <li class="post-preview">
+    <article>
 
-<p><strong>1. Benefits and risks of reducing/removing minimum lot sizes</strong><br />
-Reducing or removing minimum lot sizes in serviced urban areas enables much desired gentle density, increases housing supply, and broadens ownership options by lowering the land cost per home. It also strengthens municipal finances by allowing more households to share existing infrastructure instead of pushing growth to expensive new subdivisions. The main risks – pressures on aging infrastructure, neighbourhood resistance, and poorly designed small-lot development – can be reasonably managed through predictable form-based rules and updated servicing plans. These concerns are reasons to regulate form and servicing and not to retain large, exclusionary lot-size minimums.</p>
+      <div class="post-content">
+        <a href="/2024/06/30/Tewin.html">
+          <h2 class="post-title">Our Concerns With The Tewin Development</h2>
 
-<p><strong>2. Best practices from other jurisdictions</strong><br />
-Places that have successfully reformed lot-size rules (New Zealand 2020, Oregon 2022, Texas 2023) pair relaxed minimums with simple, predictable standards for building form, scale, and servicing. They focus on how buildings meet the street, instead of arbitrary lot dimensions. They also allow small-scale builders to participate by making approvals straightforward and by making sure different housing types do not get outlawed by regulations. The recipe seems to be consistent: remove lot-size barriers, but replace them with clear rules for height, setbacks, massing, and basic environmental performance so infill is both incremental and compatible.</p>
+          
+            <h3 class="post-subtitle">
+            We urge the city to reconsider this project. The current proposal at Tewin goes against all financial, housing, and environmental evidence showing that low density housing is the worst for future city developments.
+            </h3>
+          
+        </a>
 
-<p><strong>3. Situations where minimum lot sizes remain necessary</strong><br />
-Minimum lot sizes are absolutely defensible where they directly protect public health and safety – such as areas dependent on wells and septic systems, floodplains, mapped unstable soils, or parcels that cannot meet emergency access or stormwater requirements without a certain minimum area. On most serviced urban lands, however, lot-size minimums function as de facto barriers to different housing solutions.</p>
+        
+          <span>By <strong>Liam O’Brien</strong></span>
+        
+        <p class="post-meta">
+          
+          Posted on June 30, 2024
+        </p>
 
-<p><strong>4. Suggested smallest urban lot size and its implications</strong><br />
-A reasonable provincial guideline for fully serviced urban parcels should permit lots as small as 6 m frontage with no restriction for area. This supports a wide range of missing-middle forms while preserving room for basic servicing. The opportunities include more attainable starter homes, more housing diversity, and more efficient use of existing infrastructure. Limitations would be a reduced private yard space, tighter tree-planting conditions, and potential parking pressures. All those can be addressed through complementary performance standards. Frontage and how the building meets the street should be treated as an integrated package, ensuring that parcels remain buildable, functional, and compatible with their context.</p>
+        
+        <div class="post-entry">
+          
+          
+  
 
-<p><strong>5. Supporting zoning and performance standards</strong><br />
-To make reduced lot-size rules successful, municipalities should permit additional residential units and small multiplexes as-of-right, remove parking minimums in their urban perimeters, and apply simple form-based standards for height, setbacks, lot coverage, and massing. Environmental performance should include a mix of minimum permeable surface with low-impact stormwater requirements and basic tree-planting standards.Municipalities should also plan to streamline approvals in order to enable many small, incremental projects rather than relying solely on large developments to meet their housing goals. These measures ensure that smaller lots remain developable, and contribute to a fiscally productive area.</p>
 
-<p>In conclusion, Ontario has in its hands an opportunity to re-orient its planning framework toward financially productive, people-centered, future-proof communities. A PPS grounded in infill-first growth, gentle density,transit alignment, and incremental development will create places that are prosperous, affordable, resilient, and able to weather economic uncertainty.</p>
 
-<p>Thank you for considering this submission.</p>
+        </div>
+        
 
-<p>Sincerely,<br />
-<strong>Strong Towns Ottawa</strong><br />
-<em>November 21st, 2025</em></p>
-
-      </div>
-
-      
+        
         <div class="blog-tags">
           <span>Tags:</span>
-          
-            <a href="/tags#Letters">Letters</a>
-          
+          <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
+          <ul class="d-inline list-inline" role="list">
+            
+            <li class="list-inline-item">
+              <a href="/All_Posts/Letters">Letters</a>
+            </li>
+            
+          </ul>
         </div>
-      
-
-      
-
-      
-
-      <ul class="pagination blog-pager">
         
-        <li class="page-item previous">
-          <a class="page-link" href="/2025/11/08/are-buses-only-delayed-at-peak-hours.html" data-toggle="tooltip" data-placement="top" title="Are Buses Only Delayed at Peak Hours?">
-            <i class="fas fa-arrow-left" alt="Previous Post"></i>
-            <span class="d-none d-sm-inline-block">Previous Post</span>
+      </div>
+
+      <!-- Featured Image Column - Right side on desktop -->
+      
+      <div class="post-image-column">
+        <div class="post-featured-image">
+          <a href="/2024/06/30/Tewin.html" aria-label="Featured image for Our Concerns With The Tewin Development">
+            <img src="/assets/img/uncommon.jpg" alt="Featured image for Our Concerns With The Tewin Development">
           </a>
-        </li>
-        
-        
-        <li class="page-item next">
-          <a class="page-link" href="/2025/12/02/December-Newsletter.html" data-toggle="tooltip" data-placement="top" title="December Newsletter">
-            <span class="d-none d-sm-inline-block">Next Post</span>
-            <i class="fas fa-arrow-right" alt="Next Post"></i>
-          </a>
-        </li>
-        
-      </ul>
+        </div>
+      </div>
+      
+
+    </article>
+  </li>
+  
+</ul>
+
+
+<ul class="pagination main-pager">
+  
+  <li class="page-item previous">
+    <a class="page-link" href="/All_Posts/page3/">
+      <i class="fas fa-arrow-left" alt="Newer Posts"></i>
+      <span class="d-none d-sm-inline-block">Newer Posts</span>
+    </a>
+  </li>
+  
+  
+</ul>
+
+
+      
+
       
 
     </div>
