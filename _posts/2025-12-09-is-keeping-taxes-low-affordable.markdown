@@ -16,27 +16,21 @@ The letter is included here, and we strongly recommend you contacting your [coun
 
 09 December 2025
 
-\
 Ottawa City Council\
 110 Laurier Avenue W\
 Ottawa, ON K1P 1J1
 
-\
 RE: Feedback on 2026 Draft Budget
 
-\
 Dear Mayor Sutcliffe and Councillors,
 
-\
 We appreciate the opportunity to comment on the 2026 budget for the City of Ottawa.
 
-\
 At the Peoples Official Plan Coalition (POP) we focus on providing a livable Ottawa for current and future residents. While many factors play a role in livability, such as safety, opportunities for jobs, good transportation, housing options, etc… one of the largest factors is affordability.
 
 POP stands with groups who are working with those residents most marginalized by increased unaffordability in Ottawa, including supporting the budget requests and priorities coming from the **Alliance to End Homelessness**, **CAWI-IVTF**, and the **Ottawa Community
 Food Partnership**, all noting the need to prioritize the specific municipal responsibilities and levers to ensure affordable housing, transportation, and food.
 
-\
 POP additionally feels it is important to address middle class homeowners in Ottawa, and how the conversation on affordability in the City’s budget only looks at the immediate impact of taxes on residents. While this is obviously an important aspect, it only speaks to a small part of the bigger picture of affordability.
 
 As per the City of Ottawa’s 2026 Budget Magazine, the proposed increase will result in “an average property tax bill increase of **$166** for urban homeowners and **$108** for rural homeowners.” This is certainly not a small amount by any means, but we would like to zoom out a bit and see how this compares to the costs that residents will bear due to underfunded services on which they rely. For reference, the $166 for urban homeowners would work out to approximately **7$ a month** per person in a household with 2 breadwinners.
