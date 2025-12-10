@@ -6,6 +6,7 @@ tags:
 author: Marko Miljusevic
 subtitle: Our current budget doesn't make it seem likely
 featured-image: "/uploads/2026BudgetPreviewImage.png"
+featured: true
 layout: post
 ---
 
