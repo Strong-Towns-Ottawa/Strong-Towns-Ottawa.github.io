@@ -56,3 +56,5 @@ As you can see there are plenty of costs that residents have to bear when our Ci
 Sincerely,
 
 The Peoples Official Plan Coalition
+
+<iframe src="/uploads/2025%2012%2009%20POP%20Letter%20-%20Feedback%20on%202026%20Draft%20Budget.pdf" width="100%" height="600px" style="border: none;"></iframe>
