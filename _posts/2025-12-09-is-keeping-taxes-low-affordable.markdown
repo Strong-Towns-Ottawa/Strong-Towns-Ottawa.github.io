@@ -8,14 +8,13 @@ subtitle: Our current budget doesn't make it seem likely
 layout: post
 ---
 
-We constantly hear about **affordability **these days, if you've been listening to the 2026 Budget talks you've probably heard a lot of it. Typically the only topic regarding affordability that is touched on is with regards to property taxes, but is that really the only way our 2026 Budget affects affordability in our city?
+We constantly hear about **affordability** these days, if you've been listening to the 2026 Budget talks you've probably heard a lot of it. Typically the only topic regarding affordability that is touched on is with regards to property taxes, but is that really the only way our 2026 Budget affects affordability in our city?
 
 We have worked together with other groups as part of the Peoples Official Plan coalition to provide feedback on the upcoming City of Ottawa 2026 Budget. We think that much of the conversation is being missed when focusing so narrowly on "affordability". From aspects such as housing, transportation, infrastructure maintenance, community services, the environment, and more, **budgets like this proposed one will not make life more affordable for residents of Ottawa.**
 
 The letter is included here, and we strongly recommend you contacting your [councillor and the mayor](https://ottawa.ca/en/city-hall/mayor-and-city-councillors) to tell them how you feel about the proposed 2026 Budget.
 
 09 December 2025
-
 
 \
 Ottawa City Council
@@ -24,58 +23,51 @@ Ottawa City Council
 \
 Ottawa, ON K1P 1J1
 
-
 \
 RE: Feedback on 2026 Draft Budget
-
 
 \
 Dear Mayor Sutcliffe and Councillors,
 
-
 \
 We appreciate the opportunity to comment on the 2026 budget for the City of Ottawa.
 
-
 \
 At the Peoples Official Plan Coalition (POP) we focus on providing a livable Ottawa for
- current and future residents. While many factors play a role in livability, such as safety,
- opportunities for jobs, good transportation, housing options, etc… one of the largest factors
- is affordability.
-\
+current and future residents. While many factors play a role in livability, such as safety,
+opportunities for jobs, good transportation, housing options, etc… one of the largest factors
+is affordability.
+\\
 
 POP stands with groups who are working with those residents most marginalized by
- increased unaffordability in Ottawa, including supporting the budget requests and priorities
- coming from the **Alliance to End Homelessness**, **CAWI-IVTF**, and the **Ottawa Community
- Food Partnership**, all noting the need to prioritize the specific municipal responsibilities and
- levers to ensure affordable housing, transportation, and food.
-
+increased unaffordability in Ottawa, including supporting the budget requests and priorities
+coming from the **Alliance to End Homelessness**, **CAWI-IVTF**, and the **Ottawa Community
+Food Partnership**, all noting the need to prioritize the specific municipal responsibilities and
+levers to ensure affordable housing, transportation, and food.
 
 \
 POP additionally feels it is important to address middle class homeowners in Ottawa, and
- how the conversation on affordability in the City’s budget only looks at the immediate impact
- of taxes on residents. While this is obviously an important aspect, it only speaks to a small
- part of the bigger picture of affordability.
- 
+how the conversation on affordability in the City’s budget only looks at the immediate impact
+of taxes on residents. While this is obviously an important aspect, it only speaks to a small
+part of the bigger picture of affordability.
 
 As per the City of Ottawa’s 2026 Budget Magazine, the proposed increase will result in “an
- average property tax bill increase of **$166** for urban homeowners and **$108** for rural
- homeowners.” This is certainly not a small amount by any means, but we would like to zoom
- out a bit and see how this compares to the costs that residents will bear due to underfunded
- services on which they rely. For reference, the $166 for urban homeowners would work out
+average property tax bill increase of **$166** for urban homeowners and **$108** for rural
+homeowners.” This is certainly not a small amount by any means, but we would like to zoom
+out a bit and see how this compares to the costs that residents will bear due to underfunded
+services on which they rely. For reference, the $166 for urban homeowners would work out
 \
 to approximately **7$ a month** per person in a household with 2 breadwinners.
 
-
 \
 One of the largest costs for families is **transportation**, car ownership is costing the average
- Canadian about **$16,000/year per car**. Many households are forced to purchase and
- maintain 2 or more vehicles due to their lack of alternative options. Our under-investment
- into alternative transportation modes such as public transit, safe cycling, and pedestrian
+Canadian about **$16,000/year per car**. Many households are forced to purchase and
+maintain 2 or more vehicles due to their lack of alternative options. Our under-investment
+into alternative transportation modes such as public transit, safe cycling, and pedestrian
 \
 infrastructure has forced residents to rely on the most expensive form of transportation
- available. Even if they don’t own a car, unreliability in our transit system often leads to payinghigh prices for Ubers. These are costs that our residents wouldn’t have to bear if they were
- given safe, reliable, and effective transportation alternatives.
+available. Even if they don’t own a car, unreliability in our transit system often leads to payinghigh prices for Ubers. These are costs that our residents wouldn’t have to bear if they were
+given safe, reliable, and effective transportation alternatives.
 
 The largest expense in the lives of residents is **housing**. We are saddened to see that the amount the city will be contributing to building affordable housing has **dropped by over $6 million dollars** since 2024. We need both market and non-market solutions to help alleviate this housing crisis we face. Adding more non-market housing will help bring down prices for those who are living in market housing as well. By giving residents more options we are ensuring that they are able to continue contributing to the vibrant city that we live in.
 
@@ -91,6 +83,6 @@ Earlier this year, City Council received a series of **Asset Management Plans** 
 
 As you can see there are plenty of costs that residents have to bear when our City does not provide adequate funding for the services they need. Whether it is transportation options, housing options, greenspace, recreational facilities, or any other number of City services provided, all of them are going to cost residents a lot more to find adequate alternatives in the private sector, while still being on the hook for lackluster public options. This ends up giving us the worst of both worlds. If the City of Ottawa can find a budget that allows them to actually meet the needs of residents we are certain that even middle and upper class residents would find a lot of savings. This could come from downsizing to 1 car per household, reducing insurance costs, being able to get a membership at a City gym, rather than a private one, and much more.
 
-Sincerely, 
+Sincerely,
 
 The Peoples Official Plan Coalition
