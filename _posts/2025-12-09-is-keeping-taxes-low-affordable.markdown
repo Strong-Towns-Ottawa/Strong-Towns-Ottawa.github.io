@@ -37,7 +37,6 @@ POP additionally feels it is important to address middle class homeowners in Ott
 
 As per the City of Ottawa’s 2026 Budget Magazine, the proposed increase will result in “an average property tax bill increase of **$166** for urban homeowners and **$108** for rural homeowners.” This is certainly not a small amount by any means, but we would like to zoom out a bit and see how this compares to the costs that residents will bear due to underfunded services on which they rely. For reference, the $166 for urban homeowners would work out to approximately **7$ a month** per person in a household with 2 breadwinners.
 
-\
 One of the largest costs for families is **transportation**, car ownership is costing the average Canadian about **$16,000/year per car**. Many households are forced to purchase and maintain 2 or more vehicles due to their lack of alternative options. Our under-investment into alternative transportation modes such as public transit, safe cycling, and pedestrian infrastructure has forced residents to rely on the most expensive form of transportation
 available. Even if they don’t own a car, unreliability in our transit system often leads to payinghigh prices for Ubers. These are costs that our residents wouldn’t have to bear if they were given safe, reliable, and effective transportation alternatives.
 
