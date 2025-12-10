@@ -17,10 +17,8 @@ The letter is included here, and we strongly recommend you contacting your [coun
 09 December 2025
 
 \
-Ottawa City Council
-\
-110 Laurier Avenue W
-\
+Ottawa City Council\
+110 Laurier Avenue W\
 Ottawa, ON K1P 1J1
 
 \
@@ -33,41 +31,19 @@ Dear Mayor Sutcliffe and Councillors,
 We appreciate the opportunity to comment on the 2026 budget for the City of Ottawa.
 
 \
-At the Peoples Official Plan Coalition (POP) we focus on providing a livable Ottawa for
-current and future residents. While many factors play a role in livability, such as safety,
-opportunities for jobs, good transportation, housing options, etc… one of the largest factors
-is affordability.
-\\
+At the Peoples Official Plan Coalition (POP) we focus on providing a livable Ottawa for current and future residents. While many factors play a role in livability, such as safety, opportunities for jobs, good transportation, housing options, etc… one of the largest factors is affordability.
 
-POP stands with groups who are working with those residents most marginalized by
-increased unaffordability in Ottawa, including supporting the budget requests and priorities
-coming from the **Alliance to End Homelessness**, **CAWI-IVTF**, and the **Ottawa Community
-Food Partnership**, all noting the need to prioritize the specific municipal responsibilities and
-levers to ensure affordable housing, transportation, and food.
+POP stands with groups who are working with those residents most marginalized by increased unaffordability in Ottawa, including supporting the budget requests and priorities coming from the **Alliance to End Homelessness**, **CAWI-IVTF**, and the **Ottawa Community
+Food Partnership**, all noting the need to prioritize the specific municipal responsibilities and levers to ensure affordable housing, transportation, and food.
 
 \
-POP additionally feels it is important to address middle class homeowners in Ottawa, and
-how the conversation on affordability in the City’s budget only looks at the immediate impact
-of taxes on residents. While this is obviously an important aspect, it only speaks to a small
-part of the bigger picture of affordability.
+POP additionally feels it is important to address middle class homeowners in Ottawa, and how the conversation on affordability in the City’s budget only looks at the immediate impact of taxes on residents. While this is obviously an important aspect, it only speaks to a small part of the bigger picture of affordability.
 
-As per the City of Ottawa’s 2026 Budget Magazine, the proposed increase will result in “an
-average property tax bill increase of **$166** for urban homeowners and **$108** for rural
-homeowners.” This is certainly not a small amount by any means, but we would like to zoom
-out a bit and see how this compares to the costs that residents will bear due to underfunded
-services on which they rely. For reference, the $166 for urban homeowners would work out
-\
-to approximately **7$ a month** per person in a household with 2 breadwinners.
+As per the City of Ottawa’s 2026 Budget Magazine, the proposed increase will result in “an average property tax bill increase of **$166** for urban homeowners and **$108** for rural homeowners.” This is certainly not a small amount by any means, but we would like to zoom out a bit and see how this compares to the costs that residents will bear due to underfunded services on which they rely. For reference, the $166 for urban homeowners would work out to approximately **7$ a month** per person in a household with 2 breadwinners.
 
 \
-One of the largest costs for families is **transportation**, car ownership is costing the average
-Canadian about **$16,000/year per car**. Many households are forced to purchase and
-maintain 2 or more vehicles due to their lack of alternative options. Our under-investment
-into alternative transportation modes such as public transit, safe cycling, and pedestrian
-\
-infrastructure has forced residents to rely on the most expensive form of transportation
-available. Even if they don’t own a car, unreliability in our transit system often leads to payinghigh prices for Ubers. These are costs that our residents wouldn’t have to bear if they were
-given safe, reliable, and effective transportation alternatives.
+One of the largest costs for families is **transportation**, car ownership is costing the average Canadian about **$16,000/year per car**. Many households are forced to purchase and maintain 2 or more vehicles due to their lack of alternative options. Our under-investment into alternative transportation modes such as public transit, safe cycling, and pedestrian infrastructure has forced residents to rely on the most expensive form of transportation
+available. Even if they don’t own a car, unreliability in our transit system often leads to payinghigh prices for Ubers. These are costs that our residents wouldn’t have to bear if they were given safe, reliable, and effective transportation alternatives.
 
 The largest expense in the lives of residents is **housing**. We are saddened to see that the amount the city will be contributing to building affordable housing has **dropped by over $6 million dollars** since 2024. We need both market and non-market solutions to help alleviate this housing crisis we face. Adding more non-market housing will help bring down prices for those who are living in market housing as well. By giving residents more options we are ensuring that they are able to continue contributing to the vibrant city that we live in.
 
