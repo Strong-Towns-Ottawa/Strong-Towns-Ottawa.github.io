@@ -39,7 +39,7 @@ content:
       - name: body
         label: Body
         type: rich-text
-      - name: code
+      - name: body
         label: Code
         type: code
         options:
