@@ -8,5 +8,40 @@ content:
     label: Posts
     path: _posts
     type: collection
-    
+    view: 
+      fields: [ title, subtitle, author, date, featured-image, tags, layout, published, body ]
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: subtitle
+        label: Subtitle
+        type: string
+      - name: author
+        label: Author
+        type: string
+      - name: date
+        label: date
+        type: date
+      - name: featured-image
+        label: Featured Image
+        type: string
+      - name: tags
+        label: tags
+        type: select
+        options:
+          multiple: true
+          values: [ Cycling, Finances, Housing, Transit, Newsletter, Letters, Event ]
+      - name: layout
+        label: Layout (Do not change this)
+        type: string
+        default: post
+      - name: published
+        label: Published (Turn off to keep it as a draft)
+        type: boolean
+        default: false
+      - name: body
+        label: Body
+        type: rich-text
+      
   
