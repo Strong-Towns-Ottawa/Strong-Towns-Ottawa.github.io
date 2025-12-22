@@ -9,7 +9,7 @@ content:
     path: _posts
     type: collection
     view: 
-      fields: [ title, date ]
+      fields: [ title, date, body ]
     fields:
       - name: title
         label: Title
@@ -17,5 +17,8 @@ content:
       - name: date
         type: date
         type: date
+      - name: body
+        label: body
+        type: rich-text
     
   
