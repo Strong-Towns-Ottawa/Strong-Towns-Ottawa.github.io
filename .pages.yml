@@ -15,9 +15,8 @@ content:
       - name: description
         label: Website Description
         type: string
-      - name: paginaton_per_page
+      - name: paginaton
         label: Pagination
-        type: number
       
   - name: posts
     label: Posts
