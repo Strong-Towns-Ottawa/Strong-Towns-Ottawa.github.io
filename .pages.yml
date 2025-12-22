@@ -9,7 +9,7 @@ content:
     path: _posts
     type: collection
     view: 
-      fields: [ title, subtitle, author, date, featured-image, tags, body ]
+      fields: [ title, subtitle, author, date, featured-image, tags, body, layout ]
     fields:
       - name: title
         label: Title
@@ -35,5 +35,9 @@ content:
       - name: body
         label: Body
         type: rich-text
+      - name: layout
+        label: Layout (Do not change this)
+        type: string
+        default: post
     
   
