@@ -4,6 +4,14 @@ media:
     input: assets/img
     output: /assets/img
 content:
+  - name: config
+    label: Jekyll Config
+    path: _config.yml
+    type: file
+    fields:
+      - name: title
+        label: Website Title
+        type: string
   - name: posts
     label: Posts
     path: _posts
