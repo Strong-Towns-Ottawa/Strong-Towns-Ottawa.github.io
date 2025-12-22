@@ -48,7 +48,7 @@ content:
         label: Body
         type: rich-text
       - name: body
-        label: Body
+        label: Body (Code)
         type: code
         options:
           language: html
