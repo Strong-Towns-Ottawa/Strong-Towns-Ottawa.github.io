@@ -51,6 +51,6 @@ content:
         label: Body (Code)
         type: code
         options:
-          language: markdown
+          language: [ html, markdown ] 
       
   
