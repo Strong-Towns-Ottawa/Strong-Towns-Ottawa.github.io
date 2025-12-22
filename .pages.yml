@@ -7,18 +7,7 @@ content:
   - name: config
     label: Jekyll Config
     path: _config.yml
-    type: file
-    fields:
-      - name: title
-        label: Website Title
-        type: string
-      - name: description
-        label: Website Description
-        type: string
-      - name: pagination.per_page
-        label: Pagination per page
-        type: number
-      
+    type: file    
   - name: posts
     label: Posts
     path: _posts
