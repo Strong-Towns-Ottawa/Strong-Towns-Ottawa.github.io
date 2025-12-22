@@ -22,7 +22,10 @@ content:
         type: date
       - name: tags
         label: tags
-        type: string
+        type: select
+        options:
+          multiple: true
+          values: [ Cycling, Housing, Transit ]
       - name: body
         label: Body
         type: rich-text
