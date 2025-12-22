@@ -9,7 +9,7 @@ content:
     path: _posts
     type: collection
     view: 
-      fields: [ title, subtitle, author, date, featured-image, tags, layout, body, code ]
+      fields: [ title, subtitle, author, date, featured-image, tags, layout, featured, body ]
     fields:
       - name: title
         label: Title
@@ -36,6 +36,10 @@ content:
         label: Layout (Do not change this)
         type: string
         default: post
+      - name: featured
+        label: Featured
+        type: boolean
+        default: false
       - name: body
         label: Body
         type: rich-text
