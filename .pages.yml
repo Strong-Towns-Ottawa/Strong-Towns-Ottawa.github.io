@@ -1,0 +1,11 @@
+images:
+  - name: images
+    label: Images
+    input: assets/img
+    output: /assets/img
+content:
+  - name: posts
+    label: Posts
+    path: _posts
+    
+  
