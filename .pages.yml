@@ -9,7 +9,7 @@ content:
     path: _posts
     type: collection
     view: 
-      fields: [ title, subtitle, author, date, featured-image, tags, body, code, layout ]
+      fields: [ title, subtitle, author, date, featured-image, tags, body, layout ]
     fields:
       - name: title
         label: Title
@@ -32,15 +32,13 @@ content:
         options:
           multiple: true
           values: [ Cycling, Finances, Housing, Transit, Newsletter, Letters, Event ]
-      - name: body
-        label: Body
-        type: rich-text
-      - name: code
-        label: Code
-        type: code
       - name: layout
         label: Layout (Do not change this)
         type: string
         default: post
+      - name: body
+        label: Body
+        type: rich-text
+      
     
   
