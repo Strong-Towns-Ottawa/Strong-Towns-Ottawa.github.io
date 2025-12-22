@@ -39,8 +39,8 @@ content:
       - name: body
         label: Body
         type: rich-text
-      - name: body
-        label: Body
+      - name: code
+        label: Code
         type: code
         options:
           language: html
