@@ -9,7 +9,7 @@ content:
     path: _posts
     type: collection
     view: 
-      fields: [ title, author, date, body ]
+      fields: [ title, author, date, tags, body ]
     fields:
       - name: title
         label: Title
@@ -20,8 +20,11 @@ content:
       - name: date
         label: date
         type: date
+      - name: tags
+        label: tags
+        type: string
       - name: body
         label: Body
-        type: rich-text
+        type: code
     
   
