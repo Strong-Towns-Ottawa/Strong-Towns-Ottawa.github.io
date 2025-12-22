@@ -18,7 +18,7 @@ content:
         type: date
         type: date
       - name: body
-        label: body
+        label: Body
         type: rich-text
     
   
