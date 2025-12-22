@@ -10,5 +10,12 @@ content:
     type: collection
     view: 
       fields: [ title, date ]
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: date
+        type: date
+        type: date
     
   
