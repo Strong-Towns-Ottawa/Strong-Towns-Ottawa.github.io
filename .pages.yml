@@ -9,10 +9,13 @@ content:
     path: _posts
     type: collection
     view: 
-      fields: [ title, date, body ]
+      fields: [ title, author, date, body ]
     fields:
       - name: title
         label: Title
+        type: string
+      - name: author
+        label: Author
         type: string
       - name: date
         type: date
