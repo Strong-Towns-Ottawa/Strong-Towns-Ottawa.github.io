@@ -18,7 +18,7 @@ content:
         label: Author
         type: string
       - name: date
-        type: date
+        label: date
         type: date
       - name: body
         label: Body
