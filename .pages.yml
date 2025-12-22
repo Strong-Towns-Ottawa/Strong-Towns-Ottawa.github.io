@@ -15,6 +15,10 @@ content:
       - name: description
         label: Website Description
         type: string
+      - name: paginaton
+        label: Pagination
+        type: number
+      
   - name: posts
     label: Posts
     path: _posts
