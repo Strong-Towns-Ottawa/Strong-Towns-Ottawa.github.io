@@ -25,6 +25,6 @@ content:
         type: string
       - name: body
         label: Body
-        type: code
+        type: rich-text
     
   
