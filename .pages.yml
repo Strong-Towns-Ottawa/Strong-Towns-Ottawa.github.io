@@ -12,6 +12,9 @@ content:
       - name: title
         label: Website Title
         type: string
+      - name: description
+        label: Website Description
+        type: string
   - name: posts
     label: Posts
     path: _posts
