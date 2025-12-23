@@ -162,6 +162,14 @@
 }, 
  
 { 
+"title"    : "Bank Street Bus Lane Email Template", 
+"desc"     : "Bank Street Bus Lane Email Template", 
+"category" : "page", 
+"url"      : "/bank_street_email_template", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
 "title"    : "Community", 
 "desc"     : "Community", 
 "category" : "page", 
@@ -174,14 +182,6 @@
 "desc"     : "Housing", 
 "category" : "page", 
 "url"      : "/housing", 
-"date"     : "January 1, 1970" 
-}, 
- 
-{ 
-"title"    : "Bank Street Bus Lane Email Template", 
-"desc"     : "Bank Street Bus Lane Email Template", 
-"category" : "page", 
-"url"      : "/bank_street_email_template/", 
 "date"     : "January 1, 1970" 
 }, 
  
