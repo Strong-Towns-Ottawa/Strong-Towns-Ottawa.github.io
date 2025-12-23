@@ -12,6 +12,22 @@ content:
     label: Pages
     path: pages
     type: collection
+    view:
+      fields: [ title, subtitle, permalink, layout ]
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: subtitle
+        label: subtitle
+        type: string
+      - name: permalink
+        label: permalink
+        type: string
+      - name: layout
+        label: Layout (Do not change this)
+        type: string
+        default: page
   - name: posts
     label: Posts
     path: _posts
