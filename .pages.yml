@@ -19,10 +19,10 @@ content:
         label: Title
         type: string
       - name: subtitle
-        label: subtitle
+        label: Subtitle
         type: string
       - name: permalink
-        label: permalink
+        label: Permalink (Always start with /)
         type: string
       - name: layout
         label: Layout (Do not change this)
