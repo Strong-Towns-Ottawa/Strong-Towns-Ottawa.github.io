@@ -1,12 +1,13 @@
 ---
 title: The High Cost of Sprawl; Ottawa’s Infrastructure Time Bomb
-subtitle: To ensure its long-term viability, it is essential that the City align
-  its lands-use and infrastructure strategies with financial realities. The
-  City’s financial stability depends on whether it is willing to confront the
-  cost of its past choices and build smarter from here forward.
-permalink: /Infrastructure_Time_Bomb
+permalink: "/Infrastructure_Time_Bomb"
+subtitle: To ensure its long-term viability, it is essential that the City align its
+  lands-use and infrastructure strategies with financial realities. The City’s financial
+  stability depends on whether it is willing to confront the cost of its past choices
+  and build smarter from here forward.
 layout: page
 ---
+
 <div style="text-align: center; margin: 20px 0;"><img src="/assets/img/logo3.png" style="width: 200px; height: auto; object-fit: contain;"></div>
 
 **SUMMARY:** Ottawa faces a growing infrastructure crisis as the cost to maintain and replace its extensive 9,600 km water, wastewater, and stormwater pipe balloons. The current replacement cost of this infrastructure is $51.2 billion and is projected to rise significantly in the coming years. Much of this burden stems from decades of low-density suburban growth, which generates insufficient revenue to cover long-term maintenance. To avoid escalating costs and financial strain, the City must halt new sprawling developments and prioritize infill, intensification, and sustainable funding strategies.
