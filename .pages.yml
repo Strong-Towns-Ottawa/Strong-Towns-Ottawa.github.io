@@ -30,7 +30,7 @@ content:
         default: page
       - name: body
         label: Body
-        type: rich-text
+        type: html
   - name: posts
     label: Posts
     path: _posts
