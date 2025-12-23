@@ -30,7 +30,9 @@ content:
         default: page
       - name: body
         label: Body
-        type: html
+        type: code
+        options:
+          language: html
   - name: posts
     label: Posts
     path: _posts
