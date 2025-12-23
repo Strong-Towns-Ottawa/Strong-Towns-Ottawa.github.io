@@ -1,10 +1,10 @@
 ---
 title: About Us
+permalink: "/about"
 subtitle: Welcome to Strong Towns Ottawa! We are a local chapter of the Strong Towns
   movement, dedicated to making Ottawa a more financially resilient and livable city.
 title_size: 2rem
 layout: page
-permalink: /about
 ---
 
 <style>

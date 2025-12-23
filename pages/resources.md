@@ -1,9 +1,9 @@
 ---
 title: Resources
+permalink: "/resources"
 subtitle: Here you'll find helpful information about the Strong Towns movement and
   how it applies to Ottawa.
 layout: page
-permalink: /resources
 ---
 
 ### Our Visualizations
