@@ -13,7 +13,7 @@ content:
     path: pages
     type: collection
     view:
-      fields: [ title, subtitle, permalink, layout ]
+      fields: [ title, subtitle, permalink, layout, body ]
     fields:
       - name: title
         label: Title
@@ -28,6 +28,9 @@ content:
         label: Layout (Do not change this)
         type: string
         default: page
+      - name: body
+        label: Body
+        type: rich-text
   - name: posts
     label: Posts
     path: _posts
