@@ -32,7 +32,7 @@ content:
         label: Body
         type: code
         options:
-          language: markdown
+          language: rich-text
   - name: posts
     label: Posts
     path: _posts
