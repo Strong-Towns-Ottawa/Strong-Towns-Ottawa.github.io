@@ -2,6 +2,7 @@
 title: Bank Street Bus Lane Email Template
 subtitle: Send the following email to your city councillor!
 layout: page
+permalink: /bank_street_email_template
 ---
 
 **Email subject line** : Please support 24/7 bus lanes on Bank Street
