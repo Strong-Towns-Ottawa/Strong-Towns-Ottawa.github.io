@@ -30,9 +30,7 @@ content:
         default: page
       - name: body
         label: Body
-        type: code
-        options:
-          language: rich-text
+        type: rich-text
   - name: posts
     label: Posts
     path: _posts
