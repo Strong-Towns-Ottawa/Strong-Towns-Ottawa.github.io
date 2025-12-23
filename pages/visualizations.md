@@ -2,6 +2,7 @@
 title: Visualizations
 layout: page
 subtitle: Browse our images, graphs, and our visualizations!
+permalink: /visualizations
 ---
 
 <details>
