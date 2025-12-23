@@ -146,18 +146,18 @@
 }, 
  
 { 
-"title"    : "Letter to Council; Banning Right Turns On Red Lights", 
-"desc"     : "Letter to Council; Banning Right Turns On Red Lights", 
+"title"    : "About Us", 
+"desc"     : "About Us", 
 "category" : "page", 
-"url"      : "/rtor/", 
+"url"      : "/about", 
 "date"     : "January 1, 1970" 
 }, 
  
 { 
-"title"    : "Transportation", 
-"desc"     : "Transportation", 
+"title"    : "Dedicated Bus Lanes For Bank Street", 
+"desc"     : "Dedicated Bus Lanes For Bank Street", 
 "category" : "page", 
-"url"      : "/transportation/", 
+"url"      : "/bank", 
 "date"     : "January 1, 1970" 
 }, 
  
@@ -165,7 +165,15 @@
 "title"    : "Community", 
 "desc"     : "Community", 
 "category" : "page", 
-"url"      : "/community/", 
+"url"      : "/community", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
+"title"    : "Housing", 
+"desc"     : "Housing", 
+"category" : "page", 
+"url"      : "/housing", 
 "date"     : "January 1, 1970" 
 }, 
  
@@ -178,26 +186,10 @@
 }, 
  
 { 
-"title"    : "Resources", 
-"desc"     : "Resources", 
-"category" : "page", 
-"url"      : "/resources/", 
-"date"     : "January 1, 1970" 
-}, 
- 
-{ 
-"title"    : "Visualizations", 
-"desc"     : "Visualizations", 
-"category" : "page", 
-"url"      : "/Visualizations/", 
-"date"     : "January 1, 1970" 
-}, 
- 
-{ 
 "title"    : "The High Cost of Sprawl; Ottawa’s Infrastructure Time Bomb", 
 "desc"     : "The High Cost of Sprawl; Ottawa’s Infrastructure Time Bomb", 
 "category" : "page", 
-"url"      : "/Infrastructure_Time_Bomb/", 
+"url"      : "/infrastructure_time_bomb", 
 "date"     : "January 1, 1970" 
 }, 
  
@@ -205,31 +197,39 @@
 "title"    : "Parking Day 2025", 
 "desc"     : "Parking Day 2025", 
 "category" : "page", 
-"url"      : "/parkingday2025/", 
+"url"      : "/parkingday2025", 
 "date"     : "January 1, 1970" 
 }, 
  
 { 
-"title"    : "Housing", 
-"desc"     : "Housing", 
+"title"    : "Resources", 
+"desc"     : "Resources", 
 "category" : "page", 
-"url"      : "/housing/", 
+"url"      : "/resources", 
 "date"     : "January 1, 1970" 
 }, 
  
 { 
-"title"    : "Dedicated Bus Lanes For Bank Street", 
-"desc"     : "Dedicated Bus Lanes For Bank Street", 
+"title"    : "Letter to Council; Banning Right Turns On Red Lights", 
+"desc"     : "Letter to Council; Banning Right Turns On Red Lights", 
 "category" : "page", 
-"url"      : "/bank/", 
+"url"      : "/rtor", 
 "date"     : "January 1, 1970" 
 }, 
  
 { 
-"title"    : "About Us", 
-"desc"     : "About Us", 
+"title"    : "Transportation", 
+"desc"     : "Transportation", 
 "category" : "page", 
-"url"      : "/about/", 
+"url"      : "/transportation", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
+"title"    : "Visualizations", 
+"desc"     : "Visualizations", 
+"category" : "page", 
+"url"      : "/visualizations", 
 "date"     : "January 1, 1970" 
 } 
  
