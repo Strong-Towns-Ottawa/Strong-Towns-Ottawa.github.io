@@ -5,6 +5,7 @@ subtitle: Good transportation is the backbone of our cities. Every interaction w
   different modes including walking, biking, driving, public transit, and more. Getting
   this step right can make or break our city.
 layout: page
+permalink: /transportation
 ---
 
 <style>

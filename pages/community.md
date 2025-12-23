@@ -8,6 +8,7 @@ subtitle: The way we build our cities allows for communities to thrive, or to fl
   makes it as easy as possible for communities to form for all different types of
   people. A thriving city allows you to explore your hobbies, interests, human connections,
   and more without having to travel too far away from home.
+permalink: /community
 ---
 
 <style>
