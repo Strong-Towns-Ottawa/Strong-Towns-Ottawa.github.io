@@ -5,7 +5,7 @@ media:
     output: /assets/img
 content:
   - name: config
-    label: Jekyll Config (Admins Only)
+    label: Jekyll Config
     path: _config.yml
     type: file
   - name: pages
