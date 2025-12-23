@@ -7,7 +7,11 @@ content:
   - name: config
     label: Jekyll Config (Admins Only)
     path: _config.yml
-    type: file    
+    type: file
+  - name: pages
+    label: Pages
+    path: pages
+    type: collection
   - name: posts
     label: Posts
     path: _posts
