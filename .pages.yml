@@ -18,7 +18,7 @@ content:
     path: pages
     type: collection
     view:
-      fields: [ title, subtitle, permalink, layout, body ]
+      fields: [ title, subtitle, permalink, layout, published, body ]
     fields:
       - name: title
         label: Title
@@ -33,6 +33,10 @@ content:
         label: Layout (Do not change this)
         type: string
         default: page
+      - name: published
+        label: Published (Turn off to keep it as a draft)
+        type: boolean
+        default: false
       - name: body
         label: Body
         type: rich-text
