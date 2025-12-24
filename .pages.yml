@@ -10,6 +10,7 @@ content:
     type: file
   - name: homepage
     label: Edit Homepage
+    description: Is a desc allowed test
     path: _layouts/home.html
     type: file
   - name: pages
