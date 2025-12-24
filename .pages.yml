@@ -9,7 +9,7 @@ content:
     path: _config.yml
     type: file
   - name: homepage
-    label: Homepage
+    label: Edit Homepage
     path: _layouts/home.html
     type: file
   - name: pages
