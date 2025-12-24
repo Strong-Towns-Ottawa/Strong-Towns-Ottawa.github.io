@@ -8,6 +8,10 @@ content:
     label: Jekyll Config
     path: _config.yml
     type: file
+  - name: homepage
+    label: Homepage
+    path: _layouts/home.html
+    type: file
   - name: pages
     label: Pages
     path: pages
