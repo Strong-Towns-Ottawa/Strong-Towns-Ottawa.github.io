@@ -1,6 +1,6 @@
 ---
 title: Transportation
-permalink: "/transportation"
+permalink: /transportation/
 subtitle: Good transportation is the backbone of our cities. Every interaction with
   your city involves you moving from place to place. Transportation involves many
   different modes including walking, biking, driving, public transit, and more. Getting
