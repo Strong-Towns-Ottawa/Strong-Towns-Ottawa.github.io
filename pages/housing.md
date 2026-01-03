@@ -1,6 +1,6 @@
 ---
 title: Housing
-permalink: "/housing"
+permalink: "/housing/"
 subtitle: Housing is one of the most important aspects of our cities. Everyone needs
   a place to live and call home, and the way we currently tackle housing is making
   this less attainable for your average Ottawan. It has become unaffordable, bland,

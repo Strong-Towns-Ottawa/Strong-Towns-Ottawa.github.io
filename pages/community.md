@@ -1,6 +1,6 @@
 ---
 title: Community
-permalink: "/community"
+permalink: "/community/"
 layout: page
 subtitle: The way we build our cities allows for communities to thrive, or to flounder.
   Communities shape our everyday lives, it is vital to make sure we're building cities
