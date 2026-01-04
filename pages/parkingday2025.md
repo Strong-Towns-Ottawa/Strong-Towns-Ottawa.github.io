@@ -1,13 +1,11 @@
 ---
 title: Parking Day 2025
-permalink: "/parkingday2025/"
+subtitle: This year, we are organizing the first ever Parking Day event in our
+  city’s history! Join us on Friday, September 19 from 11:00 AM – 7:00 PM
+permalink: /parkingday2025/
 layout: page
-subtitle: This year, we are organizing the first ever Parking Day event in our city’s
-  history! Join us on Friday, September 19 from 11:00 AM – 7:00 PM
-featured-image: "/assets/img/Parking_day3.png"
-published: false
+published: true
 ---
-
 ## Event Details
 
 **📅 Date & Time:** Friday, September 19, 2025, 11:00 AM – 7:00 PM
@@ -28,27 +26,6 @@ If your organization wants to participate please let us know by dropping us an e
 2.  **Set up your parklet installation:** Get inspired with the [PARK(ing) Day How-To Manual](https://www.myparkingday.org/how-to). It’s always a good idea to use cones, planters, or barricades to define and protect your space.
 3.  **Take pictures:** This is a global event, be sure to share your photos on social media using the `#ParkingDay2025` tag so that people across the world can see Ottawa’s creative parking day installations!
 
-*Inspiration from other Parking Day events!*
+_Inspiration from other Parking Day events!_
 
-<div class="row">
-    <div class="col-md-6 mb-4"> <!-- Added mb-4 here -->
-        <figure>
-            <img src="/assets/img/dsafasdfasf.png" alt="Flea market at Landsdowne" class="img-fluid">
-        </figure>
-    </div>
-    <div class="col-md-6 mb-4"> <!-- Added mb-4 here -->
-        <figure>
-            <img src="/assets/img/finishedParklet_Seattle.jpg" alt="Flea market at Landsdowne" class="img-fluid">
-        </figure>
-    </div>
-    <div class="col-md-6 mb-4"> <!-- Added mb-4 here -->
-        <figure>
-            <img src="/assets/img/Parking-Day-2015_DC.jpg" alt="Farmer's market at Landsdowne" class="img-fluid">
-        </figure>
-    </div>
-    <div class="col-md-6 mb-4"> <!-- Added mb-4 here -->
-        <figure>
-            <img src="/assets/img/Parking-Day-Singapore-2018.jpg" alt="Farmer's market at Landsdowne" class="img-fluid">
-        </figure>
-    </div>
-</div>
+<div class="row"><div class="col-md-6 mb-4"><figure><img src="/assets/img/dsafasdfasf.png" alt="Flea market at Landsdowne" class="img-fluid"></figure></div><div class="col-md-6 mb-4"><figure><img src="/assets/img/finishedParklet_Seattle.jpg" alt="Flea market at Landsdowne" class="img-fluid"></figure></div><div class="col-md-6 mb-4"><figure><img src="/assets/img/Parking-Day-2015_DC.jpg" alt="Farmer's market at Landsdowne" class="img-fluid"></figure></div><div class="col-md-6 mb-4"><figure><img src="/assets/img/Parking-Day-Singapore-2018.jpg" alt="Farmer's market at Landsdowne" class="img-fluid"></figure></div></div>
