@@ -18,7 +18,7 @@ content:
     path: pages
     type: collection
     view:
-      fields: [ title, subtitle, permalink, layout, published, body, code ]
+      fields: [ title, subtitle, permalink, layout, published, body ]
     fields:
       - name: title
         label: Title
@@ -40,11 +40,6 @@ content:
       - name: body
         label: Body
         type: rich-text
-      - name: body
-        label: Code
-        type: code
-        options:
-          language: html
             
   - name: posts
     label: Posts
