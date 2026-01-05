@@ -11,9 +11,11 @@
 
   
 
-  <title>Newsletters</title>
+  <title>January Newsletter</title>
 
   
+  
+  <meta name="author" content="Etienne Lefebvre">
   
 
   <meta name="description" content="">
@@ -81,15 +83,19 @@
 
   
   <meta property="og:site_name" content="Strong Towns Ottawa">
-  <meta property="og:title" content="Newsletters">
+  <meta property="og:title" content="January Newsletter">
   <meta property="og:description" content="">
 
   
 
   
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="/All_Posts/Newsletter/">
-  <link rel="canonical" href="/All_Posts/Newsletter/">
+  <meta property="og:type" content="article">
+  
+  <meta property="og:article:author" content="Etienne Lefebvre">
+  
+  <meta property="og:article:published_time" content="2026-01-05T00:00:00+00:00">
+  <meta property="og:url" content="/2026/01/05/January-Newsletter.html">
+  <link rel="canonical" href="/2026/01/05/January-Newsletter.html">
   
 
   
@@ -98,7 +104,7 @@
   <meta name="twitter:site" content="@strongtownsott">
   <meta name="twitter:creator" content="@strongtownsott">
 
-  <meta property="twitter:title" content="Newsletters">
+  <meta property="twitter:title" content="January Newsletter">
   <meta property="twitter:description" content="">
 
   
@@ -185,10 +191,17 @@
   <div class="container-md">
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-        <div class="page-heading">
-          <h1>Newsletters</h1>
+        <div class="post-heading">
+          <h1>January Newsletter</h1>
           
           
+           
+            
+              By <strong>Etienne Lefebvre</strong><br>
+            
+            <span class="post-meta">Posted on January 5, 2026</span>
+            
+            
           
         </div>
       </div>
@@ -206,381 +219,76 @@
 <main class=" container-md ">
   <div class="row">
     <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
+
       
 
-      <div class="tag-list"><select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
-  <option value = "Select a category">Select a category</option>
-  <option value = "/All_Posts/">All posts</option>
-  <option value = "/All_Posts/Cycling">Cycling</option>
-  <option value = "/All_Posts/Finances">Finances</option>
-  <option value = "/All_Posts/Housing">Housing</option>
-  <option value = "/All_Posts/Transit">Transit</option>
-  <option value = "/All_Posts/Newsletter">Newsletter</option>
-  <option value = "/All_Posts/Letters">Letters</option>
-  <option value = "/All_Posts/Event">Event</option>
+      
 
-</select>
+      <div class="blog-post">
+        <iframe id="newsletter-iframe" src="https://eomail5.com/web-version?p=1600ee10-d6d6-11f0-a9b2-51f3f0bf799e&amp;pt=campaign&amp;t=1767627724&amp;s=3637db7f0ff911023d38ee57a17879b08517068ef0236fb4f0125159eb26a37b" width="100%" frameborder="0" style="border: none; background: transparent; display: block;" scrolling="no" onload="resizeIframe(this)"></iframe>
 
-</div>
+<script>
+function resizeIframe(iframe) {
+  iframe.style.height = '6800px'; // Desktop-specific adjustment (Always adjust desktop first, once you find the correct height adjust for mobile below)
+    setTimeout(function() {
+    try {
+      // Attempt to get dynamic height (may fail due to cross-origin-resource-sharing limitations)
+      const height = iframe.contentWindow.document.body.scrollHeight;
+      if (height > 100) { 
+        iframe.style.height = height + 'px';
+      }
+    } catch (e) {
+    
+      console.log('Could not auto-detect height, using fallback');
+    }
+  }, 500);
 
-
-
-<!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-<ul class="posts-list list-unstyled" role="list">
   
-  <li class="post-preview">
-    <article>
-
-      <a href="/2026/01/05/January-Newsletter.html">
-        <h2 class="post-title">January Newsletter</h2>
-
-        
-      </a>
-
-      
-        <span>By <strong>Etienne Lefebvre</strong></span>
-      
-      <p class="post-meta">
-        
-        Posted on January 5, 2026
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
+  if (window.innerWidth <= 768) {
+    iframe.style.height = '8750px'; // Mobile-specific adjustment (Usually 33% bigger than Desktop)
+  }
+}
 
 
-        
-        
-          <a href="/2026/01/05/January-Newsletter.html" class="post-read-more">[Read&nbsp;More]</a>
-        
+function handleResize() {
+  const iframe = document.getElementById('newsletter-iframe');
+  if (iframe) {
+    iframe.style.height = '100px';
+    resizeIframe(iframe);
+  }
+}
+
+window.addEventListener('resize', handleResize);
+window.addEventListener('orientationchange', handleResize);
+</script>
+
+
       </div>
-      
 
       
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
+        <div class="blog-tags">
+          <span>Tags:</span>
           
-          <li class="list-inline-item">
-            <a href="/All_Posts//Newsletter">Newsletter</a>
-          </li>
+            <a href="/tags#Newsletter">Newsletter</a>
           
-        </ul>
-      </div>
+        </div>
       
 
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
+      
 
-      <a href="/2025/12/02/December-Newsletter.html">
-        <h2 class="post-title">December Newsletter</h2>
+      
 
+      <ul class="pagination blog-pager">
         
-      </a>
-
-      
-        <span>By <strong>Etienne Lefebvre</strong></span>
-      
-      <p class="post-meta">
-        
-        Posted on December 2, 2025
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
+        <li class="page-item previous">
+          <a class="page-link" href="/2025/12/09/is-keeping-taxes-low-affordable.html" data-toggle="tooltip" data-placement="top" title="Is Keeping Taxes Low Affordable?">
+            <i class="fas fa-arrow-left" alt="Previous Post"></i>
+            <span class="d-none d-sm-inline-block">Previous Post</span>
+          </a>
+        </li>
         
         
-
-
-        
-        
-          <a href="/2025/12/02/December-Newsletter.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="/All_Posts//Newsletter">Newsletter</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-
-      <a href="/2025/11/03/November-Newsletter.html">
-        <h2 class="post-title">November Newsletter</h2>
-
-        
-      </a>
-
-      
-        <span>By <strong>Etienne Lefebvre</strong></span>
-      
-      <p class="post-meta">
-        
-        Posted on November 3, 2025
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-
-
-        
-        
-          <a href="/2025/11/03/November-Newsletter.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="/All_Posts//Newsletter">Newsletter</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-
-      <a href="/2025/10/01/October-Newsletter.html">
-        <h2 class="post-title">October Newsletter</h2>
-
-        
-          <h3 class="post-subtitle">
-          Join our new advocacy focused monthly meetings!
-          </h3>
-        
-      </a>
-
-      
-        <span>By <strong>Etienne Lefebvre</strong></span>
-      
-      <p class="post-meta">
-        
-        Posted on October 1, 2025
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-
-
-        
-        
-          <a href="/2025/10/01/October-Newsletter.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="/All_Posts//Newsletter">Newsletter</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-
-      <a href="/2025/09/02/September-Newsletter.html">
-        <h2 class="post-title">September Newsletter</h2>
-
-        
-          <h3 class="post-subtitle">
-          The Budget Is Brewing, Let's Stir The Pot
-          </h3>
-        
-      </a>
-
-      
-        <span>By <strong>Etienne Lefebvre</strong></span>
-      
-      <p class="post-meta">
-        
-        Posted on September 2, 2025
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-
-
-        
-        
-          <a href="/2025/09/02/September-Newsletter.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="/All_Posts//Newsletter">Newsletter</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-
-      <a href="/2025/08/01/August-Newsletter.html">
-        <h2 class="post-title">August Newsletter</h2>
-
-        
-          <h3 class="post-subtitle">
-          Welcome to the Strong Towns Ottawa inaugural newsletter!
-          </h3>
-        
-      </a>
-
-      
-        <span>By <strong>Etienne Lefebvre</strong></span>
-      
-      <p class="post-meta">
-        
-        Posted on August 1, 2025
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-
-
-        
-        
-          <a href="/2025/08/01/August-Newsletter.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="/All_Posts//Newsletter">Newsletter</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-</ul>
-
-
-
-<!---->
-
-
-
-
-
-
-
-
-
-
-
-<!-- <h1>Posts with 'Newsletters' </h1> -->
-
-
-<div class="posts-list">
-
-    <ul class="posts">
-
-        
-
       </ul>
-    </div>
-
-    
-
-
-    
-
-      
-
       
 
     </div>
