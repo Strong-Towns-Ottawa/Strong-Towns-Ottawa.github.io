@@ -1,8 +1,10 @@
 ---
 title: Letter to Council; Banning Right Turns On Red Lights
+permalink: "/rtor/"
 layout: page
 subtitle: We urge the City of Ottawa to act swiftly and implement a pilot for banning
   right turns on red lights in the downtown core.
+published: true
 ---
 
 <div style="text-align: center; margin: 20px 0;">

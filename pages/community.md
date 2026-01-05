@@ -1,5 +1,6 @@
 ---
 title: Community
+permalink: "/community/"
 layout: page
 subtitle: The way we build our cities allows for communities to thrive, or to flounder.
   Communities shape our everyday lives, it is vital to make sure we're building cities
@@ -8,6 +9,7 @@ subtitle: The way we build our cities allows for communities to thrive, or to fl
   makes it as easy as possible for communities to form for all different types of
   people. A thriving city allows you to explore your hobbies, interests, human connections,
   and more without having to travel too far away from home.
+published: true
 ---
 
 <style>
