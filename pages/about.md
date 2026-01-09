@@ -40,7 +40,7 @@ If you have projects that you think align with our goals of a more financially s
 
 ## Get Involved
 
-If you are interested in joining our movement, we are most active on Discord, where we have different channels dedicated to different projects. You can also discuss general topics like housing, transportation, and urban design. If you are not familiar with Discord or need help setting it up, feel free to reach out to our team e-mail (team@strongtownsottawa.ca) and we’d be happy to help.
+If you are interested in joining our movement, we are most active on Discord, where we have different channels dedicated to different projects. You can also discuss general topics like housing, transportation, and urban design. If you are not familiar with Discord or need help setting it up, feel free to reach out to our team e-mail (hello@strongtownsottawa.ca) and we’d be happy to help.
 
 If you have ideas for how to improve your area, want to help with some of our currently ongoing initiatives, want to connect with like-minded people interested in improving our city, or just want to come hang out at our socials/book club, we’d love to have you join us!
 
