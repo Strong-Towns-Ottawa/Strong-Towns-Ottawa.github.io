@@ -143,49 +143,49 @@ If you have projects that you think align with our goals of a more financially s
     </div>
       
     <div class="team-member">
-      <img src="/assets/images/team/john-doe.jpg" alt="John Doe" class="member-image">
-      <h3 class="member-name">Clebe Figueiredo</h3>
+      <img src="/assets/images/team/john-doe.jpg" alt="Cleber Figueiredo" class="member-image">
+      <h3 class="member-name">Cleber Figueiredo</h3>
       <div class="member-role">Board Member</div>
       <p class="member-bio">Urban planner with 100+ years experience in sustainable city design.</p>
     </div>
 
     <div class="team-member">
-      <img src="/assets/images/team/sarah-johnson.jpg" alt="Sarah Johnson" class="member-image">
+      <img src="/assets/images/team/sarah-johnson.jpg" alt="Tristano Lafelice" class="member-image">
       <h3 class="member-name">Tristano Lafelice</h3>
       <div class="member-role">Board Member</div>
       <p class="member-bio">Urban planner with 100+ years experience in sustainable city design.</p>
     </div>  
 
     <div class="team-member">
-      <img src="/assets/images/team/sarah-johnson.jpg" alt="Sarah Johnson" class="member-image">
+      <img src="/assets/images/team/sarah-johnson.jpg" alt="Etienne Lefebvre" class="member-image">
       <h3 class="member-name">Etienne Lefebvre</h3>
       <div class="member-role">Board Member</div>
       <p class="member-bio">Urban planner with 100+ years experience in sustainable city design.</p>
     </div>
 
     <div class="team-member">
-      <img src="/assets/images/team/sarah-johnson.jpg" alt="Sarah Johnson" class="member-image">
+      <img src="/assets/images/team/sarah-johnson.jpg" alt="Ryan Loi" class="member-image">
       <h3 class="member-name">Ryan Loi</h3>
       <div class="member-role">Board Member</div>
       <p class="member-bio">Urban planner with 100+ years experience in sustainable city design.</p>
     </div>
        
     <div class="team-member">
-      <img src="/assets/images/team/mike-chen.jpg" alt="Mike Chen" class="member-image">
+      <img src="/assets/images/team/mike-chen.jpg" alt="Marko Miljusevic" class="member-image">
       <h3 class="member-name">Marko Miljusevic</h3>
       <div class="member-role">Board Member</div>
       <p class="member-bio">Urban planner with 100+ years experience in sustainable city design.</p>
     </div>
         
     <div class="team-member">
-      <img src="/assets/images/team/priya-patel.jpg" alt="Priya Patel" class="member-image">
+      <img src="/assets/images/team/priya-patel.jpg" alt="Ducan Rae" class="member-image">
       <h3 class="member-name">Ducan Rae</h3>
       <div class="member-role">Board Member</div>
       <p class="member-bio">Urban planner with 100+ years experience in sustainable city design..</p>
     </div>
         
     <div class="team-member">
-      <img src="/assets/images/team/carlos-rodriguez.jpg" alt="Carlos Rodriguez" class="member-image">
+      <img src="/assets/images/team/carlos-rodriguez.jpg" alt="Derrick Simpson" class="member-image">
       <h3 class="member-name">Derrick Simpson</h3>
       <div class="member-role">Board Member</div>
       <p class="member-bio">Urban planner with 100+ years experience in sustainable city design.</p>
@@ -202,14 +202,14 @@ If you have projects that you think align with our goals of a more financially s
   <div class="team-container">
 
     <div class="team-member">
-      <img src="/assets/images/team/alex-kim.jpg" alt="Alex Kim" class="member-image">
+      <img src="/assets/images/team/alex-kim.jpg" alt="Pat" class="member-image">
       <h3 class="member-name">Pat</h3>
       <div class="member-role">Do the math wizard</div>
       <p class="member-bio">Professional data wizard with over 500 years of experience using pivot tables on excel</p>
     </div>
     
     <div class="team-member">
-      <img src="/assets/images/team/maria-garcia.jpg" alt="Maria Garcia" class="member-image">
+      <img src="/assets/images/team/maria-garcia.jpg" alt="Jamie" class="member-image">
       <h3 class="member-name">Jamie</h3>
       <div class="member-role">Do the math wizard</div>
       <p class="member-bio">Professional data wizard with over 500 years of experience using pivot tables on excel</p>
