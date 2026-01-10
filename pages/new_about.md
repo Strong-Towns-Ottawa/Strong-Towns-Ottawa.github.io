@@ -139,7 +139,7 @@ If you have projects that you think align with our goals of a more financially s
       <img src="/assets/img/team/rob.png" alt="Rob Attrell" class="member-image">
       <h3 class="member-name">Rob Attrell</h3>
       <div class="member-role">Board Member</div>
-      <p class="member-bio">Urban planner with 100+ years experience in sustainable city design.</p>
+      <p class="member-bio">Urban planner with 1000+ years experience in sustainable city design.</p>
     </div>
       
     <div class="team-member">
