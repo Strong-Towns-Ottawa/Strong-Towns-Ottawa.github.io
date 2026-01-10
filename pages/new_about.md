@@ -136,7 +136,7 @@ If you have projects that you think align with our goals of a more financially s
   
   <div class="team-container">
     <div class="team-member">
-      <img src="{{ '/assets/img/team/rob.png' | relative_url }}" alt="Rob Attrell" class="member-image">
+      <img src="{{ site.baseurl }}/assets/img/team/rob.png" alt="Rob Attrell" class="member-image">
       <h3 class="member-name">Rob Attrell</h3>
       <div class="member-role">Board Member</div>
       <p class="member-bio">Urban planner with 1000+ years experience in sustainable city design.</p>
