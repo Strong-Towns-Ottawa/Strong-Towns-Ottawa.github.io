@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://strongtownsottawa.ca/sitemap.xml
