@@ -33,7 +33,9 @@ alt="Additional parking congestion video">
 </div>
 <p class="text-muted text-center mt-2">Additional parking congestion example</p>
 </div>
-</code></pre></div></div><style>.parking-videos { margin: 2rem 0; } .flickr-embed-sm { border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); position: relative; padding-bottom: 110%; /\* adjust this to make the smaller or bigger \*/ height: 0; max-width: 100%; margin: 0 auto; } .flickr-embed-sm a { position: absolute; top: 0; left: 0; width: 100%; height: 100%; } .flickr-embed-sm img { width: 100%; height: 100%; object-fit: cover; }</style></ul><div class="text-center mt-4 mb-4"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdmP_jogr7Us53LxbrZtcIP5SOANRQ3te-9Y24k1XfTj5pY2Q/viewform" class="btn btn-primary st-yellow-btn me-2">Sign The Petition</a></div></div>
+</code></pre></div></div><style>.parking-videos { margin: 2rem 0; } .flickr-embed-sm { border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); position: relative; padding-bottom: 110%; /\* adjust this to make the smaller or bigger \*/ height: 0; max-width: 100%; margin: 0 auto; } .flickr-embed-sm a { position: absolute; top: 0; left: 0; width: 100%; height: 100%; } .flickr-embed-sm img { width: 100%; height: 100%; object-fit: cover; }</style></ul><div class="text-center mt-4 mb-4"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdmP_jogr7Us53LxbrZtcIP5SOANRQ3te-9Y24k1XfTj5pY2Q/viewform" class="btn btn-primary st-yellow-btn me-2">Sign The Petition</a>
+
+<a href="https://strongtownsottawa.ca/bank_street_email_template/" class ="btn btn-primary st-yellow-btn">Use Our Email Template</a></div></div>
 
 ## The People Have Spoken and They Want Bus Lanes Too
 
