@@ -82,12 +82,14 @@ published: true
 }
 
 .section-header h2 {
-  color: #2c3e50;
+  text-align: left;
+  color: #404040;
   font-size: 2rem;
   margin-bottom: 0.5rem;
 }
 
 .section-header p {
+  text-align: left;
   color: #7f8c8d;
   font-size: 1.1rem;
   max-width: 800px;
@@ -143,49 +145,51 @@ If you have projects that you think align with our goals of a more financially s
     </div>
       
     <div class="team-member">
-      <img src="/assets/images/team/john-doe.jpg" alt="Cleber Figueiredo" class="member-image">
+      <img src="{{ site.baseurl }}/assets/img/team/rob.png" alt="Cleber Figueiredo" class="member-image">
       <h3 class="member-name">Cleber Figueiredo</h3>
       <div class="member-role">Board Member</div>
       <p class="member-bio">Urban planner with 100+ years experience in sustainable city design.</p>
     </div>
 
     <div class="team-member">
-      <img src="/assets/images/team/sarah-johnson.jpg" alt="Tristano Lafelice" class="member-image">
+      <img src="{{ site.baseurl }}/assets/img/team/rob.png" alt="Tristano Lafelice" class="member-image">
       <h3 class="member-name">Tristano Lafelice</h3>
       <div class="member-role">Board Member</div>
       <p class="member-bio">Urban planner with 100+ years experience in sustainable city design.</p>
     </div>  
 
     <div class="team-member">
-      <img src="/assets/images/team/sarah-johnson.jpg" alt="Etienne Lefebvre" class="member-image">
+      <img src="{{ site.baseurl }}/assets/img/team/etienne2.jpg" alt="Etienne Lefebvre" class="member-image">
       <h3 class="member-name">Etienne Lefebvre</h3>
       <div class="member-role">Board Member</div>
       <p class="member-bio">Urban planner with 100+ years experience in sustainable city design.</p>
     </div>
 
     <div class="team-member">
-      <img src="/assets/images/team/sarah-johnson.jpg" alt="Ryan Loi" class="member-image">
+      <img src="{{ site.baseurl }}/assets/img/team/rob.png" alt="Ryan Loi" class="member-image">
       <h3 class="member-name">Ryan Loi</h3>
       <div class="member-role">Board Member</div>
-      <p class="member-bio">Urban planner with 100+ years experience in sustainable city design.</p>
+      <p class="member-bio">Urban planner with 100+ years experience in sustainable city design.If you have projects that you think align with our goals of a more financially sustainable and safer city, one that gives people more housing options, better transportation options, and helps people feel part of a community, then reach out to us at team@strongtownsottawa.ca, and we’ll get back to you as soon as possible.
+
+</p>
     </div>
        
     <div class="team-member">
-      <img src="/assets/images/team/mike-chen.jpg" alt="Marko Miljusevic" class="member-image">
+      <img src="{{ site.baseurl }}/assets/img/team/rob.png" alt="Marko Miljusevic" class="member-image">
       <h3 class="member-name">Marko Miljusevic</h3>
       <div class="member-role">Board Member</div>
       <p class="member-bio">Urban planner with 100+ years experience in sustainable city design.</p>
     </div>
         
     <div class="team-member">
-      <img src="/assets/images/team/priya-patel.jpg" alt="Ducan Rae" class="member-image">
+      <img src="{{ site.baseurl }}/assets/img/team/rob.png" alt="Ducan Rae" class="member-image">
       <h3 class="member-name">Ducan Rae</h3>
       <div class="member-role">Board Member</div>
       <p class="member-bio">Urban planner with 100+ years experience in sustainable city design..</p>
     </div>
         
     <div class="team-member">
-      <img src="/assets/images/team/carlos-rodriguez.jpg" alt="Derrick Simpson" class="member-image">
+      <img src="{{ site.baseurl }}/assets/img/team/rob.png" alt="Derrick Simpson" class="member-image">
       <h3 class="member-name">Derrick Simpson</h3>
       <div class="member-role">Board Member</div>
       <p class="member-bio">Urban planner with 100+ years experience in sustainable city design.</p>
@@ -202,14 +206,14 @@ If you have projects that you think align with our goals of a more financially s
   <div class="team-container">
 
     <div class="team-member">
-      <img src="/assets/images/team/alex-kim.jpg" alt="Pat" class="member-image">
+      <img src="{{ site.baseurl }}/assets/img/team/rob.png" alt="Pat" class="member-image">
       <h3 class="member-name">Pat</h3>
       <div class="member-role">Do the math wizard</div>
       <p class="member-bio">Professional data wizard with over 500 years of experience using pivot tables on excel</p>
     </div>
     
     <div class="team-member">
-      <img src="/assets/images/team/maria-garcia.jpg" alt="Jamie" class="member-image">
+      <img src="{{ site.baseurl }}/assets/img/team/rob.png" alt="Jamie" class="member-image">
       <h3 class="member-name">Jamie</h3>
       <div class="member-role">Do the math wizard</div>
       <p class="member-bio">Professional data wizard with over 500 years of experience using pivot tables on excel</p>
