@@ -6,7 +6,6 @@ subtitle: Housing is one of the most important aspects of our cities. Everyone n
   this less attainable for your average Ottawan. It has become unaffordable, bland,
   and forces you to live further from necessities and amenities.
 layout: page
-published: true
 ---
 
 <style>

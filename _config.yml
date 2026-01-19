@@ -9,8 +9,8 @@ collections:
     title: Uploads
     output: true
 description: A website for Strong Towns Ottawa
-baseurl: "" 
-url: "https://strongtownsottawa.ca"
+baseurl: ''
+url: https://strongtownsottawa.ca
 markdown: kramdown
 remote_theme: daattali/beautiful-jekyll
 plugins:

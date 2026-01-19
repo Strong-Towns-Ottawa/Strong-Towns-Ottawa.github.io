@@ -1,9 +1,8 @@
 ---
 title: Visualizations
-permalink: /visualizations/
+permalink: "/visualizations/"
 layout: page
 subtitle: Browse our images, graphs, and our visualizations!
-published: true
 ---
 
 <details>

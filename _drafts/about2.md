@@ -1,10 +1,10 @@
 ---
 title: About Us
+date: 2026-01-19 22:11:39.754000000 Z
 permalink: "/about2/"
 subtitle: Building a more financially resilient and livable Ottawa
 title_size: 2rem
 layout: page
-published: true
 ---
 
 <style>

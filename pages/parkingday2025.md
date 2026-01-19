@@ -1,11 +1,11 @@
 ---
 title: Parking Day 2025
-subtitle: This year, we are organizing the first ever Parking Day event in our
-  city’s history! Join us on Friday, September 19 from 11:00 AM – 7:00 PM
-permalink: /parkingday2025/
+permalink: "/parkingday2025/"
+subtitle: This year, we are organizing the first ever Parking Day event in our city’s
+  history! Join us on Friday, September 19 from 11:00 AM – 7:00 PM
 layout: page
-published: true
 ---
+
 ## Event Details
 
 **📅 Date & Time:** Friday, September 19, 2025, 11:00 AM – 7:00 PM
