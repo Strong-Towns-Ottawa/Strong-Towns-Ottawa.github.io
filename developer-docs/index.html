@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Beautiful Jekyll 6.0.1 | Copyright Dean Attali 2023 -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+  
+
+  
+
+  <title>Developer Documentation</title>
+
+  
+  
+
+  <meta name="description" content="Technical reference for working with this website">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/custom.css">
+    
+  
+
+  
+  
+  
+
+  
+
+  
+  <meta property="og:site_name" content="Strong Towns Ottawa">
+  <meta property="og:title" content="Developer Documentation">
+  <meta property="og:description" content="Technical reference for working with this website">
+
+  
+
+  
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://strongtownsottawa.ca/developer-docs/">
+  <link rel="canonical" href="https://strongtownsottawa.ca/developer-docs/">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@strongtownsott">
+  <meta name="twitter:creator" content="@strongtownsott">
+
+  <meta property="twitter:title" content="Developer Documentation">
+  <meta property="twitter:description" content="Technical reference for working with this website">
+
+  
+
+  
+
+
+  
+
+  
+  
+  <link rel="icon" href="/favicon.ico" />
+  
+
+  
+
+</head>
+
+<script data-goatcounter="https://strongtownsottawa.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+<body>
+
+  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="https://strongtownsottawa.ca/">Strong Towns Ottawa</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/#Highlights">Highlights</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/All_Posts">Articles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/#Events">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/resources">Resources</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" id="nav-search-link" href="#" title="Search">
+            <span id="nav-search-icon" class="fa fa-search"></span>
+            <span id="nav-search-text">Search</span>
+          </a>
+        </li></ul>
+  </div>
+
+  
+
+  
+
+</nav>
+
+
+
+<div id="beautifuljekyll-search-overlay">
+
+  <div id="nav-search-exit" title="Exit search">✕</div>
+  <input type="text" id="nav-search-input" placeholder="Search">
+  <ul id="search-results-container"></ul>
+  
+  <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+  <script>
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('nav-search-input'),
+      resultsContainer: document.getElementById('search-results-container'),
+      json: '/assets/data/searchcorpus.json' 
+    });
+  </script>
+</div>
+
+
+
+  
+
+
+
+<header class="header-section ">
+<div class="intro-header ">
+  
+  <div class="container-md">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+        <div class="page-heading">
+          <h1>Developer Documentation</h1>
+          
+            
+              <hr class="small">
+              <span class="page-subheading">Technical reference for working with this website</span>
+            
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+</div>
+
+
+
+</header>
+
+
+<main class=" container-md ">
+  <div class="row">
+    <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
+      
+
+      <h1 id="strong-towns-ottawa-website---documentation-website">Strong Towns Ottawa Website - Documentation Website</h1>
+
+<h2 id="project-overview">Project Overview</h2>
+
+<p>This is the official website for <strong>Strong Towns Ottawa</strong>, a local advocacy organization and chapter of the Strong Towns movement. The organization (legally “Ottawa-Gatineau Urbanism Association Inc.”) is dedicated to making Ottawa a more financially resilient, livable, and sustainable city through education, advocacy, and community engagement around urban planning topics.</p>
+
+<p><strong>Primary Functions:</strong></p>
+<ul>
+  <li>Publishing blog posts and analysis articles</li>
+  <li>Sharing monthly newsletters</li>
+  <li>Announcing and organizing events</li>
+  <li>Providing educational resources on housing, transit, infrastructure, and finances</li>
+  <li>Building community engagement around urbanism topics</li>
+</ul>
+
+<p><strong>Website:</strong> <a href="https://strongtownsottawa.ca">https://strongtownsottawa.ca</a></p>
+
+<h2 id="technology-stack">Technology Stack</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Technology</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Static Site Generator</strong></td>
+      <td>Jekyll 4.3.4</td>
+    </tr>
+    <tr>
+      <td><strong>Theme</strong></td>
+      <td>Beautiful Jekyll (remote theme from daattali/beautiful-jekyll)</td>
+    </tr>
+    <tr>
+      <td><strong>Language</strong></td>
+      <td>Ruby 3.3</td>
+    </tr>
+    <tr>
+      <td><strong>Markdown Parser</strong></td>
+      <td>kramdown</td>
+    </tr>
+    <tr>
+      <td><strong>CMS</strong></td>
+      <td>Decap CMS (formerly Netlify CMS)</td>
+    </tr>
+    <tr>
+      <td><strong>Hosting</strong></td>
+      <td>Cloudflare Pages</td>
+    </tr>
+    <tr>
+      <td><strong>CI/CD</strong></td>
+      <td>GitHub Actions (<a href=".github/workflows/jekyll.yml">.github/workflows/jekyll.yml</a>)</td>
+    </tr>
+    <tr>
+      <td><strong>Analytics</strong></td>
+      <td>GoatCounter</td>
+    </tr>
+    <tr>
+      <td><strong>Icons</strong></td>
+      <td>Font Awesome 6.5.2</td>
+    </tr>
+    <tr>
+      <td><strong>CSS Framework</strong></td>
+      <td>Bootstrap 4.4.1</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Key Jekyll Plugins:</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">jekyll-paginate-v2</code> - Advanced pagination (10 posts per page)</li>
+  <li><code class="language-plaintext highlighter-rouge">jekyll-feed</code> - RSS feed generation</li>
+  <li><code class="language-plaintext highlighter-rouge">jekyll-seo-tag</code> - SEO metadata</li>
+  <li><code class="language-plaintext highlighter-rouge">jekyll-sitemap</code> - XML sitemap</li>
+  <li><code class="language-plaintext highlighter-rouge">jekyll-remote-theme</code> - Remote theme support</li>
+</ul>
+
+<h2 id="key-architecture-decisions">Key Architecture Decisions</h2>
+
+<h3 id="static-site-generation-with-jekyll">Static Site Generation with Jekyll</h3>
+<p>Jekyll provides fast, secure static HTML generation with version-controlled content. This eliminates server-side vulnerabilities, reduces hosting costs, and simplifies deployment.</p>
+
+<h3 id="remote-theme-beautiful-jekyll">Remote Theme (Beautiful Jekyll)</h3>
+<p>Using a remote theme keeps the codebase clean and maintainable without needing to manage theme files locally. Custom styling is layered on top through <a href="assets/css/custom.css">assets/css/custom.css</a>.</p>
+
+<h3 id="cloudflare-pages-hosting">Cloudflare Pages Hosting</h3>
+<p>Fast, reliable hosting via Cloudflare Pages with custom domain support (strongtownsottawa.ca). Deployment is automatic via GitHub Actions, which builds the site and deploys to Cloudflare’s edge network for optimal performance and security.</p>
+
+<h3 id="markdown-based-content">Markdown-Based Content</h3>
+<p>All content is written in Markdown with YAML front matter, making it easy for non-technical contributors to add and edit content.</p>
+
+<h3 id="tag-based-organization">Tag-Based Organization</h3>
+<p>Content is organized using tags (Housing, Transit, Finances, Cycling, Newsletter, Letters, Event) with corresponding category pages in the <a href="All_Posts/">All_Posts/</a> directory.</p>
+
+<h3 id="custom-css-layer">Custom CSS Layer</h3>
+<p>Brand colors and custom styling are consolidated in a single file (<a href="assets/css/custom.css">assets/css/custom.css</a>) that overrides theme defaults while preserving theme structure.</p>
+
+<h2 id="directory-structure">Directory Structure</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Strong-Towns-Ottawa.github.io/
+├── _posts/                      # Blog posts with date prefix (YYYY-MM-DD-title.md)
+├── pages/                       # Static pages (about.md, resources.md, etc.)
+├── _layouts/                    # HTML templates
+│   ├── base.html               # Root template with nav, footer, analytics
+│   ├── default.html            # Standard page wrapper
+│   ├── home.html               # Homepage layout
+│   └── tag.html                # Category/tag page layout
+├── _includes/                   # Reusable template components
+│   ├── nav.html                # Navigation bar
+│   ├── footer-scripts.html     # Footer scripts
+│   ├── search.html             # Search functionality
+│   ├── tag-filters.html        # Tag filtering interface
+│   ├── newsletter-banner.html  # Newsletter signup banner
+│   └── warning-banner.html     # Alert banner
+├── All_Posts/                   # Tag-based category pages
+│   ├── Cycling/
+│   ├── Finances/
+│   ├── Housing/
+│   ├── Transit/
+│   ├── Newsletter/
+│   ├── Letters/
+│   └── Event/
+├── assets/
+│   ├── css/
+│   │   └── custom.css          # All custom styling and brand colors
+│   ├── js/
+│   │   └── beautifuljekyll.js  # Navigation toggle and mobile menu
+│   ├── img/                    # Images
+│   └── pdf/                    # PDF documents
+├── _config.yml                  # Jekyll configuration
+├── .pages.yml                   # Decap CMS configuration
+├── index.html                   # Homepage entry point
+├── Gemfile &amp; Gemfile.lock       # Ruby dependencies
+├── CNAME                        # Custom domain configuration
+└── _site/                       # Generated static site (build output)
+</code></pre></div></div>
+
+<h2 id="coding-conventions">Coding Conventions</h2>
+
+<h3 id="file-naming">File Naming</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Pattern</th>
+      <th>Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Blog Posts</strong></td>
+      <td><code class="language-plaintext highlighter-rouge">YYYY-MM-DD-kebab-case-title.md</code></td>
+      <td><code class="language-plaintext highlighter-rouge">2026-01-30-sussex-beechwood-and-who-gets-to-belong.md</code></td>
+    </tr>
+    <tr>
+      <td><strong>Pages</strong></td>
+      <td><code class="language-plaintext highlighter-rouge">kebab-case-filename.md</code></td>
+      <td><code class="language-plaintext highlighter-rouge">about.md</code>, <code class="language-plaintext highlighter-rouge">resources.md</code></td>
+    </tr>
+    <tr>
+      <td><strong>Images</strong></td>
+      <td><code class="language-plaintext highlighter-rouge">kebab-case-filename.{jpg,png,webp}</code></td>
+      <td><code class="language-plaintext highlighter-rouge">hero_banner.webp</code>, <code class="language-plaintext highlighter-rouge">sussex-blocks.png</code></td>
+    </tr>
+    <tr>
+      <td><strong>CSS Classes</strong></td>
+      <td><code class="language-plaintext highlighter-rouge">kebab-case</code></td>
+      <td><code class="language-plaintext highlighter-rouge">.st-yellow-btn</code>, <code class="language-plaintext highlighter-rouge">.tag-filter</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="front-matter-template">Front Matter Template</h3>
+
+<p>All blog posts require YAML front matter at the top of the file:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Post Title Here</span>
+<span class="na">date</span><span class="pi">:</span> <span class="s">YYYY-MM-DD HH:MM:SS Z</span>
+<span class="na">tags</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">Tag1</span>
+  <span class="pi">-</span> <span class="s">Tag2</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
+<span class="na">author</span><span class="pi">:</span> <span class="s">Author Name (optional)</span>
+<span class="na">subtitle</span><span class="pi">:</span> <span class="s">Secondary tagline (optional)</span>
+<span class="na">featured-image</span><span class="pi">:</span> <span class="s">/assets/img/filename.jpg (optional)</span>
+<span class="na">featured</span><span class="pi">:</span> <span class="no">true</span>
+<span class="na">published</span><span class="pi">:</span> <span class="no">true</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<p><strong>Valid Tags:</strong> <code class="language-plaintext highlighter-rouge">Cycling</code>, <code class="language-plaintext highlighter-rouge">Finances</code>, <code class="language-plaintext highlighter-rouge">Housing</code>, <code class="language-plaintext highlighter-rouge">Transit</code>, <code class="language-plaintext highlighter-rouge">Newsletter</code>, <code class="language-plaintext highlighter-rouge">Letters</code>, <code class="language-plaintext highlighter-rouge">Event</code></p>
+
+<p><strong>Required Fields:</strong> <code class="language-plaintext highlighter-rouge">title</code>, <code class="language-plaintext highlighter-rouge">date</code>, <code class="language-plaintext highlighter-rouge">tags</code>, <code class="language-plaintext highlighter-rouge">layout</code>, <code class="language-plaintext highlighter-rouge">featured</code>
+<strong>Optional Fields:</strong> <code class="language-plaintext highlighter-rouge">author</code>, <code class="language-plaintext highlighter-rouge">subtitle</code>, <code class="language-plaintext highlighter-rouge">featured-image</code>, <code class="language-plaintext highlighter-rouge">published</code></p>
+
+<p><strong>Notes:</strong></p>
+<ul>
+  <li>Set <code class="language-plaintext highlighter-rouge">featured: true</code> to display post on homepage</li>
+  <li>Omit <code class="language-plaintext highlighter-rouge">published</code> field or set <code class="language-plaintext highlighter-rouge">published: false</code> for drafts</li>
+  <li>Date must not be in the future for post to appear</li>
+  <li>Tags must match exactly (case-sensitive)</li>
+</ul>
+
+<h3 id="css-conventions">CSS Conventions</h3>
+
+<p><strong>Brand Colors</strong> (defined in <a href="assets/css/custom.css">assets/css/custom.css</a>):</p>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nd">:root</span> <span class="p">{</span>
+    <span class="py">--st-blue</span><span class="p">:</span> <span class="m">#0C2340</span><span class="p">;</span>         <span class="c">/* Primary brand color */</span>
+    <span class="py">--st-light-blue</span><span class="p">:</span> <span class="m">#A7C6ED</span><span class="p">;</span>   <span class="c">/* Secondary brand color */</span>
+    <span class="py">--st-yellow</span><span class="p">:</span> <span class="m">#FFB549</span><span class="p">;</span>       <span class="c">/* Accent/highlight color */</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p><strong>Styling Principles:</strong></p>
+<ul>
+  <li>Use CSS custom properties (variables) for brand colors</li>
+  <li>Mobile-first responsive design with <code class="language-plaintext highlighter-rouge">@media (max-width: 768px)</code></li>
+  <li>Class naming: kebab-case (<code class="language-plaintext highlighter-rouge">.navbar-custom</code>, <code class="language-plaintext highlighter-rouge">.tag-filter-selected</code>)</li>
+  <li>Keep all custom styles in <a href="assets/css/custom.css">assets/css/custom.css</a></li>
+  <li>Don’t modify theme files directly - use CSS overrides</li>
+</ul>
+
+<h2 id="common-tasks">Common Tasks</h2>
+
+<h3 id="adding-a-new-blog-post">Adding a New Blog Post</h3>
+
+<ol>
+  <li><strong>Create the file</strong> in <code class="language-plaintext highlighter-rouge">_posts/</code> directory:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>_posts/2026-02-03-your-post-title.md
+</code></pre></div>    </div>
+  </li>
+  <li><strong>Add front matter</strong> at the top:
+```yaml
+—
+title: Your Post Title
+date: 2026-02-03 10:00:00 Z
+tags:
+    <ul>
+      <li>Housing
+layout: post
+author: Your Name
+featured-image: /assets/img/your-image.jpg
+featured: true
+—
+```</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Write content</strong> in Markdown below the front matter</p>
+  </li>
+  <li><strong>Add featured image</strong> (optional):
+    <ul>
+      <li>Place image in <code class="language-plaintext highlighter-rouge">/assets/img/</code> directory</li>
+      <li>Use kebab-case naming</li>
+      <li>Optimize/compress before uploading</li>
+    </ul>
+  </li>
+  <li><strong>Choose appropriate tag(s)</strong> from valid list:
+    <ul>
+      <li>Cycling, Finances, Housing, Transit, Newsletter, Letters, Event</li>
+    </ul>
+  </li>
+  <li><strong>Set featured status</strong>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">featured: true</code> displays on homepage</li>
+      <li><code class="language-plaintext highlighter-rouge">featured: false</code> excludes from homepage</li>
+    </ul>
+  </li>
+  <li><strong>Commit and push</strong> to trigger automatic deployment</li>
+</ol>
+
+<p><strong>Example:</strong> See <a href="https://strongtownsottawa.ca/2026/01/30/sussex-beechwood-and-who-gets-to-belong.html">_posts/2026-01-30-sussex-beechwood-and-who-gets-to-belong.md</a></p>
+
+<h3 id="adding-a-new-static-page">Adding a New Static Page</h3>
+
+<ol>
+  <li><strong>Create file</strong> in <code class="language-plaintext highlighter-rouge">pages/</code> directory:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pages/your-page-name.md
+</code></pre></div>    </div>
+  </li>
+  <li><strong>Add front matter</strong>:
+    <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Your Page Title</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">page</span>
+<span class="na">permalink</span><span class="pi">:</span> <span class="s">/your-page-name/</span>
+<span class="nn">---</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p><strong>Write content</strong> in Markdown</p>
+  </li>
+  <li><strong>Add to navbar</strong> (optional) in <a href="_config.yml">_config.yml</a>:
+    <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">navbar-links</span><span class="pi">:</span>
+  <span class="na">Your Page</span><span class="pi">:</span> <span class="s">/your-page-name</span>
+</code></pre></div>    </div>
+  </li>
+  <li><strong>Commit and push</strong></li>
+</ol>
+
+<p><strong>Example:</strong> See <a href="pages/about.md">pages/about.md</a></p>
+
+<h3 id="adding-images">Adding Images</h3>
+
+<ol>
+  <li><strong>Place image</strong> in <code class="language-plaintext highlighter-rouge">/assets/img/</code> directory</li>
+  <li><strong>Use kebab-case naming</strong>: <code class="language-plaintext highlighter-rouge">my-image-title.jpg</code></li>
+  <li><strong>Optimize for web</strong> (compress to reduce file size)</li>
+  <li><strong>Reference in posts</strong> using absolute path:
+    <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">Alt text</span><span class="p">](</span><span class="sx">/assets/img/my-image-title.jpg</span><span class="p">)</span>
+</code></pre></div>    </div>
+    <p>Or in front matter:</p>
+    <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">featured-image</span><span class="pi">:</span> <span class="s">/assets/img/my-image-title.jpg</span>
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h3 id="creating-a-newsletter-post">Creating a Newsletter Post</h3>
+
+<ol>
+  <li>Use standard blog post format (see “Adding a New Blog Post”)</li>
+  <li>Add <code class="language-plaintext highlighter-rouge">Newsletter</code> tag in front matter</li>
+  <li>Can embed iframe for newsletter content:
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;iframe</span> <span class="na">src=</span><span class="s">"your-newsletter-url"</span> <span class="na">width=</span><span class="s">"100%"</span> <span class="na">height=</span><span class="s">"600"</span><span class="nt">&gt;&lt;/iframe&gt;</span>
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<p><strong>Example:</strong> <a href="_posts/2026-01-05-January-Newsletter.md">_posts/2026-01-05-January-Newsletter.md</a></p>
+
+<h3 id="testing-changes-locally">Testing Changes Locally</h3>
+
+<p>Before pushing changes, test locally:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Install dependencies (first time only)</span>
+bundle <span class="nb">install</span>
+
+<span class="c"># Start local development server</span>
+bundle <span class="nb">exec </span>jekyll serve
+
+<span class="c"># Visit in browser</span>
+<span class="c"># http://localhost:4000</span>
+</code></pre></div></div>
+
+<p>Press <code class="language-plaintext highlighter-rouge">Ctrl+C</code> to stop the server.</p>
+
+<h2 id="debugging-and-troubleshooting">Debugging and Troubleshooting</h2>
+
+<h3 id="jekyll-build-failures">Jekyll Build Failures</h3>
+
+<p><strong>Symptoms:</strong> GitHub Actions workflow fails, site doesn’t update</p>
+
+<p><strong>Solutions:</strong></p>
+<ul>
+  <li>Check Ruby version: <code class="language-plaintext highlighter-rouge">ruby -v</code> (should be 3.3.x)</li>
+  <li>Reinstall gems: <code class="language-plaintext highlighter-rouge">bundle install</code></li>
+  <li>Clear Jekyll cache: <code class="language-plaintext highlighter-rouge">bundle exec jekyll clean</code></li>
+  <li>Check for YAML front matter syntax errors (indentation matters!)</li>
+  <li>Review GitHub Actions logs at: <code class="language-plaintext highlighter-rouge">.github/workflows/jekyll.yml</code></li>
+  <li>Look for missing closing quotes or colons in front matter</li>
+</ul>
+
+<p><strong>Common YAML Errors:</strong></p>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># BAD - missing space after colon</span>
+<span class="s">title:Post Title</span>
+
+<span class="c1"># GOOD</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Post Title</span>
+
+<span class="c1"># BAD - inconsistent indentation</span>
+<span class="na">tags</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">Housing</span>
+    <span class="s">- Transit</span>
+
+<span class="c1"># GOOD</span>
+<span class="na">tags</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">Housing</span>
+  <span class="pi">-</span> <span class="s">Transit</span>
+</code></pre></div></div>
+
+<h3 id="post-not-appearing-on-site">Post Not Appearing on Site</h3>
+
+<p><strong>Check these common issues:</strong></p>
+<ol>
+  <li><strong>Future date:</strong> Post date must not be in the future</li>
+  <li><strong>Draft status:</strong> Remove <code class="language-plaintext highlighter-rouge">published: false</code> or set to <code class="language-plaintext highlighter-rouge">true</code></li>
+  <li><strong>Invalid YAML:</strong> Check front matter syntax (use YAML validator)</li>
+  <li><strong>Wrong location:</strong> File must be in <code class="language-plaintext highlighter-rouge">_posts/</code> directory</li>
+  <li><strong>Incorrect filename:</strong> Must match <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-title.md</code> format</li>
+  <li><strong>Invalid tag:</strong> Tag must be in valid list (case-sensitive)</li>
+</ol>
+
+<h3 id="images-not-loading">Images Not Loading</h3>
+
+<p><strong>Checklist:</strong></p>
+<ul>
+  <li>✅ Use absolute paths: <code class="language-plaintext highlighter-rouge">/assets/img/filename.jpg</code> (not relative <code class="language-plaintext highlighter-rouge">../img/</code>)</li>
+  <li>✅ Verify file exists in correct location</li>
+  <li>✅ Check filename case sensitivity (case matters!)</li>
+  <li>✅ Ensure image was committed and pushed to repository</li>
+  <li>✅ Hard refresh browser: <code class="language-plaintext highlighter-rouge">Ctrl+Shift+R</code> (Windows) or <code class="language-plaintext highlighter-rouge">Cmd+Shift+R</code> (Mac)</li>
+</ul>
+
+<h3 id="styling-issues">Styling Issues</h3>
+
+<p><strong>Debug steps:</strong></p>
+<ol>
+  <li>Open browser developer tools (F12)</li>
+  <li>Check if custom CSS is loaded: <a href="assets/css/custom.css">assets/css/custom.css</a></li>
+  <li>Verify CSS class names in HTML match stylesheet</li>
+  <li>Test responsive styles at different breakpoints</li>
+  <li>Clear browser cache</li>
+  <li>Check for CSS syntax errors (missing semicolons, braces)</li>
+</ol>
+
+<p><strong>To modify styles:</strong></p>
+<ul>
+  <li>Edit <a href="assets/css/custom.css">assets/css/custom.css</a> only</li>
+  <li>Don’t modify theme files directly</li>
+  <li>Use CSS variables for brand colors (<code class="language-plaintext highlighter-rouge">var(--st-blue)</code>)</li>
+  <li>Test mobile responsive design</li>
+</ul>
+
+<h3 id="build-succeeds-but-changes-not-live">Build Succeeds But Changes Not Live</h3>
+
+<p><strong>Possible causes:</strong></p>
+<ol>
+  <li><strong>Deployment delay:</strong> Wait 1-2 minutes for Cloudflare Pages deployment</li>
+  <li><strong>Wrong branch:</strong> Verify push was to <code class="language-plaintext highlighter-rouge">main</code> branch (not a feature branch)</li>
+  <li><strong>Workflow not triggered:</strong> Check GitHub Actions tab for workflow status</li>
+  <li><strong>Browser cache:</strong> Hard refresh: <code class="language-plaintext highlighter-rouge">Ctrl+Shift+R</code></li>
+  <li><strong>DNS cache:</strong> If using custom domain, DNS may take time to propagate</li>
+</ol>
+
+<p><strong>To verify deployment:</strong></p>
+<ul>
+  <li>Go to repository → Actions tab</li>
+  <li>Check latest workflow run completed successfully</li>
+  <li>Look for green checkmark next to commit</li>
+</ul>
+
+<h3 id="tag-pages-not-working">Tag Pages Not Working</h3>
+
+<p><strong>Verify:</strong></p>
+<ol>
+  <li>Tag is in valid list: Cycling, Finances, Housing, Transit, Newsletter, Letters, Event</li>
+  <li>Tag name matches exactly (case-sensitive)</li>
+  <li>Corresponding category page exists in <code class="language-plaintext highlighter-rouge">All_Posts/</code> directory</li>
+  <li>Tag is properly formatted in front matter (YAML list syntax)</li>
+</ol>
+
+<h2 id="important-files-reference">Important Files Reference</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>File</th>
+      <th>Purpose</th>
+      <th>When to Edit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="_config.yml">_config.yml</a></td>
+      <td>Jekyll configuration, site metadata, navbar links, social links</td>
+      <td>Changing navbar, site title, social media links</td>
+    </tr>
+    <tr>
+      <td><a href=".pages.yml">.pages.yml</a></td>
+      <td>Decap CMS configuration for editorial interface</td>
+      <td>Modifying CMS fields or structure</td>
+    </tr>
+    <tr>
+      <td><a href="_layouts/base.html">_layouts/base.html</a></td>
+      <td>Root HTML template with nav, footer, analytics</td>
+      <td>Changing overall page structure</td>
+    </tr>
+    <tr>
+      <td><a href="_includes/nav.html">_includes/nav.html</a></td>
+      <td>Navigation bar HTML</td>
+      <td>Modifying navigation appearance</td>
+    </tr>
+    <tr>
+      <td><a href="assets/css/custom.css">assets/css/custom.css</a></td>
+      <td>All custom styling and brand colors</td>
+      <td>Any visual/styling changes</td>
+    </tr>
+    <tr>
+      <td><a href="assets/js/beautifuljekyll.js">assets/js/beautifuljekyll.js</a></td>
+      <td>Navigation toggle and mobile menu logic</td>
+      <td>Changing mobile menu behavior</td>
+    </tr>
+    <tr>
+      <td><a href="index.html">index.html</a></td>
+      <td>Homepage entry point</td>
+      <td>Modifying homepage content</td>
+    </tr>
+    <tr>
+      <td><a href=".github/workflows/jekyll.yml">.github/workflows/jekyll.yml</a></td>
+      <td>GitHub Actions build and deploy workflow</td>
+      <td>Changing build or deployment process</td>
+    </tr>
+    <tr>
+      <td><a href="Gemfile">Gemfile</a></td>
+      <td>Ruby dependencies</td>
+      <td>Adding/updating Jekyll plugins</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="when-adding-features">When Adding Features</h3>
+
+<ul>
+  <li><strong>Maintain existing conventions</strong> - Don’t introduce new patterns unnecessarily</li>
+  <li><strong>Reuse existing components</strong> - Check <a href="_layouts/">_layouts/</a> and <a href="_includes/">_includes/</a> for reusable components</li>
+  <li><strong>Test locally first</strong> - Always run <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code> before pushing</li>
+  <li><strong>Keep theme intact</strong> - Don’t modify Beautiful Jekyll theme structure directly</li>
+  <li><strong>Follow file naming</strong> - Stick to established kebab-case conventions</li>
+  <li><strong>Use existing tags</strong> - Don’t create new tags without updating all tag infrastructure</li>
+</ul>
+
+<h3 id="when-debugging">When Debugging</h3>
+
+<ul>
+  <li><strong>Start with error messages</strong> - Jekyll errors are usually clear and specific</li>
+  <li><strong>Check GitHub Actions logs</strong> - Build logs show detailed error information</li>
+  <li><strong>Verify locally</strong> - Reproduce issues with <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code></li>
+  <li><strong>Review recent commits</strong> - Use <code class="language-plaintext highlighter-rouge">git log</code> to identify breaking changes</li>
+  <li><strong>YAML is sensitive</strong> - Most errors come from front matter formatting</li>
+</ul>
+
+<h3 id="when-modifying-design">When Modifying Design</h3>
+
+<ul>
+  <li><strong>Edit custom.css only</strong> - All styling changes go in <a href="assets/css/custom.css">assets/css/custom.css</a></li>
+  <li><strong>Don’t touch theme files</strong> - Use CSS overrides instead of modifying theme</li>
+  <li><strong>Test responsive design</strong> - Check mobile, tablet, and desktop breakpoints</li>
+  <li><strong>Use brand colors</strong> - Reference CSS variables: <code class="language-plaintext highlighter-rouge">var(--st-blue)</code>, <code class="language-plaintext highlighter-rouge">var(--st-yellow)</code></li>
+  <li><strong>Mobile-first approach</strong> - Base styles for mobile, then add media queries for larger screens</li>
+</ul>
+
+<h3 id="general-best-practices">General Best Practices</h3>
+
+<ul>
+  <li><strong>Read before editing</strong> - Always read existing files before making changes</li>
+  <li><strong>One change at a time</strong> - Make focused commits for easier debugging</li>
+  <li><strong>Preserve working code</strong> - Don’t refactor unless explicitly requested</li>
+  <li><strong>Follow YAML syntax strictly</strong> - Indentation and formatting matter</li>
+  <li><strong>Absolute paths for assets</strong> - Always use <code class="language-plaintext highlighter-rouge">/assets/</code> not relative paths</li>
+  <li><strong>Compress images</strong> - Optimize file sizes before adding to repository</li>
+</ul>
+
+<hr />
+
+<p><strong>Last Updated:</strong> 2026-02-03
+<strong>Maintained By:</strong> Strong Towns Ottawa
+<strong>Questions?</strong> Contact hello@strongtownsottawa.ca</p>
+
+
+      
+
+      
+
+    </div>
+  </div>
+</main>
+
+  <div style="
+  background: #EAEAEA; 
+  padding-top: 3rem; 
+  text-align: center; 
+  margin: 0 !important;
+  border-top: 1px solid #EAEAEA;
+  border-bottom: 1px solid #EAEAEA;
+">  
+    <div style="
+    margin: 0 auto !important;
+    max-width: 600px !important;
+    display: block !important;
+  ">
+    <script async src="https://eocampaign1.com/form/dbeb67e8-522b-11f0-93b2-bb3923239f94.js" 
+            data-form="dbeb67e8-522b-11f0-93b2-bb3923239f94"></script>
+  </div>
+</div>
+
+<style>
+  footer {
+    margin-top: 0 !important;
+    padding: 0.5 !important;
+  }
+</style>
+  
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      
+<ul class="list-inline text-center footer-links"><li class="list-inline-item">
+    <a href="mailto:hello@strongtownsottawa.ca" title="Email me">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Email me</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://github.com/Strong-Towns-Ottawa" title="GitHub">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">GitHub</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://twitter.com/strongtownsott" title="X (Twitter)">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-x-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">X (Twitter)</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://www.youtube.com/@strongTownsOttawa" title="YouTube">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">YouTube</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://discord.com/invite/kHaVNgrcsG" title="Discord">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-discord fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Discord</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://www.facebook.com/groups/751202843212260" title="Facebook">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Facebook</span>
+   </a>
+  </li></ul>
+
+
+      
+      <p class="copyright text-muted">
+      
+      2026
+
+      
+        &nbsp;&bull;&nbsp;
+        <span class="author-site">
+          <a href="https://strongtownsottawa.ca/">strongtownsottawa.ca</a>
+        </span>
+      
+
+      
+
+      
+
+      </p>
+      <p class="theme-by text-muted">
+        Powered by
+        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+      </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
