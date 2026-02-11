@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="https://strongtownsottawa.ca/feed.xml" rel="self" type="application/atom+xml" /><link href="https://strongtownsottawa.ca/" rel="alternate" type="text/html" /><updated>2026-02-03T19:01:13+00:00</updated><id>https://strongtownsottawa.ca/feed.xml</id><title type="html">Strong Towns Ottawa</title><subtitle>A website for Strong Towns Ottawa</subtitle><entry><title type="html">Sussex, Beechwood and who gets to belong</title><link href="https://strongtownsottawa.ca/2026/01/30/sussex-beechwood-and-who-gets-to-belong.html" rel="alternate" type="text/html" title="Sussex, Beechwood and who gets to belong" /><published>2026-01-30T00:00:00+00:00</published><updated>2026-01-30T00:00:00+00:00</updated><id>https://strongtownsottawa.ca/2026/01/30/sussex-beechwood-and-who-gets-to-belong</id><content type="html" xml:base="https://strongtownsottawa.ca/2026/01/30/sussex-beechwood-and-who-gets-to-belong.html"><![CDATA[<style>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="https://strongtownsottawa.ca/feed.xml" rel="self" type="application/atom+xml" /><link href="https://strongtownsottawa.ca/" rel="alternate" type="text/html" /><updated>2026-02-11T14:30:16+00:00</updated><id>https://strongtownsottawa.ca/feed.xml</id><title type="html">Strong Towns Ottawa</title><subtitle>A website for Strong Towns Ottawa</subtitle><entry><title type="html">February Newsletter</title><link href="https://strongtownsottawa.ca/2026/02/10/February-Newsletter.html" rel="alternate" type="text/html" title="February Newsletter" /><published>2026-02-10T00:00:00+00:00</published><updated>2026-02-10T00:00:00+00:00</updated><id>https://strongtownsottawa.ca/2026/02/10/February-Newsletter</id><content type="html" xml:base="https://strongtownsottawa.ca/2026/02/10/February-Newsletter.html"><![CDATA[<iframe id="newsletter-iframe" src="https://eomail5.com/web-version?p=2428002e-ee6d-11f0-b1be-896fb6a599d6&amp;pt=campaign&amp;t=1770732093&amp;s=1fcc912563d38bc69c1873c3b54c3128a60640a56fafd5e9f88c4edbc7e70738" width="100%" frameborder="0" style="border: none; background: transparent; display: block;" scrolling="no" onload="resizeIframe(this)"></iframe>
+
+<script>
+function resizeIframe(iframe) {
+  iframe.style.height = '9550px'; // Desktop-specific adjustment (Always adjust desktop first, once you find the correct height adjust for mobile below)
+    setTimeout(function() {
+    try {
+      // Attempt to get dynamic height (may fail due to cross-origin-resource-sharing limitations)
+      const height = iframe.contentWindow.document.body.scrollHeight;
+      if (height > 100) { 
+        iframe.style.height = height + 'px';
+      }
+    } catch (e) {
+    
+      console.log('Could not auto-detect height, using fallback');
+    }
+  }, 500);
+
+  
+  if (window.innerWidth <= 768) {
+    iframe.style.height = '12800px'; // Mobile-specific adjustment (Usually 33% bigger than Desktop)
+  }
+}
+
+
+function handleResize() {
+  const iframe = document.getElementById('newsletter-iframe');
+  if (iframe) {
+    iframe.style.height = '100px';
+    resizeIframe(iframe);
+  }
+}
+
+window.addEventListener('resize', handleResize);
+window.addEventListener('orientationchange', handleResize);
+</script>]]></content><author><name>Etienne Lefebvre</name></author><category term="Newsletter" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Sussex, Beechwood and who gets to belong</title><link href="https://strongtownsottawa.ca/2026/01/30/sussex-beechwood-and-who-gets-to-belong.html" rel="alternate" type="text/html" title="Sussex, Beechwood and who gets to belong" /><published>2026-01-30T00:00:00+00:00</published><updated>2026-01-30T00:00:00+00:00</updated><id>https://strongtownsottawa.ca/2026/01/30/sussex-beechwood-and-who-gets-to-belong</id><content type="html" xml:base="https://strongtownsottawa.ca/2026/01/30/sussex-beechwood-and-who-gets-to-belong.html"><![CDATA[<style>
 .op-ed-container {
   max-width: 800px;
   margin: 0 auto;
@@ -654,39 +689,4 @@ Respectfully,</p>
 
 <figure class="text-center">
 <img src="/assets/img/speed_camera_3.png" />
-</figure>]]></content><author><name></name></author><category term="Letters" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">October Newsletter</title><link href="https://strongtownsottawa.ca/2025/10/01/October-Newsletter.html" rel="alternate" type="text/html" title="October Newsletter" /><published>2025-10-01T00:00:00+00:00</published><updated>2025-10-01T00:00:00+00:00</updated><id>https://strongtownsottawa.ca/2025/10/01/October-Newsletter</id><content type="html" xml:base="https://strongtownsottawa.ca/2025/10/01/October-Newsletter.html"><![CDATA[<iframe id="newsletter-iframe" src="https://eomail5.com/web-version?p=502d2d26-88e1-11f0-a78e-a540687d4a7d&amp;pt=campaign&amp;t=1759320096&amp;s=0e5c09e31d882985ea3d9ce7a9f027404b70c15d99d9bc69a7345e3259c69fd5" width="100%" frameborder="0" style="border: none; background: transparent; display: block;" scrolling="no" onload="resizeIframe(this)"></iframe>
-
-<script>
-function resizeIframe(iframe) {
-  iframe.style.height = '7300px'; // Desktop-specific adjustment (Always adjust desktop first, once you find the correct height adjust for mobile below)
-    setTimeout(function() {
-    try {
-      // Attempt to get dynamic height (may fail due to cross-origin-resource-sharing limitations)
-      const height = iframe.contentWindow.document.body.scrollHeight;
-      if (height > 100) { 
-        iframe.style.height = height + 'px';
-      }
-    } catch (e) {
-    
-      console.log('Could not auto-detect height, using fallback');
-    }
-  }, 500);
-
-  
-  if (window.innerWidth <= 768) {
-    iframe.style.height = '10300px'; // Mobile-specific adjustment (Usually 33% bigger than Desktop)
-  }
-}
-
-
-function handleResize() {
-  const iframe = document.getElementById('newsletter-iframe');
-  if (iframe) {
-    iframe.style.height = '100px';
-    resizeIframe(iframe);
-  }
-}
-
-window.addEventListener('resize', handleResize);
-window.addEventListener('orientationchange', handleResize);
-</script>]]></content><author><name>Etienne Lefebvre</name></author><category term="Newsletter" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+</figure>]]></content><author><name></name></author><category term="Letters" /><summary type="html"><![CDATA[]]></summary></entry></feed>
