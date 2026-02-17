@@ -18,7 +18,7 @@ content:
     path: pages
     type: collection
     view:
-      fields: [ title, subtitle, permalink, layout, published, body ]
+      fields: [ title, subtitle, permalink, layout, body ]
     fields:
       - name: title
         label: Title
@@ -33,8 +33,6 @@ content:
         label: Layout (Do not change this)
         type: string
         default: page
-      - name: published
-        label: Published (Turn off to keep it as a draft)
         type: boolean
         default: false
       - name: body
@@ -46,7 +44,7 @@ content:
     path: _posts
     type: collection
     view: 
-      fields: [ title, subtitle, author, date, featured-image, tags, layout, published, body ]
+      fields: [ title, subtitle, author, date, featured-image, tags, layout, body ]
     fields:
       - name: title
         label: Title
@@ -73,8 +71,6 @@ content:
         label: Layout (Do not change this)
         type: string
         default: post
-      - name: published
-        label: Published (Turn off to keep it as a draft)
         type: boolean
         default: false
       - name: body
