@@ -11,12 +11,12 @@
 
   
 
-  <title>Newsletters</title>
+  <title>All Posts - page 3</title>
 
   
   
 
-  <meta name="description" content="">
+  <meta name="description" content="{% include tag-filters.html %} {% assign posts = paginator.posts | default: site.posts %} {% for post in posts %} {{ post.title | strip_html }} {% if post.subtitle %} {{ post.subtitle | strip_html }} {% endif %} {% if post.author %} By {{ post.author | strip_html }} {% endif %} {%...">
 
   
 
@@ -81,15 +81,15 @@
 
   
   <meta property="og:site_name" content="Strong Towns Ottawa">
-  <meta property="og:title" content="Newsletters">
-  <meta property="og:description" content="">
+  <meta property="og:title" content="All Posts - page 3">
+  <meta property="og:description" content="{% include tag-filters.html %} {% assign posts = paginator.posts | default: site.posts %} {% for post in posts %} {{ post.title | strip_html }} {% if post.subtitle %} {{ post.subtitle | strip_html }} {% endif %} {% if post.author %} By {{ post.author | strip_html }} {% endif %} {%...">
 
   
 
   
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://strongtownsottawa.ca/All_Posts/Newsletter/">
-  <link rel="canonical" href="https://strongtownsottawa.ca/All_Posts/Newsletter/">
+  <meta property="og:url" content="https://strongtownsottawa.ca/All_Posts/page3/">
+  <link rel="canonical" href="https://strongtownsottawa.ca/All_Posts/page3/">
   
 
   
@@ -98,8 +98,8 @@
   <meta name="twitter:site" content="@strongtownsott">
   <meta name="twitter:creator" content="@strongtownsott">
 
-  <meta property="twitter:title" content="Newsletters">
-  <meta property="twitter:description" content="">
+  <meta property="twitter:title" content="All Posts - page 3">
+  <meta property="twitter:description" content="{% include tag-filters.html %} {% assign posts = paginator.posts | default: site.posts %} {% for post in posts %} {{ post.title | strip_html }} {% if post.subtitle %} {{ post.subtitle | strip_html }} {% endif %} {% if post.author %} By {{ post.author | strip_html }} {% endif %} {%...">
 
   
 
@@ -188,7 +188,7 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
         <div class="page-heading">
-          <h1>Newsletters</h1>
+          <h1>All Posts - page 3</h1>
           
           
           
@@ -210,7 +210,71 @@
     <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
       
 
-      <div class="tag-list"><select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+      <style>
+/* Custom CSS to override post title size */
+.post-preview .post-title {
+  font-size: 1.5rem !important;
+  line-height: 1.3 !important;
+}
+
+@media (min-width: 768px) {
+  .post-preview .post-title {
+    font-size: 1.75rem !important;
+  }
+}
+
+/* New column layout for post previews */
+.post-preview article {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .post-preview article {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.post-preview .post-content {
+  flex: 1;
+}
+
+.post-preview .post-image-column {
+  flex-shrink: 0;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .post-preview .post-image-column {
+    width: 250px; /* Increased from 200px to 250px (25% larger) */
+    margin-left: 1.5rem;
+    margin-bottom: 0;
+  }
+}
+
+.post-preview .post-featured-image {
+  width: 100%;
+  height: 188px; /* Increased from 150px to 188px (25% larger) */
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.post-preview .post-featured-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.post-preview .post-featured-image:hover img {
+  transform: scale(1.05);
+}
+</style>
+
+<div class="tag-list"><select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
   <option value = "Select a category">Select a category</option>
   <option value = "/All_Posts/">All posts</option>
   <option value = "/All_Posts/Cycling">Cycling</option>
@@ -233,417 +297,59 @@
   <li class="post-preview">
     <article>
 
-      <a href="https://strongtownsottawa.ca/2026/03/09/March-Newsletter.html">
-        <h2 class="post-title">March Newsletter</h2>
+      <div class="post-content">
+        <a href="https://strongtownsottawa.ca/2024/06/30/Tewin.html">
+          <h2 class="post-title">Our Concerns With The Tewin Development</h2>
 
-        
-      </a>
-
-      
-        <span>By <strong>Etienne Lefebvre</strong></span>
-      
-      <p class="post-meta">
-        
-        Posted on March 9, 2026
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-
-
-        
-        
-          <a href="https://strongtownsottawa.ca/2026/03/09/March-Newsletter.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
           
-          <li class="list-inline-item">
-            <a href="https://strongtownsottawa.ca/All_Posts//Newsletter">Newsletter</a>
-          </li>
+            <h3 class="post-subtitle">
+            We urge the city to reconsider this project. The current proposal at Tewin goes against all financial, housing, and environmental evidence showing that low density housing is the worst for future city developments.
+            </h3>
           
-        </ul>
-      </div>
-      
+        </a>
 
-    </article>
-  </li>
+        
+          <span>By <strong>Liam O’Brien</strong></span>
+        
+        <p class="post-meta">
+          
+          Posted on June 30, 2024
+        </p>
+
+        
+        <div class="post-entry">
+          
+          
   
-  <li class="post-preview">
-    <article>
 
-      <a href="https://strongtownsottawa.ca/2026/02/10/February-Newsletter.html">
-        <h2 class="post-title">February Newsletter</h2>
 
-        
-      </a>
 
-      
-        <span>By <strong>Etienne Lefebvre</strong></span>
-      
-      <p class="post-meta">
-        
-        Posted on February 10, 2026
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
+        </div>
         
 
-
         
-        
-          <a href="https://strongtownsottawa.ca/2026/02/10/February-Newsletter.html" class="post-read-more">[Read&nbsp;More]</a>
+        <div class="blog-tags">
+          <span>Tags:</span>
+          <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
+          <ul class="d-inline list-inline" role="list">
+            
+            <li class="list-inline-item">
+              <a href="https://strongtownsottawa.ca/All_Posts/Letters">Letters</a>
+            </li>
+            
+          </ul>
+        </div>
         
       </div>
+
+      <!-- Featured Image Column - Right side on desktop -->
       
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="https://strongtownsottawa.ca/All_Posts//Newsletter">Newsletter</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-
-      <a href="https://strongtownsottawa.ca/2026/01/05/January-Newsletter.html">
-        <h2 class="post-title">January Newsletter</h2>
-
-        
-      </a>
-
-      
-        <span>By <strong>Etienne Lefebvre</strong></span>
-      
-      <p class="post-meta">
-        
-        Posted on January 5, 2026
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-
-
-        
-        
-          <a href="https://strongtownsottawa.ca/2026/01/05/January-Newsletter.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="https://strongtownsottawa.ca/All_Posts//Newsletter">Newsletter</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-
-      <a href="https://strongtownsottawa.ca/2025/12/02/December-Newsletter.html">
-        <h2 class="post-title">December Newsletter</h2>
-
-        
-      </a>
-
-      
-        <span>By <strong>Etienne Lefebvre</strong></span>
-      
-      <p class="post-meta">
-        
-        Posted on December 2, 2025
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-
-
-        
-        
-          <a href="https://strongtownsottawa.ca/2025/12/02/December-Newsletter.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="https://strongtownsottawa.ca/All_Posts//Newsletter">Newsletter</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-
-      <a href="https://strongtownsottawa.ca/2025/11/03/November-Newsletter.html">
-        <h2 class="post-title">November Newsletter</h2>
-
-        
-      </a>
-
-      
-        <span>By <strong>Etienne Lefebvre</strong></span>
-      
-      <p class="post-meta">
-        
-        Posted on November 3, 2025
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-
-
-        
-        
-          <a href="https://strongtownsottawa.ca/2025/11/03/November-Newsletter.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="https://strongtownsottawa.ca/All_Posts//Newsletter">Newsletter</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-
-      <a href="https://strongtownsottawa.ca/2025/10/01/October-Newsletter.html">
-        <h2 class="post-title">October Newsletter</h2>
-
-        
-          <h3 class="post-subtitle">
-          Join our new advocacy focused monthly meetings!
-          </h3>
-        
-      </a>
-
-      
-        <span>By <strong>Etienne Lefebvre</strong></span>
-      
-      <p class="post-meta">
-        
-        Posted on October 1, 2025
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-
-
-        
-        
-          <a href="https://strongtownsottawa.ca/2025/10/01/October-Newsletter.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="https://strongtownsottawa.ca/All_Posts//Newsletter">Newsletter</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-
-      <a href="https://strongtownsottawa.ca/2025/09/02/September-Newsletter.html">
-        <h2 class="post-title">September Newsletter</h2>
-
-        
-          <h3 class="post-subtitle">
-          The Budget Is Brewing, Let's Stir The Pot
-          </h3>
-        
-      </a>
-
-      
-        <span>By <strong>Etienne Lefebvre</strong></span>
-      
-      <p class="post-meta">
-        
-        Posted on September 2, 2025
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-
-
-        
-        
-          <a href="https://strongtownsottawa.ca/2025/09/02/September-Newsletter.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="https://strongtownsottawa.ca/All_Posts//Newsletter">Newsletter</a>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </article>
-  </li>
-  
-  <li class="post-preview">
-    <article>
-
-      <a href="https://strongtownsottawa.ca/2025/08/01/August-Newsletter.html">
-        <h2 class="post-title">August Newsletter</h2>
-
-        
-          <h3 class="post-subtitle">
-          Welcome to the Strong Towns Ottawa inaugural newsletter!
-          </h3>
-        
-      </a>
-
-      
-        <span>By <strong>Etienne Lefebvre</strong></span>
-      
-      <p class="post-meta">
-        
-        Posted on August 1, 2025
-      </p>
-
-      
-
-      
-      
-
-      <div class="post-entry">
-        
-        
-
-
-        
-        
-          <a href="https://strongtownsottawa.ca/2025/08/01/August-Newsletter.html" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-      
-
-      
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          
-          <li class="list-inline-item">
-            <a href="https://strongtownsottawa.ca/All_Posts//Newsletter">Newsletter</a>
-          </li>
-          
-        </ul>
+      <div class="post-image-column">
+        <div class="post-featured-image">
+          <a href="https://strongtownsottawa.ca/2024/06/30/Tewin.html" aria-label="Featured image for Our Concerns With The Tewin Development">
+            <img src="https://strongtownsottawa.ca/assets/img/uncommon.jpg" alt="Featured image for Our Concerns With The Tewin Development">
+          </a>
+        </div>
       </div>
       
 
@@ -653,35 +359,18 @@
 </ul>
 
 
+<ul class="pagination main-pager">
+  
+  <li class="page-item previous">
+    <a class="page-link" href="https://strongtownsottawa.ca/All_Posts/page2/">
+      <i class="fas fa-arrow-left" alt="Newer Posts"></i>
+      <span class="d-none d-sm-inline-block">Newer Posts</span>
+    </a>
+  </li>
+  
+  
+</ul>
 
-<!---->
-
-
-
-
-
-
-
-
-
-
-
-<!-- <h1>Posts with 'Newsletters' </h1> -->
-
-
-<div class="posts-list">
-
-    <ul class="posts">
-
-        
-
-      </ul>
-    </div>
-
-    
-
-
-    
 
       
 
