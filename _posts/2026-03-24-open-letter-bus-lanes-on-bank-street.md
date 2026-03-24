@@ -53,7 +53,7 @@ The city's own staff report supports every one of these asks. We are not asking 
 
 Ottawa residents are paying attention. Transportation is shaping up to be a defining issue heading into the 2026 municipal election. We hope Councillors will seize this opportunity to show residents that bold, evidence-based action on transit is possible.
 
-Sincerely,
-**The Board of Directors,**
-**Strong Towns Ottawa**
+Sincerely,\
+**The Board of Directors,**\
+**Strong Towns Ottawa**\
 *March 24th, 2026*
