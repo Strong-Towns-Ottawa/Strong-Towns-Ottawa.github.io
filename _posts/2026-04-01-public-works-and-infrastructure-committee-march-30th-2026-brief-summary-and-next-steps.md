@@ -8,7 +8,7 @@ date: 2026-03-31
 featured-image: /assets/img/Ottawa_City_Hall_Hotel_de_ville_dOttawa.jpg
 tags:
   - Transit
-layout: false
+layout: post
 ---
 *Photo credit: [Jean-Luc Henry](https://www.flickr.com/photos/78783846@N00)*
 
