@@ -71,8 +71,6 @@ content:
         label: Layout (Do not change this)
         type: string
         default: post
-        type: boolean
-        default: false
       - name: body
         label: Body
         type: rich-text
