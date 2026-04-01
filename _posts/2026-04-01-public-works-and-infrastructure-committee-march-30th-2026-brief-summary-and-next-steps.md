@@ -1,7 +1,7 @@
 ---
 title: Public Works and Infrastructure Committee (March 30th, 2026) - Brief
   Summary and Next Steps
-subtitle: The PWIC approved sidewalks in Manor Park and Bus Lanes on Bank
+subtitle: The PWIC approved sidewalks in Manor Park and bus lanes on Bank
   Street. What happens next?
 author: Strong Towns Ottawa
 date: 2026-03-31
