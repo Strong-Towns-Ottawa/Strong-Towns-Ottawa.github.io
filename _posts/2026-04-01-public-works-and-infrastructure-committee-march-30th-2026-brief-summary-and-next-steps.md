@@ -10,7 +10,7 @@ tags:
   - Transit
 layout: post
 ---
-*Photo credit:* [Mindmatrix (via Wikimedia Commons)](https://commons.wikimedia.org/wiki/User:Mindmatrix "User:Mindmatrix")
+*Photo credit:* [Mindmatrix (via Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Ottawa_City_Hall,_Ottawa,_Ontario_(30035108356).jpg "User:Mindmatrix")
 
 On March 30th, 2026, the Public Works and Infrastructure Committee approved the following items:
 
