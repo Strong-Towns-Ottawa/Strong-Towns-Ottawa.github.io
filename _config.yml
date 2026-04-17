@@ -53,11 +53,11 @@ navbar-links:
 social-network-links:
   email: hello@strongtownsottawa.ca
   github: Strong-Towns-Ottawa
-  twitter: strongtownsott
   rss: true
   youtube: "@strongTownsOttawa"
   discord: kHaVNgrcsG
   facebook: groups/751202843212260
+  bluesky: strongtownsottawa.ca
 url-pretty: strongtownsottawa.ca
 excerpt_length: 50
 feed_show_excerpt: true
