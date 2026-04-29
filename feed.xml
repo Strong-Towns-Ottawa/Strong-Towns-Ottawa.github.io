@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="https://strongtownsottawa.ca/feed.xml" rel="self" type="application/atom+xml" /><link href="https://strongtownsottawa.ca/" rel="alternate" type="text/html" /><updated>2026-04-17T15:30:05+00:00</updated><id>https://strongtownsottawa.ca/feed.xml</id><title type="html">Strong Towns Ottawa</title><subtitle>A website for Strong Towns Ottawa</subtitle><entry><title type="html">Public Works and Infrastructure Committee (March 30th, 2026) - Brief Summary and Next Steps</title><link href="https://strongtownsottawa.ca/2026/03/31/public-works-and-infrastructure-committee-march-30th-2026-brief-summary-and-next-steps.html" rel="alternate" type="text/html" title="Public Works and Infrastructure Committee (March 30th, 2026) - Brief Summary and Next Steps" /><published>2026-03-31T00:00:00+00:00</published><updated>2026-03-31T00:00:00+00:00</updated><id>https://strongtownsottawa.ca/2026/03/31/public-works-and-infrastructure-committee-march-30th-2026-brief-summary-and-next-steps</id><content type="html" xml:base="https://strongtownsottawa.ca/2026/03/31/public-works-and-infrastructure-committee-march-30th-2026-brief-summary-and-next-steps.html"><![CDATA[<p><em>Photo credit:</em> <a href="https://commons.wikimedia.org/wiki/File:Ottawa_City_Hall,_Ottawa,_Ontario_(30035108356).jpg" title="User:Mindmatrix">Mindmatrix (via Wikimedia Commons)</a></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="https://strongtownsottawa.ca/feed.xml" rel="self" type="application/atom+xml" /><link href="https://strongtownsottawa.ca/" rel="alternate" type="text/html" /><updated>2026-04-29T15:16:22+00:00</updated><id>https://strongtownsottawa.ca/feed.xml</id><title type="html">Strong Towns Ottawa</title><subtitle>A website for Strong Towns Ottawa</subtitle><entry><title type="html">May Newsletter</title><link href="https://strongtownsottawa.ca/2026/04/29/May-Newsletter.html" rel="alternate" type="text/html" title="May Newsletter" /><published>2026-04-29T00:00:00+00:00</published><updated>2026-04-29T00:00:00+00:00</updated><id>https://strongtownsottawa.ca/2026/04/29/May-Newsletter</id><content type="html" xml:base="https://strongtownsottawa.ca/2026/04/29/May-Newsletter.html"><![CDATA[<iframe id="newsletter-iframe" src="https://eomail5.com/web-version?p=31bf47bc-3358-11f1-810a-29dfb9980132&amp;pt=campaign&amp;t=1777474182&amp;s=518d3209ae780bd043d58f201edf20a859ae22b50d795e2682f6a25611db3a33" width="100%" frameborder="0" style="border: none; background: transparent; display: block;" scrolling="no" onload="resizeIframe(this)"></iframe>
+
+<script>
+function resizeIframe(iframe) {
+  iframe.style.height = '15360px'; // Desktop-specific adjustment (Always adjust desktop first, once you find the correct height adjust for mobile below)
+    setTimeout(function() {
+    try {
+      // Attempt to get dynamic height (may fail due to cross-origin-resource-sharing limitations)
+      const height = iframe.contentWindow.document.body.scrollHeight;
+      if (height > 100) { 
+        iframe.style.height = height + 'px';
+      }
+    } catch (e) {
+    
+      console.log('Could not auto-detect height, using fallback');
+    }
+  }, 500);
+
+  
+  if (window.innerWidth <= 768) {
+    iframe.style.height = '22760px'; // Mobile-specific adjustment (Usually 33% bigger than Desktop)
+  }
+}
+
+
+function handleResize() {
+  const iframe = document.getElementById('newsletter-iframe');
+  if (iframe) {
+    iframe.style.height = '100px';
+    resizeIframe(iframe);
+  }
+}
+
+window.addEventListener('resize', handleResize);
+window.addEventListener('orientationchange', handleResize);
+</script>]]></content><author><name>Jill Stothart, Marko Miljusevic, &amp; Etienne Lefebvre</name></author><category term="Newsletter" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Public Works and Infrastructure Committee (March 30th, 2026) - Brief Summary and Next Steps</title><link href="https://strongtownsottawa.ca/2026/03/31/public-works-and-infrastructure-committee-march-30th-2026-brief-summary-and-next-steps.html" rel="alternate" type="text/html" title="Public Works and Infrastructure Committee (March 30th, 2026) - Brief Summary and Next Steps" /><published>2026-03-31T00:00:00+00:00</published><updated>2026-03-31T00:00:00+00:00</updated><id>https://strongtownsottawa.ca/2026/03/31/public-works-and-infrastructure-committee-march-30th-2026-brief-summary-and-next-steps</id><content type="html" xml:base="https://strongtownsottawa.ca/2026/03/31/public-works-and-infrastructure-committee-march-30th-2026-brief-summary-and-next-steps.html"><![CDATA[<p><em>Photo credit:</em> <a href="https://commons.wikimedia.org/wiki/File:Ottawa_City_Hall,_Ottawa,_Ontario_(30035108356).jpg" title="User:Mindmatrix">Mindmatrix (via Wikimedia Commons)</a></p>
 
 <p>On March 30th, 2026, the Public Works and Infrastructure Committee approved the following items:</p>
 
@@ -930,36 +965,4 @@ function handleResize() {
 
 window.addEventListener('resize', handleResize);
 window.addEventListener('orientationchange', handleResize);
-</script>]]></content><author><name>Etienne Lefebvre</name></author><category term="Newsletter" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Our Recommendation On Minimum Lot Sizes</title><link href="https://strongtownsottawa.ca/2025/11/21/minimum-lot-sizes.html" rel="alternate" type="text/html" title="Our Recommendation On Minimum Lot Sizes" /><published>2025-11-21T00:00:00+00:00</published><updated>2025-11-21T00:00:00+00:00</updated><id>https://strongtownsottawa.ca/2025/11/21/minimum-lot-sizes</id><content type="html" xml:base="https://strongtownsottawa.ca/2025/11/21/minimum-lot-sizes.html"><![CDATA[<div style="text-align: center; margin: 20px 0;">
-  <img src="/assets/img/logo3.png" style="width: 200px; height: auto; object-fit: contain;" />
-</div>
-
-<p><strong>Below is the official feedback</strong> we submitted to the Ontario Ministry of Municipal Affairs and Housing as part of their <a href="https://ero.ontario.ca/notice/025-1100">public consultation</a> on minimum lot sizes and its impact on the housing crisis.</p>
-
-<hr />
-<p>To whom it may concern,</p>
-
-<p>We appreciate the opportunity to comment on the proposed Provincial Planning Statement. We write from the perspective of a group committed to building a resilient, people-focused Ottawa. The PPS is an important opportunity to shift provincial planning away from financially complex, speculative growth patterns that result in a burden to municipalities, and toward a more incremental, fiscally responsible approach that strengthens existing places.</p>
-
-<p><strong>1. Benefits and risks of reducing/removing minimum lot sizes</strong><br />
-Reducing or removing minimum lot sizes in serviced urban areas enables much desired gentle density, increases housing supply, and broadens ownership options by lowering the land cost per home. It also strengthens municipal finances by allowing more households to share existing infrastructure instead of pushing growth to expensive new subdivisions. The main risks – pressures on aging infrastructure, neighbourhood resistance, and poorly designed small-lot development – can be reasonably managed through predictable form-based rules and updated servicing plans. These concerns are reasons to regulate form and servicing and not to retain large, exclusionary lot-size minimums.</p>
-
-<p><strong>2. Best practices from other jurisdictions</strong><br />
-Places that have successfully reformed lot-size rules (New Zealand 2020, Oregon 2022, Texas 2023) pair relaxed minimums with simple, predictable standards for building form, scale, and servicing. They focus on how buildings meet the street, instead of arbitrary lot dimensions. They also allow small-scale builders to participate by making approvals straightforward and by making sure different housing types do not get outlawed by regulations. The recipe seems to be consistent: remove lot-size barriers, but replace them with clear rules for height, setbacks, massing, and basic environmental performance so infill is both incremental and compatible.</p>
-
-<p><strong>3. Situations where minimum lot sizes remain necessary</strong><br />
-Minimum lot sizes are absolutely defensible where they directly protect public health and safety – such as areas dependent on wells and septic systems, floodplains, mapped unstable soils, or parcels that cannot meet emergency access or stormwater requirements without a certain minimum area. On most serviced urban lands, however, lot-size minimums function as de facto barriers to different housing solutions.</p>
-
-<p><strong>4. Suggested smallest urban lot size and its implications</strong><br />
-A reasonable provincial guideline for fully serviced urban parcels should permit lots as small as 6 m frontage with no restriction for area. This supports a wide range of missing-middle forms while preserving room for basic servicing. The opportunities include more attainable starter homes, more housing diversity, and more efficient use of existing infrastructure. Limitations would be a reduced private yard space, tighter tree-planting conditions, and potential parking pressures. All those can be addressed through complementary performance standards. Frontage and how the building meets the street should be treated as an integrated package, ensuring that parcels remain buildable, functional, and compatible with their context.</p>
-
-<p><strong>5. Supporting zoning and performance standards</strong><br />
-To make reduced lot-size rules successful, municipalities should permit additional residential units and small multiplexes as-of-right, remove parking minimums in their urban perimeters, and apply simple form-based standards for height, setbacks, lot coverage, and massing. Environmental performance should include a mix of minimum permeable surface with low-impact stormwater requirements and basic tree-planting standards.Municipalities should also plan to streamline approvals in order to enable many small, incremental projects rather than relying solely on large developments to meet their housing goals. These measures ensure that smaller lots remain developable, and contribute to a fiscally productive area.</p>
-
-<p>In conclusion, Ontario has in its hands an opportunity to re-orient its planning framework toward financially productive, people-centered, future-proof communities. A PPS grounded in infill-first growth, gentle density,transit alignment, and incremental development will create places that are prosperous, affordable, resilient, and able to weather economic uncertainty.</p>
-
-<p>Thank you for considering this submission.</p>
-
-<p>Sincerely,<br />
-<strong>Strong Towns Ottawa</strong><br />
-<em>November 21st, 2025</em></p>]]></content><author><name></name></author><category term="Letters" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+</script>]]></content><author><name>Etienne Lefebvre</name></author><category term="Newsletter" /><summary type="html"><![CDATA[]]></summary></entry></feed>
