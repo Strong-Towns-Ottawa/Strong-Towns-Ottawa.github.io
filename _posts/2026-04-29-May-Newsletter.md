@@ -3,6 +3,7 @@ title: May Newsletter
 date: 2026-04-29 00:00:00 Z
 tags:
 - Newsletter
+subtitle: Bank Street bus lanes update, Manor Park sidewalks win, Beechwood consultation, and May events.
 layout: post
 author: Jill Stothart, Marko Miljusevic, & Etienne Lefebvre
 featured-image: "/assets/img/April_meeting.jpg"
