@@ -183,123 +183,546 @@
 
 
 
-  
+  <style>
+  /* Reset Beautiful Jekyll's blog-post table/img rules so they don't break newsletter layouts. */
+  .eo-newsletter table { display: table !important; overflow-x: visible !important; padding: 0 !important; }
+  .eo-newsletter tr { border-top: 0 !important; background-color: transparent !important; }
+  .eo-newsletter tr:nth-child(2n) { background-color: transparent !important; }
+  .eo-newsletter th, .eo-newsletter td { border: 0 !important; }
 
+  /* Email clients center block images inside <td align="center">; browsers don't. */
+  .eo-newsletter td[align="center"] > img,
+  .eo-newsletter td[align="center"] > a > img { margin-left: auto; margin-right: auto; }
 
+  /* Newsletter post header: match the cream newsletter background and center the meta lines. */
+  .newsletter-header .post-heading { text-align: center; }
+</style>
 
-<header class="header-section ">
-<div class="intro-header ">
-  
-  <div class="container-md">
-    <div class="row">
-      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-        <div class="post-heading">
-          <h1>May Newsletter</h1>
-          
+<header class="header-section newsletter-header">
+  <div class="intro-header no-img">
+    <div class="container-md">
+      <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+          <div class="post-heading">
             
-              <h2 class="post-subheading">Bank Street bus lanes update, Manor Park sidewalks win, Beechwood consultation, and May events.</h2>
-            
-          
-          
-           
-            
-              By <strong>Jill Stothart, Marko Miljusevic, & Etienne Lefebvre</strong><br>
+              <span class="post-meta" style="font-style: normal; font-weight: bold;">By Jill Stothart, Marko Miljusevic, & Etienne Lefebvre</span><br>
             
             <span class="post-meta">Posted on April 29, 2026</span>
-            
-            
-          
+          </div>
         </div>
       </div>
     </div>
   </div>
-  
-  
-</div>
-
-
-
 </header>
 
-
-<main class=" container-md ">
-  <div class="row">
-    <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
-
-      
-
-      
-
-      <div class="blog-post">
-        <iframe id="newsletter-iframe" src="https://eomail5.com/web-version?p=31bf47bc-3358-11f1-810a-29dfb9980132&amp;pt=campaign&amp;t=1777474182&amp;s=518d3209ae780bd043d58f201edf20a859ae22b50d795e2682f6a25611db3a33" width="100%" frameborder="0" style="border: none; background: transparent; display: block;" scrolling="no" onload="resizeIframe(this)"></iframe>
-
-<script>
-function resizeIframe(iframe) {
-  iframe.style.height = '15360px'; // Desktop-specific adjustment (Always adjust desktop first, once you find the correct height adjust for mobile below)
-    setTimeout(function() {
-    try {
-      // Attempt to get dynamic height (may fail due to cross-origin-resource-sharing limitations)
-      const height = iframe.contentWindow.document.body.scrollHeight;
-      if (height > 100) { 
-        iframe.style.height = height + 'px';
-      }
-    } catch (e) {
-    
-      console.log('Could not auto-detect height, using fallback');
+<div class="newsletter-body">
+  <style type="text/css">
+    .eo-newsletter, .eo-newsletter *, .eo-newsletter *:after, .eo-newsletter *:before { box-sizing: border-box; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+    .eo-newsletter { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif; color: #0c2340; }
+    .eo-newsletter table, .eo-newsletter td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; border-collapse: collapse; font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif; color: #0c2340; }
+    .eo-newsletter img { -ms-interpolation-mode: bicubic; max-width: 100%; border: 0; outline: none; text-decoration: none; display: block; }
+    .eo-newsletter a, .eo-newsletter .eo-container a { color: #623a00; text-decoration: underline; }
+    .eo-newsletter span > a { color: inherit !important; }
+    @media screen and (max-width: 600px) {
+      .eo-newsletter .eo-container { width: 100% !important; max-width: 100% !important; }
+      .eo-newsletter .stack { display: block !important; width: 100% !important; max-width: 100% !important; }
+      .eo-newsletter .eo-button { width: 100% !important; text-align: center; margin: auto !important; }
+      .eo-newsletter .eo-button td, .eo-newsletter .eo-button tr { display: block !important; }
+      .eo-newsletter .h1-mobile { font-size: 32px !important; line-height: 36px !important; }
+      /* When two-column event rows stack vertically, add breathing room between the RSVP button and the image below it. */
+      .eo-newsletter td.stack + td.stack { padding-top: 40px !important; }
     }
-  }, 500);
+  </style>
 
-  
-  if (window.innerWidth <= 768) {
-    iframe.style.height = '22760px'; // Mobile-specific adjustment (Usually 33% bigger than Desktop)
-  }
-}
+<div class="eo-newsletter" style="margin:0; padding:0; background-color:#ffe6c1; color:#0c2340; font-family:'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif; font-size:17px;">
 
-
-function handleResize() {
-  const iframe = document.getElementById('newsletter-iframe');
-  if (iframe) {
-    iframe.style.height = '100px';
-    resizeIframe(iframe);
-  }
-}
-
-window.addEventListener('resize', handleResize);
-window.addEventListener('orientationchange', handleResize);
-</script>
-
-
-      </div>
-
-      
-        <div class="blog-tags">
-          <span>Tags:</span>
-          
-            <a href="/tags#Newsletter">Newsletter</a>
-          
-        </div>
-      
-
-      
-
-      
-
-      <ul class="pagination blog-pager">
-        
-        <li class="page-item previous">
-          <a class="page-link" href="/2026/03/31/public-works-and-infrastructure-committee-march-30th-2026-brief-summary-and-next-steps.html" data-toggle="tooltip" data-placement="top" title="Public Works and Infrastructure Committee (March 30th, 2026) - Brief Summary and Next Steps">
-            <i class="fas fa-arrow-left" alt="Previous Post"></i>
-            <span class="d-none d-sm-inline-block">Previous Post</span>
-          </a>
-        </li>
-        
-        
-      </ul>
-      
-
-    </div>
+  <div style="display:none; max-height:0; overflow:hidden; mso-hide:all;">
+    Bank Street bus lanes update, Manor Park sidewalks win, Beechwood consultation, and May events.
   </div>
-</main>
+  <table role="presentation" align="center" width="100%" cellpadding="0" cellspacing="0" style="background-color:#ffe6c1;">
+    <tr>
+      <td valign="top" align="center">
+        <table role="presentation" class="eo-container" align="center" cellpadding="0" cellspacing="0" width="700" style="width:700px; max-width:700px; background-color:#ffe6c1;"><tr>
+            <td style="padding:10px 10px 0 10px;">
+              <p style="margin:0; padding:5px; text-align:center; font-size:12px; color:#0c2340;">
+                <a href="{{WebVersionURL}}" style="color:#623a00; text-decoration:underline;">View this email in your browser</a>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" style="padding:10px;">
+              <a href="https://strongtownsottawa.ca/">
+                <img src="https://gallery.eomail5.com/8b591ef0-3332-11f0-90c2-e97e10baf656%2F1751560054307-StrongTowns-Ottawa_Icon_Yellow-Navy_Original.png" alt="Strong Towns Ottawa logo" width="197" style="width:197px; max-width:29%; display:block;">
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:0 10px 10px 10px;">
+              <h1 class="h1-mobile" style="margin:0; padding:0; text-align:center; font-size:48px; line-height:1.1; font-weight:bold; color:#0c2340;">
+                May Newsletter
+              </h1>
+            </td>
+          </tr><tr>
+    <td style="padding:25px 10px 10px 10px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" bgcolor="#0c2340" style="background-color:#0c2340;">
+        <tr><td style="padding:7px 0 0 0;">
+          <table align="center" cellpadding="0" cellspacing="0" style="width:50%; border-bottom:4px solid rgb(255,181,73);"><tr><td>&nbsp;</td></tr></table>
+        </td></tr>
+        <tr><td align="center" style="padding:10px 0;">
+          <h1 style="margin:0; font-size:30px; line-height:1.1; color:#ffffff; font-weight:bold; text-align:center;">OUR HIGHLIGHTS</h1>
+        </td></tr>
+        <tr><td style="padding:0 0 7px 0;">
+          <table align="center" cellpadding="0" cellspacing="0" style="width:50%; border-top:4px solid rgb(255,181,73);"><tr><td>&nbsp;</td></tr></table>
+        </td></tr>
+      </table>
+    </td>
+  </tr><tr>
+    <td style="padding:10px;">
+      <div style="font-size:17px; line-height:1.25; color:#0c2340; font-style:italic;">
+        <p style="margin:0 0 16px 0;">The Public Works and Infrastructure Committee (PWIC) meeting on March 30th featured discussion and decisions on two projects that have strong resonance beyond their local contexts: a project to build sidewalks on six residential streets in Manor Park, and the now-famous pilot to put part-time bus lanes through the Glebe on Bank Street.</p>
+<p style="margin:0 0 16px 0;">Naturally, we had to be involved! STO sent an official representative for each agenda item and double-digit associates to speak in support of our goals. This was a marathon session that lasted all day and featured 61 speakers and eight motions on these items, but we hung in there because having our voices heard is crucial to shape a stronger Ottawa. Special shout-out to Pat and Henry who delegated on both agenda items!</p>
+<p style="margin:0 0 16px 0;">The very next week, on April 8th, the two items were discussed at council, with mixed results.</p>
+      </div>
+    </td>
+  </tr><tr>
+    <td style="padding:0 10px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0">        <tr><td style="padding:10px 5px 15px 5px;">
+          <h2 style="margin:0; text-align:center; font-size:24px; line-height:1.25; font-weight:bold; color:#0c2340;">Bank Steet Bus Lanes: March 30th PWIC Meeting</h2>
+        </td></tr>        <tr><td align="center" style="padding:5px;">
+      <img src="https://gallery.eomail5.com/8b591ef0-3332-11f0-90c2-e97e10baf656%2Fmedia-manager%2F1774222522385-photo%20collage.png" alt="" width="680" style="display:block; width:100%; max-width:680px; height:auto; margin:0 auto;">
+    </a>
+        </td></tr>        <tr><td style="padding:0 5px;">
+          <p style="margin:0; text-align:right; font-size:12px; line-height:1; color:#0c2340;"><em>Image collage showing a small collection of our dedicated bus lane campaign events</em></p>
+        </td></tr>        <tr><td style="padding:10px 5px;">
+          <div style="font-size:17px; line-height:1.25; color:#0c2340;">
+            <p style="margin:0 0 16px 0;">Forgive us for covering PWIC out of chronological order, but the Bank Street bus lane is our flagship project after all.</p>
+<p style="margin:0 0 16px 0;">At the beginning of the agenda item, the city presented a plan running a northbound lane from 7am–10am, a southbound lane 3pm–6pm, and permanently removing 17 parking spaces for some short 24/7 segments of bus lane. The timebound bus lanes would be in effect for a 15-month pilot starting in summer 2027.</p>
+<p style="margin:0 0 16px 0;">PWIC saw 30 delegations in support of bus lanes, out of a total of 43. Not bad for a Monday! Our goals focussed on extending the bus lane hours, running the bus lanes in both directions, and bringing the pilot date sooner than summer 2027.</p>
+<p style="margin:0 0 16px 0;">Common data-driven arguments were about the low utilization of the Second Avenue parking garage, the rate of delays and cancellations of the 6 and 7 routes outside of the proposed bus lane hours, evidence that most customers don't drive and those that do are willing to walk a few minutes, and projections that this corridor will become even more crowded in the future. Speaking from the heart, Carleton students talked about their reliance on the bus, mothers described their non-traditional travel patterns and needs, and event-goers described their experiences travelling to Lansdowne.</p>
+<p style="margin:0 0 16px 0;">Ultimately, there were no major changes to the bus lane plan as the city presented it, although motions passed to investigate bus lanes north of the 417 and analyze business impact of bus lanes.</p>
+<p style="margin:0 0 16px 0;">That's it for the PWIC meeting, now we turn to the full April 8th city council vote.</p>
+          </div>
+        </td></tr>      </table>
+    </td>
+  </tr><tr>
+    <td style="padding:0 10px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0">        <tr><td style="padding:10px 5px 15px 5px;">
+          <h2 style="margin:0; text-align:center; font-size:24px; line-height:1.25; font-weight:bold; color:#0c2340;">Disaster at City Council for Bus Lanes</h2>
+        </td></tr>        <tr><td align="center" style="padding:5px;">
+          <img src="https://gallery.eomail5.com/8b591ef0-3332-11f0-90c2-e97e10baf656%2Fmedia-manager%2F1777255206220-capture%20d%E2%80%99%C3%A9cran%202026-04-26%20215932.jpg" alt="" width="680" style="display:block; width:100%; max-width:680px; height:auto; margin:0 auto;">
+        </td></tr>        <tr><td style="padding:0 5px;">
+          <p style="margin:0; text-align:right; font-size:12px; line-height:1; color:#0c2340;"><em>Councillor Menard's motion</em></p>
+        </td></tr>        <tr><td style="padding:10px 5px;">
+          <div style="font-size:17px; line-height:1.25; color:#0c2340;">
+            <p style="margin:0 0 16px 0;">Disaster struck at the council meeting where Bank Street bus lanes were meant to be discussed and voted on. After multiple hours of discussing sidewalks in Manor Park and looking into rural transit alternatives, bus lanes on Bank Street were brought up. Councillor Menard brought forth a motion which by <a href="https://bsky.app/profile/strongtownsottawa.ca/post/3mj5eoyvfjk25" target="_blank" style="color:#623a00; text-decoration:underline;">his description</a> was supposed to be about "cleaning up a few things around data collection in particular." The motion was carried with no comments or questions, and the amended proposal from city staff was carried as well. After what felt like the blink of an eye everything was over.</p>
+<p style="margin:0 0 16px 0;">After the initial shock about there being no discussion at all around the item, we realized that the motion had a particularly confusing section. <a href="https://drive.google.com/file/d/1ssEfWpJY8efvFDNFsUQ8BRX-UA49fbls/view?usp=sharing" target="_blank" style="color:#623a00; text-decoration:underline;">Part 3 of the motion</a> directed staff to "Implement the pilot time of day bus-only lanes <strong>in accordance with the existing peak-period times</strong> and collect data for potential future adjustments based on evidence and results". Initially that might not seem like much if you aren't familiar with the proposal, but this single subpoint of a motion had a huge impact on the viability of this study.</p>
+<p style="margin:0 0 16px 0;">What this motion did was cut back on the hours that the bus lanes would be in effect, from 3 hours in the morning and evening, to the existing "peak" hours (read <a href="https://strongtownsottawa.ca/2025/11/08/are-buses-only-delayed-at-peak-hours.html" target="_blank" style="color:#623a00; text-decoration:underline;">here</a> why this idea of "peak" is incorrect), which are 2. The existing peak hours are from 7–9 a.m. northbound, and 3:30–5:30 p.m. southbound. Crucially these 2 hours are the hours where parking is already removed for a general travel lane, meaning we will no longer be able to study the effects that removing parking on Bank Street has on buses. This means that in a couple of years down the line – when the pilot is wrapping up – we won't have the data to make a meaningful and informed decision about how best to use our street space.</p>
+<p style="margin:0 0 16px 0;">With an already failing transit system, we cannot continue to drag our heels at the most minimal changes to our street space. This is a pilot, where we are meant to test the data to make the best possible decisions. We already know what having parking is like, as that's the current status quo. By refusing to remove even an hour of parking we are hamstringing this whole project. It is also extremely concerning that such a major change to the hours of the pilot was not discussed at all or brought forth at the PWIC meeting the week prior. It is even worse when considering 30 delegations, the vast majority, at the meeting spoke in favour of <strong>expanding, not reducing, the pilot</strong>.</p>
+<p style="margin:0 0 16px 0;">We strongly urge you to e-mail or call Councillor Menard's office at <a href="mailto:capitalward@ottawa.ca" target="_blank" style="color:#623a00; text-decoration:underline;">capitalward@ottawa.ca</a> or 613-580-2487 respectively. You should also include your own <a href="https://ottawa.ca/en/city-hall/mayor-and-city-councillors" target="_blank" style="color:#623a00; text-decoration:underline;">local Councillor</a> in the e-mail, given that they did not speak up at all when it came to these reductions – though they might not have understood the implications of the confusingly worded motion. We urge you to respectfully tell them how disappointed you are in the fact that the most basic transit improvements are being whittled down over and over again while we face a transit crisis. We continue hearing from councillors that they want our transit system improved, but we need them to start making the decisions to back up those words.</p>
+<p style="margin:0 0 16px 0;">The pilot study doesn't begin until the summer of next year, so there is still time for it to be improved. Likewise during the study itself the city staff has the ability to recommend expansions to the hours to council, so we will make sure to follow along and try to advocate for the best outcome possible.</p>
+          </div>
+        </td></tr>        <tr><td style="padding:0 5px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:10px;">
+      <tr><td width="50%" class="stack" valign="top" style="padding:10px 5px 25px 5px;">
+          <table align="center" cellpadding="0" cellspacing="0" class="eo-button" width="100%" bgcolor="rgb(255,181,73)" style="border-radius:8px; background-color:rgb(255,181,73);">
+            <tr><td align="center" valign="middle">
+              <a href="mailto:capitalward@ottawa.ca" target="_blank" style="display:block; padding:18px; font-size:18px; font-weight:bold; line-height:100%; text-align:center; text-decoration:none; color:#0c2340;">Email Councillor Menard</a>
+            </td></tr>
+          </table>
+        </td><td width="50%" class="stack" valign="top" style="padding:10px 5px 25px 5px;">
+          <table align="center" cellpadding="0" cellspacing="0" class="eo-button" width="100%" bgcolor="rgb(255,181,73)" style="border-radius:8px; background-color:rgb(255,181,73);">
+            <tr><td align="center" valign="middle">
+              <a href="https://ottawa.ca/en/city-hall/mayor-and-city-councillors" target="_blank" style="display:block; padding:18px; font-size:18px; font-weight:bold; line-height:100%; text-align:center; text-decoration:none; color:#0c2340;">Find Your Councillor</a>
+            </td></tr>
+          </table>
+        </td></tr>
+    </table>
+        </td></tr>      </table>
+    </td>
+  </tr><tr>
+    <td style="padding:0 10px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0">        <tr><td style="padding:10px 5px 15px 5px;">
+          <h2 style="margin:0; text-align:center; font-size:24px; line-height:1.25; font-weight:bold; color:#0c2340;">Our Favourite Quotes from Bank St Delegates</h2>
+        </td></tr>        <tr><td align="center" style="padding:5px;">
+          <img src="https://gallery.eomail5.com/8b591ef0-3332-11f0-90c2-e97e10baf656%2Fmedia-manager%2F1777255589574-capture%20d%E2%80%99%C3%A9cran%202026-04-26%20220603.jpg" alt="" width="680" style="display:block; width:100%; max-width:680px; height:auto; margin:0 auto;">
+        </td></tr>        <tr><td style="padding:0 5px;">
+          <p style="margin:0; text-align:right; font-size:12px; line-height:1; color:#0c2340;"><em>Strong Towns Ottawa member Kathleen delegating in front of PWIC on March 30th</em></p>
+        </td></tr>        <tr><td style="padding:10px 5px;">
+          <div style="font-size:17px; line-height:1.25; color:#0c2340;">
+            <ul style="list-style-type:disc; list-style-position:outside; margin:0 0 16px 24px; padding:0;"><li><strong>Derrick:</strong> "Bus lanes on Bank are suffering the same fate as almost all Ottawa projects, stuck in red tape and the administrative abyss… This proposal is nearly the same as the proposal from September 2025. We spent 6 months sitting on our hands. But forget 6 months. Six total years for a project that demands minimal infrastructure changes is simply too long."</li><li><strong>Saad:</strong> "The city's own staff report shows that delays during major events reach 18 minutes, more than three times the regular trip time. Yet, the current proposal excludes weekends and events contradicting the city's own findings."</li><li><strong>Tristano:</strong> "You're probably going to hear from the business community today about somebody like me, somebody who needs their car to do work. And I'm here to tell you that I don't. The on-street parking on Bank Street is of zero value to me."</li><li><strong>Siobhan:</strong> "We've heard about balance and I think it's interesting because at the moment on Bank Street there's no balance. All we have is for the most part cars. Maybe a little bit of transit and pedestrians all crammed onto narrow sidewalks, but there's hardly any balance."</li><li><strong>Daniel:</strong> "In any case, non-drivers are also more regular visitors of local shops and on average spend more money on a month-to-month basis. And specifically for the pub owners, think about how much more money you can spend on drinks if you don't have to drive home because you can rely on the bus. We cannot be using the logic of perception to make important decisions."</li><li><strong>Tom:</strong> "Why are you basing this on feelings and not facts? You guys are business owners. You should be worshiping the almighty dollar. Where are those dollars coming from?"</li><li><strong>Lauren:</strong> "OC Transpo route design has been run under the assumption that there is an inflow of workers to downtown in the morning and an outflow of workers in the evenings mainly to government offices, even after work from home has been a priority for over 5 years and it's currently being fought for by unions, mine included. It ignores people who need the buses, students, shift workers, people who live in the housing that is affordable in many pockets throughout the city, people who are taking the buses to the doctor's appointments, people who have day jobs, side hustles, in other parts of the city, people who work evenings, weekends, all of which I have done."</li><li><strong>Kaylie:</strong> "Convenient parking is not the main draw to the stores on Bank Street. If it were, you would opt to shop at one of the many malls our city has."</li><li><strong>Kathleen:</strong> "My partner's mother moved to Ottawa after retiring to pursue her work as an artist and to continue teaching art in northern communities in Ontario. She began living with her sister in South Keys and has relied on the number six bus to get to the Ottawa School of Art. A key reason she's able to attend is because she received a bursary from a program from Lac Seul First Nation, but it comes with strict attendance requirements. If she arrives more than 15 minutes late, she's marked absent. And to avoid that, she often leaves home hours and hours before her classes begin, sometimes earlier than 5:00 a.m."</li><li><strong>Marko:</strong> "I will leave you with my final slide. This is an excerpt from the staff report, in it they say pretty much everything I have told you today. We need bus lanes for longer hours, we need them in both directions, we need them on weekends, and we especially need them during events. Please don't just listen to a group of very passionate citizens looking to make this city better, but listen to the actual experts whose jobs are working on this very thing."</li></ul>
+          </div>
+        </td></tr>      </table>
+    </td>
+  </tr><tr>
+    <td style="padding:0 10px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0">        <tr><td style="padding:10px 5px 15px 5px;">
+          <h2 style="margin:0; text-align:center; font-size:24px; line-height:1.25; font-weight:bold; color:#0c2340;">Pro Bus Lane Delegations</h2>
+        </td></tr>        <tr><td style="padding:10px 5px;">
+          <div style="font-size:17px; line-height:1.25; color:#0c2340;">
+            <p style="margin:0 0 16px 0;">We wish we could run a profile on every one of the fabulous pro–bus lanes delegates! The least we can do is direct readers to their delegations.</p>
+<ol style="list-style-type:decimal; list-style-position:outside; margin:0 0 16px 24px; padding:0;"><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=10298" target="_blank" style="color:#623a00; text-decoration:underline;">Derrick</a> (Centretown Community Association)</li><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=10450" target="_blank" style="color:#623a00; text-decoration:underline;">June</a> (Glebe Community Association)</li><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=10770" target="_blank" style="color:#623a00; text-decoration:underline;">Ajay</a> (Better Transit Ottawa)</li><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=11033" target="_blank" style="color:#623a00; text-decoration:underline;">Saad</a> (a transit user)</li><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=11353" target="_blank" style="color:#623a00; text-decoration:underline;">Marko</a> (our hero representing STO)</li><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=11694" target="_blank" style="color:#623a00; text-decoration:underline;">James</a> (a resident)</li><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=11910" target="_blank" style="color:#623a00; text-decoration:underline;">Tristiano</a> (a contract worker working at businesses on Bank St)</li><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=12871" target="_blank" style="color:#623a00; text-decoration:underline;">Scott</a> (an attorney who works on Bank St)</li><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=13635" target="_blank" style="color:#623a00; text-decoration:underline;">Astrid</a> (a transit user)</li><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=13798" target="_blank" style="color:#623a00; text-decoration:underline;">Justin</a></li><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=14625" target="_blank" style="color:#623a00; text-decoration:underline;">Angela</a> (CAFES Ottawa)</li><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=14932" target="_blank" style="color:#623a00; text-decoration:underline;">Ryan</a> (a transit user)</li><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=16218" target="_blank" style="color:#623a00; text-decoration:underline;">Siobhan</a> (a Glebe resident)</li><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=16764" target="_blank" style="color:#623a00; text-decoration:underline;">Daniel</a> (a visitor to Bank Street)</li><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=17328" target="_blank" style="color:#623a00; text-decoration:underline;">Noah</a></li><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=17629" target="_blank" style="color:#623a00; text-decoration:underline;">Tom</a> (passionately representing himself and his four boys)</li><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=18048" target="_blank" style="color:#623a00; text-decoration:underline;">Willow, Grâce-Divine, Samuel, Mateo, Ellize</a> (the winning team from the Carleton University public affairs and policy management case competition)</li><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=18670" target="_blank" style="color:#623a00; text-decoration:underline;">Henry</a> (brother to a worker in the Glebe, regular transit user)</li><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=18911" target="_blank" style="color:#623a00; text-decoration:underline;">Elysia</a> (a shopper from Bay ward)</li><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=19961" target="_blank" style="color:#623a00; text-decoration:underline;">David and Hayden</a> (Carleton public affairs and policy management students)</li><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=20302" target="_blank" style="color:#623a00; text-decoration:underline;">Thomas</a> (Carleton student)</li><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=20585" target="_blank" style="color:#623a00; text-decoration:underline;">Hayden</a> (Carleton student, president of debate society)</li><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=21167" target="_blank" style="color:#623a00; text-decoration:underline;">Xavier</a> (a rural resident)</li><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=21492" target="_blank" style="color:#623a00; text-decoration:underline;">Noel</a> (a River ward resident)</li><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=21654" target="_blank" style="color:#623a00; text-decoration:underline;">Lauren</a> (member of ACORN and Horizon Ottawa)</li><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=21911" target="_blank" style="color:#623a00; text-decoration:underline;">Brooke</a> (Carleton student)</li><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=22094" target="_blank" style="color:#623a00; text-decoration:underline;">Kaylee</a> (lives in College ward, used to work on Bank St and commute to Carleton)</li><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=22327" target="_blank" style="color:#623a00; text-decoration:underline;">Pat</a> (College ward resident, visits the Glebe)</li><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=22858" target="_blank" style="color:#623a00; text-decoration:underline;">Kathleen</a> (relies on transit, has a mother-in-law who depends on transit)</li><li><a href="https://youtu.be/n0J0CUIk_dk?list=PLfItBIIh0Dr75Rj6GMhXbSsqj8gR1offJ&amp;t=23097" target="_blank" style="color:#623a00; text-decoration:underline;">Florence</a> (Bike Ottawa)</li></ol>
+          </div>
+        </td></tr>      </table>
+    </td>
+  </tr><tr>
+    <td style="padding:0 10px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0">        <tr><td style="padding:10px 5px 15px 5px;">
+          <h2 style="margin:0; text-align:center; font-size:24px; line-height:1.25; font-weight:bold; color:#0c2340;">A Victory for Manor Park Sidewalks at PWIC and Council</h2>
+        </td></tr>        <tr><td align="center" style="padding:5px;">
+          <img src="https://gallery.eomail5.com/8b591ef0-3332-11f0-90c2-e97e10baf656%2Fmedia-manager%2F1777256971537-capture%20d%E2%80%99%C3%A9cran%202026-04-26%20222856.jpg" alt="" width="680" style="display:block; width:100%; max-width:680px; height:auto; margin:0 auto;">
+        </td></tr>        <tr><td style="padding:0 5px;">
+          <p style="margin:0; text-align:right; font-size:12px; line-height:1; color:#0c2340;"><em>One of the many lawn signs opposing new sidewalks in Manor Park (Image from CBC)</em></p>
+        </td></tr>        <tr><td style="padding:10px 5px;">
+          <div style="font-size:17px; line-height:1.25; color:#0c2340;">
+            <p style="margin:0 0 16px 0;">Ottawa's new Transportation Master Plan passed last year and sets as City policy that whenever a street without sidewalks is torn up for sewer pipe renewal, a sidewalk will be added as part of the same road work. Strong Towns strongly supports this policy, as it is much more inexpensive than retrofitting a sidewalk onto a street as a dedicated project. From the staff report, it would cost <strong>$180,000</strong> for sidewalks now — if we were to try to retrofit them it would balloon up to between <strong>$500,000–700,000, between 3–4x more expensive</strong>. This equates to 3 to 4 times fewer safe infrastructure projects every time we decide to delay projects instead of doing them in an integrated manner. The sidewalks only account for <strong>1.3% of the cost of the overall project</strong>, a fraction for such a worthwhile improvement. Ottawa unfortunately renews its water infrastructure on a very slow schedule; some streets have water mains from 1875! These infrequent road renewals are supposed to last for decades to come, and so the road design needs to work for many future generations.</p>
+<p style="margin:0 0 16px 0;">A road work project on six streets in Manor Park (Arundel Avenue, Kilbarry Crescent, Braemar Street, Finter Street, Farnham Crescent and Jeffrey Avenue) is the first real-world test of this important city-wide policy.</p>
+<p style="margin:0 0 16px 0;">This has met with a fierce local opposition campaign against adding the sidewalks, with the ironic slogan 'don't pave paradise'. In actuality, the sidewalk would mostly replace asphalt, so there isn't very much additional paving. The PWIC meeting showed this loud opposition is not universal.</p>
+<p style="margin:0 0 16px 0;">At the PWIC committee, there were 18 delegations, with 12 speaking in favour of installing the sidewalks. Rob represented Strong Towns Ottawa, among 14 individual community organizations. As well, Eugenie represented For Our Kids Ottawa-Gatineau. The delegations in support of sidewalks were very future oriented, many of them Manor Park residents with young children. Safety for children and disabled members of the community were the core messages, both for the current reality and for the years to come, with a lot of population growth anticipated. A few of the opponents argued that the existing level road is suitable for children and those with disabilities, and that cars could effectively share the road, but we know it generally takes many more design changes to scale a shared vehicle and pedestrian road to a higher population.</p>
+<p style="margin:0 0 16px 0;">Supporters of the project also had rightful concern about what an exception in this case would mean for the city-wide policy. "An exception in Manor Park opens the door for other neighbourhoods to seek carveouts. This will erode the integrity of the city's guiding plans and policies that support healthier built environments and walkable 15-minute neighbourhoods. These policies are essential to ensure Ottawa can reduce transportation related emissions and build a robust pedestrian network," said Eugenie.</p>
+<p style="margin:0 0 16px 0;">In the end, the sidewalk plan passed both at PWIC and council, despite many stridently advanced motions from Rawlson King to reduce or delay sidewalk construction. We want to thank everyone who advocated for pedestrian safety, and congratulate them on this energizing victory!</p>
+          </div>
+        </td></tr>      </table>
+    </td>
+  </tr><tr>
+    <td style="padding:25px 10px 10px 10px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" bgcolor="#0c2340" style="background-color:#0c2340;">
+        <tr><td style="padding:7px 0 0 0;">
+          <table align="center" cellpadding="0" cellspacing="0" style="width:50%; border-bottom:4px solid rgb(255,181,73);"><tr><td>&nbsp;</td></tr></table>
+        </td></tr>
+        <tr><td align="center" style="padding:10px 0;">
+          <h1 style="margin:0; font-size:30px; line-height:1.1; color:#ffffff; font-weight:bold; text-align:center;">ACTION ALERT</h1>
+        </td></tr>
+        <tr><td style="padding:0 0 7px 0;">
+          <table align="center" cellpadding="0" cellspacing="0" style="width:50%; border-top:4px solid rgb(255,181,73);"><tr><td>&nbsp;</td></tr></table>
+        </td></tr>
+      </table>
+    </td>
+  </tr><tr>
+    <td style="padding:0 10px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0">        <tr><td style="padding:10px 5px 15px 5px;">
+          <h2 style="margin:0; text-align:center; font-size:24px; line-height:1.25; font-weight:bold; color:#0c2340;">Beechwood Avenue Public Realm Plan</h2>
+        </td></tr>        <tr><td align="center" style="padding:5px;">
+          <a href="https://engage.ottawa.ca/beechwood" target="_blank">
+      <img src="https://gallery.eomail5.com/8b591ef0-3332-11f0-90c2-e97e10baf656%2Fmedia-manager%2F1777337973117-capture%20d%E2%80%99%C3%A9cran%202026-04-27%20205910.jpg" alt="" width="680" style="display:block; width:100%; max-width:680px; height:auto; margin:0 auto;">
+    </a>
+        </td></tr>        <tr><td style="padding:10px 5px;">
+          <div style="font-size:17px; line-height:1.25; color:#0c2340;">
+            <p style="margin:0 0 16px 0;">The City of Ottawa is looking at <a href="https://engage.ottawa.ca/beechwood" target="_blank" style="color:#623a00; text-decoration:underline;">updating Beechwood Avenue</a> from the Vanier Parkway to Beechwood Cemetery. You have a chance to provide feedback! The study is attempting to make improvements to the street to allow for more uses such as public gathering spaces, increasing safety for pedestrians and cyclists, adding more greenspace and seating, bus stop improvements, and potentially burying hydro poles. The survey for the study already closed, but you can still e-mail the team at <a href="mailto:publicrealm@ottawa.ca" target="_blank" style="color:#623a00; text-decoration:underline;">publicrealm@ottawa.ca</a>!</p>
+<p style="margin:0 0 16px 0;">For a vital corridor that serves many needs (this might sound familiar to Bank Street) the efficient use of the space is vital. Here are some of our thoughts on the proposal (feel free to use these to get your thoughts flowing on what you'd like to see!)</p>
+<p style="margin:0 0 16px 0;"><strong>Cycle Tracks</strong></p>
+<ul style="list-style-type:disc; list-style-position:outside; margin:0 0 16px 24px; padding:0;"><li>Currently the cycle lanes are unprotected for the majority of this section, with some disjointed raised tracks. Creating a continuous track on both sides of the road would lead to more adoption of cycling in this area.</li></ul>
+<p style="margin:0 0 16px 0;"><strong>Wider Sidewalks</strong></p>
+<ul style="list-style-type:disc; list-style-position:outside; margin:0 0 16px 24px; padding:0;"><li>Widening the sidewalks as the city proposes would be wonderful for an area that has lots of shopping and pedestrian traffic.</li><li>Burying the hydro lines would further create space for those users.</li></ul>
+<p style="margin:0 0 16px 0;"><strong>Public Realm Spaces</strong></p>
+<ul style="list-style-type:disc; list-style-position:outside; margin:0 0 16px 24px; padding:0;"><li>The public realm proposal would be great for creating more community spaces in public, but would be better if they were kept year-round rather than being seasonal.</li></ul>
+<p style="margin:0 0 16px 0;"><strong>Protected Intersection Improvements</strong></p>
+<ul style="list-style-type:disc; list-style-position:outside; margin:0 0 16px 24px; padding:0;"><li>Cutting off and narrowing conflict points between vehicles and other users would increase safety and efficiency of travel along this corridor for all modes of transportation.</li><li>The parking lot at 176 Beechwood could have the entrance from Beechwood closed, routing entrances to the lower pedestrian/cycling-volume Barrette St. This would drastically cut down on points of conflict.</li><li>Wide turn radii at intersections such as Charlevoix lead to dangerous speeds and drivers not paying attention to vulnerable road users; these intersections should be narrowed significantly.</li><li>The intersection at St. Charles and Beechwood is enormous for just having 1 lane in each direction at St. Charles. This should have bulb-outs to make the crossing shorter.</li></ul>
+<p style="margin:0 0 16px 0;"><strong>Parking</strong></p>
+<ul style="list-style-type:disc; list-style-position:outside; margin:0 0 16px 24px; padding:0;"><li>On-street parking should be turned into flexible curbside parking, such as on Elgin Street, which allows for the sidewalk to be wider when parking isn't in use, rather than creating a wider road when cars aren't parked there.</li></ul>
+<p style="margin:0 0 16px 0;">Overall this study seems to be headed in the right direction, which is wonderful to see. With just a couple of small changes this could really turn Beechwood into one of the nicest mixed-use streets in our city! We'll be keeping an eye on this to see if any future action is required, so stay tuned!</p>
+          </div>
+        </td></tr>        <tr><td style="padding:0 5px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+      <tr><td align="center" valign="top" style="padding:10px 0 25px 0;">
+        <table cellpadding="0" cellspacing="0" align="center" class="eo-button" bgcolor="rgb(255,181,73)" style="border-radius:8px; background-color:rgb(255,181,73); width:70%; margin:0 auto;">
+    <tr><td align="center" valign="middle">
+      <a href="mailto:publicrealm@ottawa.ca" target="_blank" style="display:block; padding:18px; font-size:18px; font-weight:bold; line-height:100%; text-align:center; text-decoration:none; color:#0c2340;">Email the Beechwood Team</a>
+    </td></tr>
+  </table>
+      </td></tr>
+    </table>
+        </td></tr>      </table>
+    </td>
+  </tr><tr>
+    <td style="padding:0 10px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0">        <tr><td style="padding:10px 5px 15px 5px;">
+          <h2 style="margin:0; text-align:center; font-size:24px; line-height:1.25; font-weight:bold; color:#0c2340;">Nominate a Cycling Champion: Bruce Timmermans Awards</h2>
+        </td></tr>        <tr><td align="center" style="padding:5px;">
+          <a href="https://www.surveymonkey.com/r/K5F76L3" target="_blank">
+      <img src="https://gallery.eomail5.com/8b591ef0-3332-11f0-90c2-e97e10baf656%2Fmedia-manager%2F1777469311299-dsc_0389545.jpg" alt="" width="680" style="display:block; width:100%; max-width:680px; height:auto; margin:0 auto;">
+    </a>
+        </td></tr>        <tr><td style="padding:10px 5px;">
+          <div style="font-size:17px; line-height:1.25; color:#0c2340;">
+            <p style="margin:0 0 16px 0;">Know someone (or an organization) who has gone above and beyond for cycling in Ottawa? The City of Ottawa is once again accepting nominations for the <a href="https://ottawa.ca/en/parking-roads-and-travel/cycling/bruce-timmermans-cycling-awards/who-was-bruce-timmermans" target="_blank" style="color:#623a00; text-decoration:underline;">Bruce Timmermans Cycling Awards</a>, with two awards to be presented in June recognizing outstanding contributions to cycling in our city.</p>
+<p style="margin:0 0 16px 0;">Plenty of people come to mind: an advocate who's spent years pushing for safer bike infrastructure, a community group getting more people on two wheels, or someone whose quieter behind-the-scenes work has helped grow Ottawa's cycling community. This is a great chance to give them the recognition they deserve.</p>
+<p style="margin:0 0 16px 0;"><strong>Good news:</strong> the deadline has been extended to <strong>May 15, 2026</strong>, so there's still time to put a name forward.</p>
+          </div>
+        </td></tr>        <tr><td style="padding:0 5px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+      <tr><td align="center" valign="top" style="padding:10px 0 25px 0;">
+        <table cellpadding="0" cellspacing="0" align="center" class="eo-button" bgcolor="rgb(255,181,73)" style="border-radius:8px; background-color:rgb(255,181,73); width:70%; margin:0 auto;">
+    <tr><td align="center" valign="middle">
+      <a href="https://www.surveymonkey.com/r/K5F76L3" target="_blank" style="display:block; padding:18px; font-size:18px; font-weight:bold; line-height:100%; text-align:center; text-decoration:none; color:#0c2340;">Submit Your Nomination</a>
+    </td></tr>
+  </table>
+      </td></tr>
+    </table>
+        </td></tr>      </table>
+    </td>
+  </tr><tr>
+    <td style="padding:25px 10px 10px 10px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" bgcolor="#0c2340" style="background-color:#0c2340;">
+        <tr><td style="padding:7px 0 0 0;">
+          <table align="center" cellpadding="0" cellspacing="0" style="width:50%; border-bottom:4px solid rgb(255,181,73);"><tr><td>&nbsp;</td></tr></table>
+        </td></tr>
+        <tr><td align="center" style="padding:10px 0;">
+          <h1 style="margin:0; font-size:30px; line-height:1.1; color:#ffffff; font-weight:bold; text-align:center;">UPCOMING EVENTS</h1>
+        </td></tr>
+        <tr><td style="padding:0 0 7px 0;">
+          <table align="center" cellpadding="0" cellspacing="0" style="width:50%; border-top:4px solid rgb(255,181,73);"><tr><td>&nbsp;</td></tr></table>
+        </td></tr>
+      </table>
+    </td>
+  </tr><tr>
+    <td style="padding:10px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="50%" class="stack" valign="top" style="padding-bottom:25px;">
+              <h2 style="margin:0; padding:5px 10px; font-size:20px; line-height:1.1; font-weight:bold; color:#0c2340;">May Monthly Meeting</h2>  <div style="padding:5px 10px; font-size:17px; line-height:1.25; color:#0c2340;"><div><strong>Date:</strong> May 14, 6:15 PM - 7:45 PM</div><div><strong>Location:</strong> St. Peter's Lutheran Church, 400 Sparks St</div><br><p style="margin:0 0 16px 0;">We're pleased to have Nico Larco joining us as a guest presenter. Nico is the author of <a href="https://www.archdaily.com/1016512/the-sustainable-urban-design-handbook" target="_blank" style="color:#623a00; text-decoration:underline;">The Sustainable Urban Design Handbook</a> and is currently a visiting researcher in urban sustainability at the University of Ottawa.</p>  </div>  <div style="padding:5px 10px 15px 10px;">
+    <table cellpadding="0" cellspacing="0" align="left" class="eo-button" bgcolor="rgb(255,181,73)" style="border-radius:8px; background-color:rgb(255,181,73); width:70%;">
+      <tr><td align="center" valign="middle">
+        <a href="https://luma.com/zdqcvuh4" target="_blank" style="display:block; padding:18px; font-size:18px; font-weight:bold; line-height:100%; text-align:center; text-decoration:none; color:#0c2340;">RSVP</a>
+      </td></tr>
+    </table>
+  </div>
+          </td>
+          <td width="50%" class="stack" valign="top" align="center" style="padding:5px 10px 25px 10px;">              <a href="https://luma.com/zdqcvuh4" target="_blank">
+      <img src="https://gallery.eomail5.com/8b591ef0-3332-11f0-90c2-e97e10baf656%2Fmedia-manager%2F1777260368242-square%20designs%20%2835%29.png" alt="" width="340" style="display:block; width:auto; height:auto; max-width:340px; max-height:340px; margin:0 auto;">
+    </a>          </td>
+        </tr>
+      </table>
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="50%" class="stack" valign="top">
+              <h2 style="margin:0; padding:5px 10px; font-size:20px; line-height:1.1; font-weight:bold; color:#0c2340;">Social Gathering</h2>  <div style="padding:5px 10px; font-size:17px; line-height:1.25; color:#0c2340;"><div><strong>Date:</strong> May 22, 7:00 PM - 10:00 PM</div><div><strong>Location:</strong> Braumeister Bierhalle, 175 Carruthers Ave</div><br><p style="margin:0 0 16px 0;">Join us for our regular social gathering. No need to RSVP, just show up, have some food/drinks, and have a good time!</p>  </div>  <div style="padding:5px 10px 15px 10px;">
+    <table cellpadding="0" cellspacing="0" align="left" class="eo-button" bgcolor="rgb(255,181,73)" style="border-radius:8px; background-color:rgb(255,181,73); width:70%;">
+      <tr><td align="center" valign="middle">
+        <a href="https://luma.com/0sh59037" target="_blank" style="display:block; padding:18px; font-size:18px; font-weight:bold; line-height:100%; text-align:center; text-decoration:none; color:#0c2340;">Learn More</a>
+      </td></tr>
+    </table>
+  </div>
+          </td>
+          <td width="50%" class="stack" valign="top" align="center" style="padding:5px 10px;">              <a href="https://luma.com/0sh59037" target="_blank">
+      <img src="https://gallery.eomail5.com/8b591ef0-3332-11f0-90c2-e97e10baf656%2Fmedia-manager%2F1777315810868-square%20designs%20%2836%29.png" alt="" width="340" style="display:block; width:auto; height:auto; max-width:340px; max-height:340px; margin:0 auto;">
+    </a>          </td>
+        </tr>
+      </table>
+    </td>
+  </tr><tr>
+    <td style="padding:10px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="50%" class="stack" valign="top" style="padding-bottom:25px;">
+              <h2 style="margin:0; padding:5px 10px; font-size:20px; line-height:1.1; font-weight:bold; color:#0c2340;">Volunteer to Table at the Great Glebe Garage Sale</h2>  <div style="padding:5px 10px; font-size:17px; line-height:1.25; color:#0c2340;"><div><strong>Date:</strong> May 23, 8:00 am - 2:00 PM</div><div><strong>Location:</strong> 169 Powell Ave</div><br><p style="margin:0 0 16px 0;">Join us at the Great Glebe Garage Sale this year for some fun tabling! We've already secured a driveway, and now we're looking for volunteers who can help us engage with the community. Our table will have some cool props including a fun trivia game, as well as a bunch of our printed <a href="https://strongtownsottawa.ca/visualizations/" target="_blank" style="color:#623a00; text-decoration:underline;">visualizations</a>. If you can volunteer, please RSVP below on Luma and we will get in touch with you.</p>  </div>  <div style="padding:5px 10px 15px 10px;">
+    <table cellpadding="0" cellspacing="0" align="left" class="eo-button" bgcolor="rgb(255,181,73)" style="border-radius:8px; background-color:rgb(255,181,73); width:70%;">
+      <tr><td align="center" valign="middle">
+        <a href="https://luma.com/eukwpt7c" target="_blank" style="display:block; padding:18px; font-size:18px; font-weight:bold; line-height:100%; text-align:center; text-decoration:none; color:#0c2340;">RSVP</a>
+      </td></tr>
+    </table>
+  </div>
+          </td>
+          <td width="50%" class="stack" valign="top" align="center" style="padding:5px 10px 25px 10px;">              <a href="https://luma.com/eukwpt7c" target="_blank">
+      <img src="https://gallery.eomail5.com/8b591ef0-3332-11f0-90c2-e97e10baf656%2Fmedia-manager%2F1777319277899-20250919_140356.jpg" alt="" width="340" style="display:block; width:auto; height:auto; max-width:340px; max-height:340px; margin:0 auto;">
+    </a>          </td>
+        </tr>
+      </table>
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="50%" class="stack" valign="top">
+              <h2 style="margin:0; padding:5px 10px; font-size:20px; line-height:1.1; font-weight:bold; color:#0c2340;">Ottawa Urbanism Book Club</h2>  <div style="padding:5px 10px; font-size:17px; line-height:1.25; color:#0c2340;"><div><strong>Date:</strong> May 25, 6:15 PM - 7:45 PM</div><div><strong>Location:</strong> Sunnyside Library, 1049 Bank St (in the basement room)</div><br><p style="margin:0 0 16px 0;">We'll be reading <a href="https://shop.perfectbooks.ca/item/TnfJRnQRH2YkS-MfyDDkeA" target="_blank" style="color:#623a00; text-decoration:underline;">Human Transit (Revised Edition): How Clearer Thinking about Public Transit Can Enrich Our Communities and Our Lives</a> by Jarrett Walker. A reminder that reading the book is optional, and that we try our best to keep the discussion as Ottawa-centric as possible.</p>  </div>  <div style="padding:5px 10px 15px 10px;">
+    <table cellpadding="0" cellspacing="0" align="left" class="eo-button" bgcolor="rgb(255,181,73)" style="border-radius:8px; background-color:rgb(255,181,73); width:70%;">
+      <tr><td align="center" valign="middle">
+        <a href="https://ottawaurbanismbookclub.wordpress.com/events/" target="_blank" style="display:block; padding:18px; font-size:18px; font-weight:bold; line-height:100%; text-align:center; text-decoration:none; color:#0c2340;">Learn More</a>
+      </td></tr>
+    </table>
+  </div>
+          </td>
+          <td width="50%" class="stack" valign="top" align="center" style="padding:5px 10px;">              <a href="https://ottawaurbanismbookclub.wordpress.com/events/" target="_blank">
+      <img src="https://gallery.eomail5.com/8b591ef0-3332-11f0-90c2-e97e10baf656%2Fmedia-manager%2F1777317127947-142401566.jpg" alt="" width="340" style="display:block; width:auto; height:auto; max-width:340px; max-height:340px; margin:0 auto;">
+    </a>          </td>
+        </tr>
+      </table>
+    </td>
+  </tr><tr>
+    <td style="padding:25px 10px 10px 10px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" bgcolor="#0c2340" style="background-color:#0c2340;">
+        <tr><td style="padding:7px 0 0 0;">
+          <table align="center" cellpadding="0" cellspacing="0" style="width:50%; border-bottom:4px solid rgb(255,181,73);"><tr><td>&nbsp;</td></tr></table>
+        </td></tr>
+        <tr><td align="center" style="padding:10px 0;">
+          <h1 style="margin:0; font-size:30px; line-height:1.1; color:#ffffff; font-weight:bold; text-align:center;">COMMUNITY GROUP SPOTLIGHT</h1>
+        </td></tr>
+        <tr><td style="padding:0 0 7px 0;">
+          <table align="center" cellpadding="0" cellspacing="0" style="width:50%; border-top:4px solid rgb(255,181,73);"><tr><td>&nbsp;</td></tr></table>
+        </td></tr>
+      </table>
+    </td>
+  </tr><tr>
+    <td style="padding:0 10px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0">        <tr><td style="padding:10px 5px 15px 5px;">
+          <h2 style="margin:0; text-align:center; font-size:24px; line-height:1.25; font-weight:bold; color:#0c2340;">Want to Grow Your Own Food This Summer?</h2>
+        </td></tr>        <tr><td align="center" style="padding:5px;">
+          <a href="https://www.collectifvege.ca/" target="_blank">
+      <img src="https://gallery.eomail5.com/8b591ef0-3332-11f0-90c2-e97e10baf656%2Fmedia-manager%2F1777331034291-farm-worker-3-cropped.jpg" alt="" width="680" style="display:block; width:100%; max-width:680px; height:auto; margin:0 auto;">
+    </a>
+        </td></tr>        <tr><td style="padding:10px 5px;">
+          <div style="font-size:17px; line-height:1.25; color:#0c2340;">
+            <p style="margin:0 0 16px 0;">The <strong>Veggie Collective</strong> is a welcoming community garden at Moore Farm in Hull (Gatineau). It's an easy 20-minute bike ride from Centretown via the Chief William Commanda pedestrian and cycling bridge.</p>
+<p style="margin:0 0 16px 0;">It's open to all ages and experience levels, no farming/gardening background needed. Volunteer coordinators guide weekly activities like planting, weeding, and harvesting, and participants take home a share of the harvest each week.</p>
+<p style="margin:0 0 16px 0;"><strong>How it works:</strong></p>
+<ul style="list-style-type:disc; list-style-position:outside; margin:0 0 16px 24px; padding:0;"><li><strong>One 3-hour shift per week</strong> at Moore Farm</li><li>Intergenerational (adults, seniors, students, families welcome)</li><li>Over <strong>20 types of fruits and vegetables</strong></li><li>Participants take home a share of the harvest each week</li><li>Focus on community, shared learning, and local food resilience</li><li>Location: Moore Farm — Val-Tétreau / Manoir des Trembles (Hull, Gatineau)</li><li><strong>Registration now open for 2026 season</strong></li></ul>
+<p style="margin:0 0 16px 0;">If you can't participate this season, please share with friends and family. There are still spots available.</p>
+          </div>
+        </td></tr>        <tr><td style="padding:0 5px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+      <tr><td align="center" valign="top" style="padding:10px 0 25px 0;">
+        <table cellpadding="0" cellspacing="0" align="center" class="eo-button" bgcolor="rgb(255,181,73)" style="border-radius:8px; background-color:rgb(255,181,73); width:70%; margin:0 auto;">
+    <tr><td align="center" valign="middle">
+      <a href="https://www.collectifvege.ca/" target="_blank" style="display:block; padding:18px; font-size:18px; font-weight:bold; line-height:100%; text-align:center; text-decoration:none; color:#0c2340;">Visit Website To Learn More</a>
+    </td></tr>
+  </table>
+      </td></tr>
+    </table>
+        </td></tr>      </table>
+    </td>
+  </tr><tr>
+    <td style="padding:25px 10px 10px 10px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" bgcolor="#0c2340" style="background-color:#0c2340;">
+        <tr><td style="padding:7px 0 0 0;">
+          <table align="center" cellpadding="0" cellspacing="0" style="width:50%; border-bottom:4px solid rgb(255,181,73);"><tr><td>&nbsp;</td></tr></table>
+        </td></tr>
+        <tr><td align="center" style="padding:10px 0;">
+          <h1 style="margin:0; font-size:30px; line-height:1.1; color:#ffffff; font-weight:bold; text-align:center;">EVENT RECAPS</h1>
+        </td></tr>
+        <tr><td style="padding:0 0 7px 0;">
+          <table align="center" cellpadding="0" cellspacing="0" style="width:50%; border-top:4px solid rgb(255,181,73);"><tr><td>&nbsp;</td></tr></table>
+        </td></tr>
+      </table>
+    </td>
+  </tr><tr>
+    <td style="padding:10px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="50%" class="stack" valign="top">  <h2 style="margin:0; padding:10px 5px; font-size:24px; line-height:1.1; font-weight:bold; color:#0c2340;">March Monthly Meeting</h2>  <div style="text-align:center; padding:5px;">
+    <img src="https://gallery.eomail5.com/8b591ef0-3332-11f0-90c2-e97e10baf656%2Fmedia-manager%2F1777334239234-20260312_183525fdsfdsaf.jpg" alt="" width="340" style="display:block; width:100%; max-width:340px; height:auto; margin:0 auto;">
+  </div>  <div style="padding:10px 5px; font-size:17px; line-height:1.25; color:#0c2340;">
+    <p style="margin:0 0 16px 0;">We had a great discussion exploring what can make suburban development truly livable and sustainable, with examples drawn from cities around the world. We came away with a much clearer picture of where Ottawa's plans align with those principles, and where there's room to push for stronger infill and more thoughtful greenfield projects. If you missed the meeting, you can access the slide deck <a href="https://docs.google.com/presentation/d/1-cOnlfXCPXysK9GOr4_lboh2Ep0fwLvLRvNZ4zOQb6Y/edit?usp=sharing" target="_blank" style="color:#623a00; text-decoration:underline;">here</a>.</p>
+  </div></td>
+          <td width="50%" class="stack" valign="top">  <h2 style="margin:0; padding:10px 5px; font-size:24px; line-height:1.1; font-weight:bold; color:#0c2340;">March Social Gathering</h2>  <div style="text-align:center; padding:5px;">
+    <img src="https://gallery.eomail5.com/8b591ef0-3332-11f0-90c2-e97e10baf656%2Fmedia-manager%2F1777335143618-pxl_20260327_234827746.mpdd222.jpg" alt="" width="340" style="display:block; width:100%; max-width:340px; height:auto; margin:0 auto;">
+  </div>  <div style="padding:10px 5px; font-size:17px; line-height:1.25; color:#0c2340;">
+    <p style="margin:0 0 16px 0;">As our attendance has grown at our monthly social gathering, our need for space has grown too. Being good urbanists, we asked for more density in the form of double decker tables and chairs, but we were told this wasn't possible unfortunately. So we did what any financially solvent city does: we sprawled to three tables in two rooms!</p>
+  </div></td>
+        </tr>
+      </table>
+    </td>
+  </tr><tr>
+    <td style="padding:10px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="50%" class="stack" valign="top">  <h2 style="margin:0; padding:10px 5px; font-size:24px; line-height:1.1; font-weight:bold; color:#0c2340;">Book Club: Life After Cars</h2>  <div style="text-align:center; padding:5px;">
+    <img src="https://gallery.eomail5.com/8b591ef0-3332-11f0-90c2-e97e10baf656%2Fmedia-manager%2F1777335802798-pxl_20260330_233310039dasfdscropped.jpg" alt="" width="340" style="display:block; width:100%; max-width:340px; height:auto; margin:0 auto;">
+  </div>  <div style="padding:10px 5px; font-size:17px; line-height:1.25; color:#0c2340;">
+    <p style="margin:0 0 16px 0;">We had a great time digging into *Life After Cars: Freeing Ourselves from the Tyranny of the Automobile.* It's rare to read a book that names car dependency so directly while still painting a hopeful picture of what comes next. Discussions ranged from the negative impacts of car centric planning on the independent mobility of children, to whether the LRT's track record has helped or hurt Ottawans' faith in the post-car future the book imagines.</p>
+  </div></td>
+          <td width="50%" class="stack" valign="top">  <h2 style="margin:0; padding:10px 5px; font-size:24px; line-height:1.1; font-weight:bold; color:#0c2340;">April Social Gathering</h2>  <div style="text-align:center; padding:5px;">
+    <img src="https://gallery.eomail5.com/8b591ef0-3332-11f0-90c2-e97e10baf656%2Fmedia-manager%2F1777414025449-capture%20d%E2%80%99%C3%A9cran%202026-04-27%20152439dafasdf.jpg" alt="" width="340" style="display:block; width:100%; max-width:340px; height:auto; margin:0 auto;">
+  </div>  <div style="padding:10px 5px; font-size:17px; line-height:1.25; color:#0c2340;">
+    <p style="margin:0 0 16px 0;">Docked or Dockless bike shares? That's the type of question that can only be fully answered after knocking down a couple German wheat beers. With city council mulling over a possible bike share system just the day before, our Bierhalle crowd showed up ready to weigh in. By round two we had collectively redesigned the entire network; by round three we were lost in the sauce as we discussed the ins and outs of the Beijing bike share system. The official STO position on docked vs. dockless is still pending peer review (and possibly another round). Thanks to everyone who came out, and see you at the next one!</p>
+  </div></td>
+        </tr>
+      </table>
+    </td>
+  </tr><tr>
+    <td style="padding:10px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0">        <tr><td style="padding:10px 5px;">
+          <h2 style="margin:0; font-size:24px; line-height:1.1; font-weight:bold; color:#0c2340; text-align:center;">April Monthly Meeting</h2>
+        </td></tr>        <tr><td align="center" style="padding:5px;">
+          <img src="https://gallery.eomail5.com/8b591ef0-3332-11f0-90c2-e97e10baf656%2Fmedia-manager%2F1777334639484-dsc_0893.jpg" alt="" width="680" style="display:block; width:100%; max-width:680px; height:auto; margin:0 auto;">
+        </td></tr>        <tr><td style="padding:10px 5px;">
+          <div style="font-size:17px; line-height:1.25; color:#0c2340;"><p style="margin:0 0 16px 0;">Such an amazing turnout! We had great conversations about next steps for bus lanes on Bank Street, the upcoming election, and our future advocacy (fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLScOdF2r2H2pjqUmLqARhllUDpE6HtaAAH5uM1HRjZDvx16nCw/viewform?usp=header" target="_blank" style="color:#623a00; text-decoration:underline;">this survey</a> to let us know what advocacy campaigns you would like to see us get involved in next). If you missed the meeting, you can access the slide deck <a href="https://docs.google.com/presentation/d/1biWb0XkXn-4r5mXZ1DrT_8yTaTmS84dVNNi9bO56nZI/edit?usp=sharing" target="_blank" style="color:#623a00; text-decoration:underline;">here</a>.</p></div>
+        </td></tr>      </table>
+    </td>
+  </tr><tr>
+    <td style="padding:25px 10px 10px 10px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" bgcolor="#0c2340" style="background-color:#0c2340;">
+        <tr><td style="padding:7px 0 0 0;">
+          <table align="center" cellpadding="0" cellspacing="0" style="width:50%; border-bottom:4px solid rgb(255,181,73);"><tr><td>&nbsp;</td></tr></table>
+        </td></tr>
+        <tr><td align="center" style="padding:10px 0;">
+          <h1 style="margin:0; font-size:30px; line-height:1.1; color:#ffffff; font-weight:bold; text-align:center;">LOCAL NEWS</h1>
+        </td></tr>
+        <tr><td style="padding:0 0 7px 0;">
+          <table align="center" cellpadding="0" cellspacing="0" style="width:50%; border-top:4px solid rgb(255,181,73);"><tr><td>&nbsp;</td></tr></table>
+        </td></tr>
+      </table>
+    </td>
+  </tr><tr>
+    <td style="padding:0 5px 10px 5px;">
+      <div style="font-size:17px; line-height:1.5; color:#0c2340;">
+        <ul style="list-style-type:disc; list-style-position:outside; margin:0 0 16px 24px; padding:0;"><li><a href="https://hansonthebike.com/2026/04/08/scott-albert-street-bike-tracks-ottawa/" target="_blank" style="color:#623a00; text-decoration:underline;">Unboxing Scott and Bronson's bike infrastructure</a> <strong>(Hans on the Bike)</strong></li><li><a href="https://www.seandevine.ca/march_31_2026_newsletter" target="_blank" style="color:#623a00; text-decoration:underline;">The high cost of convenience in #Autowa</a> <strong>(Sean Devine's Newsletter)</strong></li><li><a href="https://www.ctvnews.ca/ottawa/article/oc-transpo-reopens-washrooms-for-o-train-line-1/" target="_blank" style="color:#623a00; text-decoration:underline;">OC Transpo reopens washrooms for O-Train Line 1</a> <strong>(CTV)</strong></li><li><a href="https://www.cbc.ca/news/canada/ottawa/new-charge-laid-against-accused-in-crossing-guard-hit-and-run-case-9.7173426" target="_blank" style="color:#623a00; text-decoration:underline;">New charge laid against accused in crossing guard hit-and-run case</a> <strong>(CBC)</strong></li><li><a href="https://www.ottawalookout.com/p/what-the-future-holds-for-the-baseline-merivale-corridor" target="_blank" style="color:#623a00; text-decoration:underline;">What the future holds for the Baseline-Merivale Corridor</a> <strong>(Ottawa Lookout)</strong></li><li><a href="https://cityofottawapolitics.substack.com/p/troubling-poll-numbers-for-mark-sutcliffe" target="_blank" style="color:#623a00; text-decoration:underline;">Troubling poll numbers for Mark Sutcliffe</a> <strong>(City of Ottawa Politics)</strong></li><li><a href="https://theneworleans.ca/2026/04/08/dear-everyone-keep-buying-gas-please/" target="_blank" style="color:#623a00; text-decoration:underline;">Dear everyone – keep buying gas, please</a> <strong>(The New Orleans)</strong></li><li><a href="https://hansonthebike.com/2026/04/12/ottawa-gatineau-bike-network/" target="_blank" style="color:#623a00; text-decoration:underline;">An on line Ottawa – Gatineau recreational cycling map</a> <strong>(Hans on the Bike)</strong></li><li><a href="https://www.strongtowns.org/journal/2026-4-23-good-urbanism-requires-numeracy" target="_blank" style="color:#623a00; text-decoration:underline;">Good urbanism requires numeracy</a> <strong>(Strong Towns)</strong></li><li><a href="https://www.ottawalookout.com/p/is-a-ring-road-in-southern-ottawa-fantasy-or-reality" target="_blank" style="color:#623a00; text-decoration:underline;">Is a 'ring road' in southern Ottawa fantasy or reality?</a> <strong>(Ottawa Lookout)</strong></li><li><a href="https://envirocentre.ca/a-pathway-for-public-bike-share-in-ottawa-gatineau/" target="_blank" style="color:#623a00; text-decoration:underline;">A pathway for public bike share in Ottawa-Gatineau</a> <strong>(Envirocentre)</strong></li><li><a href="https://www.ecologyottawa.ca/eco_awards_2026_recipients" target="_blank" style="color:#623a00; text-decoration:underline;">Announcing the recipients of the fourth annual eco awards!</a> <strong>(Ecology Ottawa)</strong></li><li><a href="https://www.ctvnews.ca/ottawa/article/more-drivers-speeding-in-school-zones-since-photo-radar-cameras-turned-off-city-of-ottawa-data/" target="_blank" style="color:#623a00; text-decoration:underline;">Report: 60% of drivers speeding at former photo radar camera spots</a> <strong>(CTV)</strong></li><li><a href="https://www.torontotoday.ca/local/politics-government/ontario-wants-to-scrap-1k-ticket-carrying-children-on-cargo-ebikes-12203911" target="_blank" style="color:#623a00; text-decoration:underline;">Province looks to clarify rules on cargo e-bikes carrying kids</a> <strong>(Toronto Today)</strong></li></ul>
+      </div>
+    </td>
+  </tr><tr>
+    <td style="padding:25px 10px 10px 10px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" bgcolor="#0c2340" style="background-color:#0c2340;">
+        <tr><td style="padding:7px 0 0 0;">
+          <table align="center" cellpadding="0" cellspacing="0" style="width:50%; border-bottom:4px solid rgb(255,181,73);"><tr><td>&nbsp;</td></tr></table>
+        </td></tr>
+        <tr><td align="center" style="padding:10px 0;">
+          <h1 style="margin:0; font-size:30px; line-height:1.1; color:#ffffff; font-weight:bold; text-align:center;">#DoTheMath</h1>
+        </td></tr>
+        <tr><td style="padding:0 0 7px 0;">
+          <table align="center" cellpadding="0" cellspacing="0" style="width:50%; border-top:4px solid rgb(255,181,73);"><tr><td>&nbsp;</td></tr></table>
+        </td></tr>
+      </table>
+    </td>
+  </tr><tr>
+    <td align="center" style="padding:5px;">        <img src="https://gallery.eomail5.com/8b591ef0-3332-11f0-90c2-e97e10baf656%2Fmedia-manager%2F1777315302028-1648359361876574221-fuakvftxwaipuqb.jpg" alt="" width="489" style="display:block; width:100%; max-width:489px; height:auto; margin:0 auto;">    </td>
+  </tr><tr>
+            <td style="padding:10px 10px 0 10px;">
+              <hr style="border:0; border-top:1px solid #ffd9a0; margin:10px 0;">
+            </td>
+          </tr>
+          <tr>
+            <td align="center" valign="top" style="padding:5px 10px;">
+              <table align="center" cellpadding="0" cellspacing="0" role="presentation">
+                <tr>
+                  <td align="center" valign="middle" width="48" style="padding:0 5px;">
+                    <a href="https://discord.gg/kHaVNgrcsG" target="_blank"><img src="https://gallery.eomail5.com/tentacles/icons/v1/social-block/square/color/discord.png" width="48" height="48" alt="Discord" style="display:block; border:0; width:48px; height:auto;"></a>
+                  </td>
+                  <td align="center" valign="middle" width="48" style="padding:0 5px;">
+                    <a href="https://bsky.app/profile/strongtownsottawa.ca" target="_blank"><img src="https://gallery.eomail5.com/tentacles/icons/v1/social-block/square/color/bluesky.png" width="48" height="48" alt="Bluesky" style="display:block; border:0; width:48px; height:auto;"></a>
+                  </td>
+                  <td align="center" valign="middle" width="48" style="padding:0 5px;">
+                    <a href="https://www.facebook.com/groups/strongtownsott/" target="_blank"><img src="https://gallery.eomail5.com/tentacles/icons/v1/social-block/square/color/facebook.png" width="48" height="48" alt="Facebook" style="display:block; border:0; width:48px; height:auto;"></a>
+                  </td>
+                  <td align="center" valign="middle" width="48" style="padding:0 5px;">
+                    <a href="https://www.instagram.com/strongtownsottawa/" target="_blank"><img src="https://gallery.eomail5.com/tentacles/icons/v1/social-block/square/color/instagram.png" width="48" height="48" alt="Instagram" style="display:block; border:0; width:48px; height:auto;"></a>
+                  </td>
+                  <td align="center" valign="middle" width="48" style="padding:0 5px;">
+                    <a href="https://linktr.ee/strongtownsottawa" target="_blank"><img src="https://gallery.eomail5.com/tentacles/icons/v1/social-block/square/color/website.png" width="48" height="48" alt="Website" style="display:block; border:0; width:48px; height:auto;"></a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+          </tr>
+          <tr>
+            <td style="padding:10px;" align="center">
+              <p style="margin:0; font-size:11px; line-height:1.25; text-align:center; color:#0c2340;">
+                <a href="{{RewardsURL}}" style="color:#623a00; text-decoration:underline;">Powered by EmailOctopus</a>
+              </p>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+</div>
 
   <div style="
   background: #EAEAEA; 
