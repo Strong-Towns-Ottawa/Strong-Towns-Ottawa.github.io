@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Ruby32-x64/bin/etc/ssl/**)"
+    ]
+  }
+}

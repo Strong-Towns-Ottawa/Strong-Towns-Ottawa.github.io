@@ -1,0 +1,39 @@
+---
+layout: base
+---
+
+<style>
+  /* Reset Beautiful Jekyll's blog-post table/img rules so they don't break newsletter layouts. */
+  .eo-newsletter table { display: table !important; overflow-x: visible !important; padding: 0 !important; }
+  .eo-newsletter tr { border-top: 0 !important; background-color: transparent !important; }
+  .eo-newsletter tr:nth-child(2n) { background-color: transparent !important; }
+  .eo-newsletter th, .eo-newsletter td { border: 0 !important; }
+
+  /* Email clients center block images inside <td align="center">; browsers don't. */
+  .eo-newsletter td[align="center"] > img,
+  .eo-newsletter td[align="center"] > a > img { margin-left: auto; margin-right: auto; }
+
+  /* Newsletter post header: match the cream newsletter background and center the meta lines. */
+  .newsletter-header .post-heading { text-align: center; }
+</style>
+
+<header class="header-section newsletter-header">
+  <div class="intro-header no-img">
+    <div class="container-md">
+      <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+          <div class="post-heading">
+            {% if page.author %}
+              <span class="post-meta" style="font-style: normal; font-weight: bold;">By {{ page.author }}</span><br>
+            {% endif %}
+            <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="newsletter-body">
+  {{ content }}
+</div>
